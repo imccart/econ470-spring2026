@@ -1,17 +1,17 @@
 ---
-title: "Class 18: Medicare Advantage Data"
-date: 2025-03-23
+title: "Class 6: HCRIS Data"
+date: 2025-01-30
 ---
 
-Today we'll revisit the MA data from Module 0. We'll also introduce data on the MA quality rating program and how it plays out in real life.
+In this class, we'll discuss the Hospital Cost Report Information System (HCRIS) data and how to use these data to estimate hospital prices.
 
 ## Objectives
 
-- Understand the MA data and datasets required for this Module
-- Explain the MA star rating program and how the star ratings are calculated
-- Explain the MA quality improvement program
-
+- Understand the nature of hospital pricing
+- Explain HCRIS data, how the data are generated, and how the data can be used to estimate a hospital's "price"
 
 ## Activities 
 
-- Clone the [Medicare Advantage](https://github.com/imccart/ma-class) repository (if you haven't already) and begin working with data.
+- Clone the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/hcris-class) repository for this class and begin working with data. See also a similar repository [here](https://github.com/asacarny/hospital-cost-reports) from [Adam Sacarny](http://sacarny.com/)
+
+

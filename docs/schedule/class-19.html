@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-03-23">
+<meta name="dcterms.date" content="2025-02-28">
 <meta name="description" content="Course on Research Methods with Health Care Applications at Emory University">
 
-<title>Class 19: Regression Discontinuity Part I – Research in Health Economics</title>
+<title>Class 13: Instrumental Variables Part I – Research in Health Economics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,12 +71,12 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Class 19: Regression Discontinuity Part I – Research in Health Economics">
+<meta property="og:title" content="Class 13: Instrumental Variables Part I – Research in Health Economics">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://econ470s26.classes.ianmccarthyecon.com//files/social-image-f22.png">
 <meta property="og:site_name" content="Research in Health Economics">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="Class 19: Regression Discontinuity Part I – Research in Health Economics">
+<meta name="twitter:title" content="Class 13: Instrumental Variables Part I – Research in Health Economics">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://econ470s26.classes.ianmccarthyecon.com//files/social-image-f22.png">
 <meta name="twitter:creator" content="@ianhealthecon">
@@ -147,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Class 19: Regression Discontinuity Part I</h1>
+<h1 class="title">Class 13: Instrumental Variables Part I</h1>
 </div>
 
 
@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 23, 2025</p>
+      <p class="date">February 28, 2025</p>
     </div>
   </div>
   
@@ -170,20 +170,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We’ll begin implementing an RD with simulated data. We’ll discuss the basics of the RD identification strategy, its implementation, and some details including bin and bandwidth selection.</p>
+<p>Today we’ll formally introduce instrumental variables and discuss some of the thorny issues associated with IV in practice (namely, testing for instrument validity and interpreting the results).</p>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
 <ul>
-<li>Describe the intuition underlying the RD identification strategy</li>
-<li>Implement an RD strategy with simulated data</li>
-<li>Explain optimal bandwidth and bin width selection</li>
+<li>Understand the concept of instrumental variables and how they can be used to estimate causal effects</li>
+<li>List and explain the key assumptions for a “good” instrument</li>
+<li>Define and explain a local average treatment effect</li>
 </ul>
 </section>
 <section id="activities" class="level2">
 <h2 class="anchored" data-anchor-id="activities">Activities</h2>
 <ul>
-<li>Clone the <a href="https://github.com/imccart/ma-class">Medicare Advantage</a> repository (if you haven’t already) and begin working with data</li>
-<li>Implement RD design with simulated data in R</li>
+<li>Continue work with the <a href="https://github.com/imccart/CDC-Tobacco">CDC Tax Burden on Tobacco</a> data</li>
+<li>Data simulation and practical issues with IV</li>
 </ul>
 
 

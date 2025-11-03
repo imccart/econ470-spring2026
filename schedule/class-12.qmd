@@ -1,16 +1,17 @@
 ---
-title: "Class 12: Data on Smoking and Cigarette Prices"
-date: 2025-02-24
-
+title: "Class 18: More Medicare Advantage Data"
+date: 2025-03-23
 ---
 
-Today we'll discuss demand estimation in the context of smoking. We'll also introduce the idea of instrumental variables as a way to estimate causal effects when confronted with selection on unobservables.
+Today we'll revisit the MA data from Module 0. We'll also introduce data on the MA quality rating program and how it plays out in real life.
 
 ## Objectives
-- Understand CDC and tax data sources
-- Introduce the idea of instrumental variables
+
+- Understand the MA data and datasets required for this Module
+- Explain the MA star rating program and how the star ratings are calculated
+- Explain the MA quality improvement program
+
 
 ## Activities 
-- Begin working with CDC Tax Burden data
-- Derive initial instrumental variables estimate
-- Define and explain the instrumental variable estimate as a ratio of a "reduced-form" to a "first-stage" estimate
+
+- Clone the [Medicare Advantage](https://github.com/imccart/ma-class) repository (if you haven't already) and begin working with data.

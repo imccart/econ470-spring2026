@@ -8,68 +8,69 @@ format:
 
 Below is a breakdown of topics for each class day this semester. Assignments are also listed according to their due dates. The associated links take you to additional information relevant for that day or for that assignment. The **Details** link provides specific objectives, activities, readings, and any additional supplemental materials for that day; the **Slides** link takes you to the relevant slides for that day; and the **Assignment** link takes you to the relevant details for each assignment.
 
-## Module 0: Getting Started
+## Module 1: Getting Started
 
-| Class | Dates      | Topic                                       | Details | Slides | Assignment  |
-|:-----:|------------|---------------------------------------------|:-------:|:------:|:-----------:|
-|  1    | 1/15       | Data and Version Control                    | [{{< fa magnifying-glass  >}}](/schedule/class-01.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/00-intro/intro-01.html)  |  |
-|  2    | 1/22       | Software Setup                      | [{{< fa magnifying-glass  >}}](/schedule/class-02.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/00-intro/intro-02.html)  |  |
-|  3    | 1/27       | Intro to Causal Inference                   | [{{< fa magnifying-glass  >}}](/schedule/class-03.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/00-intro/intro-03.html)  |  |
-|  4    | 1/29       | **Homework 1, Initial Submission**          | | | [{{< fa pen  >}}](/assignments/homework1.html) |
-|       | 1/31       | **Homework 1, Final Due Date**           | | | [{{< fa pen  >}}](/assignments/homework1.html) |
-: {tbl-colwidths="\[10,15,35,10,10,10\]"}
-
-
-## Module 1: Pricing and Selection on Observables
-
-| Class | Dates      | Topic                                       | Details | Slides | Assignment |
-|:-----:|------------|---------------------------------------------|:-------:|:------:|:----------:|
-|  5    | 2/3        | Basics of Hospital Pricing                  | [{{< fa magnifying-glass >}}](/schedule/class-06.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/01-so/01-so1.html) | | 
-|  6    | 2/5        | Understanding HCRIS Data                    | [{{< fa magnifying-glass >}}](/schedule/class-06.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/01-so/01-so2.html) | | 
-|  7    | 2/10       | Selection on Observables, Part I            | [{{< fa magnifying-glass >}}](/schedule/class-07.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/01-so/01-so3.html) | | 
-|  8    | 2/12       | Selection on Observables, Part II           | [{{< fa magnifying-glass >}}](/schedule/class-08.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/01-so/01-so4.html) | | 
-|  9    | 2/17       | **Homework 2, Initial Submission**          | | | [{{< fa pen  >}}](/assignments/homework2.html) |
-|  10   | 2/19       | **Homework 2, Second Submission**           | | | [{{< fa pen  >}}](/assignments/homework2.html) |
-|       | 2/21       | **Homework 2, Final Due Date**              | | | [{{< fa pen  >}}](/assignments/homework2.html) |
-: {tbl-colwidths="\[10,15,35,10,10,10\]"}
+| Class | Dates      | Topic                                       | Python  | R      | Outline     | Slides      | Assignment  |
+|:-----:|------------|---------------------------------------------|:-------:|:------:|:-----------:|:-----------:|:-----------:|
+|  1    | 1/13       | Welcome to Class                            |         |        | [{{< fa magnifying-glass >}}](/schedule/class-01.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/00-intro/intro-01.html)  |       |
+|  2    | 1/15       | Workflow and Version Control                |         |        | [{{< fa magnifying-glass >}}](/schedule/class-02.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/00-intro/intro-02.html)  |       |
+|  3    | 1/20       | Basics of Data Management                   | [{{< fa brands python >}}](https://imccart.github.io/empirical-methods-slides/00-intro/data-python.ipynb) | [{{< fa brands r-project >}}](https://imccart.github.io/empirical-methods-slides/00-intro/data-R.ipynb) | [{{< fa magnifying-glass >}}](/schedule/class-03.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/00-intro/intro-03.html)  |       |
+|  4    | 1/22       | **Homework 1, Initial Submission**          |         |        |             |             | [{{< fa pen  >}}](/assignments/homework1.html) |
+|       | 1/23       | **Homework 1, Final Due Date**              |         |        |             |             | [{{< fa pen  >}}](/assignments/homework1.html) |
+: {tbl-colwidths="\[10,15,35,10,10,10,10,10\]"}
 
 
-## Module 2: Demand for Cigarettes and Instrumental Variables
+## Module 2: Competition, Pricing, and Selection on Observables
 
-| Class | Dates       | Topic                                       | Details | Slides | Assignment |
-|:-----:|-------------|---------------------------------------------|:-------:|:------:|:----------:|
-|  11   | 2/24        | Smoking and Demand Elasticity               | [{{< fa magnifying-glass >}}](/schedule/class-11.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/02-iv/02-iv1.html) | | 
-|  12   | 2/26        | CDC Data on Smoking and Cigarette Prices    | [{{< fa magnifying-glass >}}](/schedule/class-12.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/02-iv/02-iv2.html) | | 
-|  13   | 3/3         | Instrumental Variables, Part I    | [{{< fa magnifying-glass >}}](/schedule/class-13.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/02-iv/02-iv3.html) | | 
-|  14   | 3/5         | Instrumental Variables, Part II   | [{{< fa magnifying-glass >}}](/schedule/class-14.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/02-iv/02-iv4.html) | | 
-|  15   | 3/17        | **Homework 3, Initial Submission**          | | | [{{< fa pen  >}}](/assignments/homework3.html) |
-|  16   | 3/19        | **Homework 3, Second Submission**           | | | [{{< fa pen  >}}](/assignments/homework3.html) |
-|       | 3/21        | **Homework 3, Final Due Date**              | | | [{{< fa pen  >}}](/assignments/homework3.html) |
-: {tbl-colwidths="\[10,15,35,10,10,10\]"}
-
-
-## Module 3: Medicare Advantage and Regression Discontinuity
-
-| Class | Dates       | Topic                                       | Details | Slides | Assignment |
-|:-----:|-------------|---------------------------------------------|:-------:|:------:|:----------:|
-|  17   | 3/24        | Basics of Medicare Advantage                | [{{< fa magnifying-glass >}}](/schedule/class-17.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/03-rd/03-rd1.html) | | 
-|  18   | 3/26        | Medicare Advantage Data                     | [{{< fa magnifying-glass >}}](/schedule/class-18.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/03-rd/03-rd2.html) | | 
-|  19   | 3/31        | Regression Discontinuity, Part I            | [{{< fa magnifying-glass >}}](/schedule/class-19.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/03-rd/03-rd3.html) | | 
-|  20   | 4/2         | Regression Discontinuity, Part II           | [{{< fa magnifying-glass >}}](/schedule/class-20.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/03-rd/03-rd4.html) | | 
-|  21   | 4/7        | **Homework 4, Initial Submission**          | | | [{{< fa pen  >}}](/assignments/homework4.html) |
-|  22   | 4/9        | **Homework 4, Second Submission**           | | | [{{< fa pen  >}}](/assignments/homework4.html) |
-|       | 4/11       | **Homework 4, Final Due Date**              | | | [{{< fa pen  >}}](/assignments/homework4.html) |
-: {tbl-colwidths="\[10,15,35,10,10,10\]"}
+| Class | Dates      | Topic                                       | Python  | R      | Outline     | Slides      | Assignment  |
+|:-----:|------------|---------------------------------------------|:-------:|:------:|:-----------:|:-----------:|:-----------:|
+|  5    | 1/27       | Basics of Medicare Advantage                |         |        | [{{< fa magnifying-glass >}}](/schedule/class-05.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/01-so/01-so1.html) |      | 
+|  6    | 1/29       | Medicare Advantage Data                     |         |        | [{{< fa magnifying-glass >}}](/schedule/class-06.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/01-so/01-so2.html) |      | 
+|  7    | 2/3        | Selection on Observables, Part I            |         |        | [{{< fa magnifying-glass >}}](/schedule/class-07.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/01-so/01-so3.html) |      | 
+|  8    | 2/5        | Selection on Observables, Part II           |         |        | [{{< fa magnifying-glass >}}](/schedule/class-08.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/01-so/01-so4.html) |      | 
+|  9    | 2/10       | **Homework 2, Initial Submission**          |         |        |             |             | [{{< fa pen  >}}](/assignments/homework2.html) |
+|  10   | 2/12       | **Homework 2, Second Submission**           |         |        |             |             | [{{< fa pen  >}}](/assignments/homework2.html) |
+|       | 2/13       | **Homework 2, Final Due Date**              |         |        |             |             | [{{< fa pen  >}}](/assignments/homework2.html) |
+: {tbl-colwidths="\[10,15,35,10,10,10,10,10\]"}
 
 
-## Module 4: Medicaid Expansion and Difference-in-Differences
+## Module 3: Insurance Quality and Regression Discontinuity
 
-| Class | Dates       | Topic                                       | Details | Slides | Assignment |
-|:-----:|-------------|---------------------------------------------|:-------:|:------:|:----------:|
-|  23   | 4/14        | Medicaid and the ACA                        | [{{< fa magnifying-glass >}}](/schedule/class-23.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/04-dd/04-dd1.html) | | 
-|  24   | 4/16        | Difference-in-Differences, Part I           | [{{< fa magnifying-glass >}}](/schedule/class-24.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/04-dd/04-dd2.html) | | 
-|  25   | 4/21        | Difference-in-Differences, Part II          | [{{< fa magnifying-glass >}}](/schedule/class-25.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/04-dd/04-dd3.html) | | 
-|  26   | 4/23        | **Homework 5, Initial Submission**          | | | [{{< fa pen  >}}](/assignments/homework5.html) |
-|  27   | 4/28        | **Homework 5, Second Submission**           | | | [{{< fa pen  >}}](/assignments/homework5.html) |
-|       | 5/5         | **Homework 5, Final Due Date**              | | | [{{< fa pen  >}}](/assignments/homework5.html) |
-: {tbl-colwidths="\[10,15,35,10,10,10\]"}
+| Class | Dates      | Topic                                       | Python  | R      | Outline     | Slides      | Assignment  |
+|:-----:|------------|---------------------------------------------|:-------:|:------:|:-----------:|:-----------:|:-----------:|
+|  11   | 2/17       | Medicare Advantage Star Ratings             |         |        | [{{< fa magnifying-glass >}}](/schedule/class-11.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/03-rd/03-rd1.html) |     | 
+|  12   | 2/19       | More Medicare Advantage Data                |         |        | [{{< fa magnifying-glass >}}](/schedule/class-12.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/03-rd/03-rd2.html) |     | 
+|  13   | 2/23       | Regression Discontinuity, Part I            |         |        | [{{< fa magnifying-glass >}}](/schedule/class-13.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/03-rd/03-rd3.html) |     | 
+|  14   | 2/26       | Regression Discontinuity, Part II           |         |        | [{{< fa magnifying-glass >}}](/schedule/class-14.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/03-rd/03-rd4.html) |     | 
+|  15   | 3/3        | **Homework 3, Initial Submission**          |         |        |             |             | [{{< fa pen  >}}](/assignments/homework3.html) |
+|  16   | 3/5        | **Homework 3, Second Submission**           |         |        |             |             | [{{< fa pen  >}}](/assignments/homework3.html) |
+|       | 3/6        | **Homework 3, Final Due Date**              |         |        |             |             | [{{< fa pen  >}}](/assignments/homework3.html) |
+: {tbl-colwidths="\[10,15,35,10,10,10,10,10\]"}
+
+
+## Module 4: Hospital Pricing, Pay for Performance, and Instrumental Variables
+
+| Class | Dates      | Topic                                       | Python  | R      | Outline     | Slides      | Assignment  |
+|:-----:|------------|---------------------------------------------|:-------:|:------:|:-----------:|:-----------:|:-----------:|
+|  17   | 3/17       | Basics of Hospital Pricing and P4P          |         |        | [{{< fa magnifying-glass >}}](/schedule/class-17.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/02-iv/02-iv1.html) |    | 
+|  18   | 3/19       | Understanding HCRIS Data                    |         |        | [{{< fa magnifying-glass >}}](/schedule/class-18.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/02-iv/02-iv2.html) |    | 
+|  19   | 3/24       | Instrumental Variables, Part I              |         |        | [{{< fa magnifying-glass >}}](/schedule/class-19.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/02-iv/02-iv3.html) |    | 
+|  20   | 3/26       | Instrumental Variables, Part II             |         |        | [{{< fa magnifying-glass >}}](/schedule/class-20.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/02-iv/02-iv4.html) |    | 
+|  21   | 3/31       | **Homework 4, Initial Submission**          |         |        |             |             | [{{< fa pen  >}}](/assignments/homework4.html) |
+|  22   | 4/2        | **Homework 4, Second Submission**           |         |        |             |             | [{{< fa pen  >}}](/assignments/homework4.html) |
+|       | 4/3        | **Homework 4, Final Due Date**              |         |        |             |             | [{{< fa pen  >}}](/assignments/homework4.html) |
+: {tbl-colwidths="\[10,15,35,10,10,10,10,10\]"}
+
+
+## Module 5: Hospital Pricing, Medicaid, and Difference-in-Differences
+
+| Class | Dates      | Topic                                       | Python  | R      | Outline     | Slides      | Assignment  |
+|:-----:|------------|---------------------------------------------|:-------:|:------:|:-----------:|:-----------:|:-----------:|
+|  23   | 4/7        | Medicaid and the ACA                        |         |        | [{{< fa magnifying-glass >}}](/schedule/class-23.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/04-dd/04-dd1.html) |    | 
+|  24   | 4/9        | Introduction to Panel Data                  |         |        | [{{< fa magnifying-glass >}}](/schedule/class-24.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/04-dd/04-dd2.html) |    | 
+|  25   | 4/14       | Difference-in-Differences, Part I           |         |        | [{{< fa magnifying-glass >}}](/schedule/class-25.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/04-dd/04-dd2.html) |    | 
+|  26   | 4/16       | Difference-in-Differences, Part II          |         |        | [{{< fa magnifying-glass >}}](/schedule/class-26.html) | [{{< fa person-chalkboard >}}](https://imccart.github.io/empirical-methods-slides/04-dd/04-dd3.html) |    | 
+|  27   | 4/21       | **Homework 5, Initial Submission**          |         |        |             |             | [{{< fa pen  >}}](/assignments/homework5.html) |
+|  28   | 4/23       | **Homework 5, Second Submission**           |         |        |             |             | [{{< fa pen  >}}](/assignments/homework5.html) |
+|       | 4/24       | **Homework 5, Final Due Date**              |         |        |             |             | [{{< fa pen  >}}](/assignments/homework5.html) |
+: {tbl-colwidths="\[10,15,35,10,10,10,10,10\]"}

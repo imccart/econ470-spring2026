@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-03-23">
+<meta name="dcterms.date" content="2025-01-24">
 <meta name="description" content="Course on Research Methods with Health Care Applications at Emory University">
 
-<title>Class 17: Medicare Advantage and Quality Reporting – Research in Health Economics</title>
+<title>Class 5: Basics of Hospital Pricing – Research in Health Economics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -91,12 +91,12 @@ div.csl-indent {
 }</script>
 
 
-<meta property="og:title" content="Class 17: Medicare Advantage and Quality Reporting – Research in Health Economics">
+<meta property="og:title" content="Class 5: Basics of Hospital Pricing – Research in Health Economics">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://econ470s26.classes.ianmccarthyecon.com//files/social-image-f22.png">
 <meta property="og:site_name" content="Research in Health Economics">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="Class 17: Medicare Advantage and Quality Reporting – Research in Health Economics">
+<meta name="twitter:title" content="Class 5: Basics of Hospital Pricing – Research in Health Economics">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://econ470s26.classes.ianmccarthyecon.com//files/social-image-f22.png">
 <meta name="twitter:creator" content="@ianhealthecon">
@@ -158,7 +158,6 @@ div.csl-indent {
    
   <ul>
   <li><a href="#readings-and-other-links" id="toc-readings-and-other-links" class="nav-link active" data-scroll-target="#readings-and-other-links">Readings and other links</a></li>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
   </ul>
 </nav>
     </div>
@@ -167,7 +166,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Class 17: Medicare Advantage and Quality Reporting</h1>
+<h1 class="title">Class 5: Basics of Hospital Pricing</h1>
 </div>
 
 
@@ -178,7 +177,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 23, 2025</p>
+      <p class="date">January 24, 2025</p>
     </div>
   </div>
   
@@ -190,34 +189,29 @@ div.csl-indent {
 </header>
 
 
-<p>The goal of this module is to understand regression discontinuity as a causal identification strategy. We’ll do this in the context of Medicare Advantage quality ratings, where we’ll estimate the effect of higher quality ratings on enrollments. Similar to the prior module, we’ll use RD as a way to avoid problems of endogeneity of ratings.</p>
+<p>In this module, we’ll introduce the idea of “selection on observables” and the different ways to exploit that idea to make casual statements. We’ll do this in the context of hospital pricing, the research question being whether and to what extent hospitals receiving a financial penalty also raise their prices.</p>
 <section id="readings-and-other-links" class="level2">
 <h2 class="anchored" data-anchor-id="readings-and-other-links">Readings and other links</h2>
 <p>Links to papers are listed alongside the full reference. PDFs of each paper are also available on <strong>Canvas</strong>.</p>
 <ul>
 <li><i class="fas fa-book"></i> Required readings for this module:
 <ul>
-<li>Chapter 6 of <a href="https://mixtape.scunning.com/">Causal Inference: The Mixtape</a></li>
-<li>Chapter 20 of <a href="https://theeffectbook.net/">The Effect: An Introduction to Research Design and Causality</a></li>
+<li>Chapter 5 of <a href="https://mixtape.scunning.com/">Causal Inference: The Mixtape</a></li>
+<li>Chapter 14 of <a href="https://theeffectbook.net/">The Effect: An Introduction to Research Design and Causality</a></li>
 </ul></li>
 <li><i class="fas fa-external-link-square-alt"></i> Supplemental information and readings:
 <ul>
-<li>Chapter 6 of <span class="citation" data-cites="angrist2009">(<a href="#ref-angrist2009" role="doc-biblioref">Angrist and Pischke 2009</a>)</span></li>
-<li><span class="citation" data-cites="darden2015">(<a href="#ref-darden2015" role="doc-biblioref">Darden and McCarthy 2015</a>)</span></li>
-<li><span class="citation" data-cites="gruber2017">(<a href="#ref-gruber2017" role="doc-biblioref">Gruber 2017</a>)</span><br>
-</li>
+<li>Chapters 1-2, and 4 of <a href="https://mixtape.scunning.com/">Causal Inference: The Mixtape</a></li>
+<li>Chapters 1-5, 10, and 13 of <a href="https://theeffectbook.net/">The Effect: An Introduction to Research Design and Causality</a></li>
+<li>Chapters 2-3 of <span class="citation" data-cites="angrist2009">(<a href="#ref-angrist2009" role="doc-biblioref">Angrist and Pischke 2009</a>)</span></li>
+<li><span class="citation" data-cites="darden2018">(<a href="#ref-darden2018" role="doc-biblioref">Darden, McCarthy, and Barrette 2018</a>)</span></li>
+<li><span class="citation" data-cites="cooper2019">(<a href="#ref-cooper2019" role="doc-biblioref">Cooper et al. 2019</a>)</span>. Link to paper <a href="https://academic.oup.com/qje/article/134/1/51/5090426">here</a>.</li>
 </ul></li>
 <li><i class="fa fa-database"></i> Data for this module:
 <ul>
-<li><a href="https://github.com/imccart/ma-class">Medicare Advantage</a> repository</li>
+<li><a href="https://github.com/imccart/HCRIS">Hospital Cost Report Information System (HCRIS)</a> repository</li>
+<li>See also a similar repository <a href="https://github.com/asacarny/hospital-cost-reports">here</a> from <a href="http://sacarny.com/">Adam Sacarny</a></li>
 </ul></li>
-</ul>
-</section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<ul>
-<li>Explain some of the history and institutional details of Medicare Advantage</li>
-<li>Understand the role of quality ratings on insurance plan choice</li>
 </ul>
 
 
@@ -228,11 +222,11 @@ div.csl-indent {
 <div id="ref-angrist2009" class="csl-entry" role="listitem">
 Angrist, J., and J. Pischke. 2009. <em>Mostly <span>Harmless</span> <span>Econometrics</span></em>. Princeton, NJ: Princeton University Press.
 </div>
-<div id="ref-darden2015" class="csl-entry" role="listitem">
-Darden, M., and I. McCarthy. 2015. <span>“The <span>Star</span> <span>Treatment</span>: <span>Estimating</span> the <span>Impact</span> of <span>Star</span> <span>Ratings</span> on <span>Medicare</span> <span>Advantage</span> <span>Enrollments</span>.”</span> <em>Journal of Human Resources</em> 50 (4): 980–1008.
+<div id="ref-cooper2019" class="csl-entry" role="listitem">
+Cooper, Zack, Stuart V Craig, Martin Gaynor, and John Van Reenen. 2019. <span>“The Price Ain’t Right? <span>Hospital</span> Prices and Health Spending on the Privately Insured.”</span> <em>Quarterly Journal of Economics</em> 134 (1): 51–107.
 </div>
-<div id="ref-gruber2017" class="csl-entry" role="listitem">
-Gruber, Jonathan. 2017. <span>“Delivering Public Health Insurance Through Private Plan Choice in the <span>United</span> <span>States</span>.”</span> <em>Journal of Economic Perspectives</em> 31 (4): 3–22.
+<div id="ref-darden2018" class="csl-entry" role="listitem">
+Darden, Michael, Ian McCarthy, and Eric Barrette. 2018. <span>“Who <span>Pays</span> in <span>Pay</span>-for-<span>Performance</span>? <span>Evidence</span> from <span>Hospital</span> <span>Pricing</span>.”</span> Working {Paper} w24304. National Bureau of Economic Research.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

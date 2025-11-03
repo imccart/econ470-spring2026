@@ -65,39 +65,39 @@
     "text": "Below is a breakdown of topics for each class day this semester. Assignments are also listed according to their due dates. The associated links take you to additional information relevant for that day or for that assignment. The Details link provides specific objectives, activities, readings, and any additional supplemental materials for that day; the Slides link takes you to the relevant slides for that day; and the Assignment link takes you to the relevant details for each assignment."
   },
   {
-    "objectID": "schedule/index.html#module-0-getting-started",
-    "href": "schedule/index.html#module-0-getting-started",
+    "objectID": "schedule/index.html#module-1-getting-started",
+    "href": "schedule/index.html#module-1-getting-started",
     "title": "Schedule",
-    "section": "Module 0: Getting Started",
-    "text": "Module 0: Getting Started\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nDetails\nSlides\nAssignment\n\n\n\n\n1\n1/15\nData and Version Control\n\n\n\n\n\n2\n1/22\nSoftware Setup\n\n\n\n\n\n3\n1/27\nIntro to Causal Inference\n\n\n\n\n\n4\n1/29\nHomework 1, Initial Submission\n\n\n\n\n\n\n1/31\nHomework 1, Final Due Date"
+    "section": "Module 1: Getting Started",
+    "text": "Module 1: Getting Started\n\n\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nPython\nR\nOutline\nSlides\nAssignment\n\n\n\n\n1\n1/13\nWelcome to Class\n\n\n\n\n\n\n\n2\n1/15\nWorkflow and Version Control\n\n\n\n\n\n\n\n3\n1/20\nBasics of Data Management\n\n\n\n\n\n\n\n4\n1/22\nHomework 1, Initial Submission\n\n\n\n\n\n\n\n\n1/23\nHomework 1, Final Due Date"
   },
   {
-    "objectID": "schedule/index.html#module-1-pricing-and-selection-on-observables",
-    "href": "schedule/index.html#module-1-pricing-and-selection-on-observables",
+    "objectID": "schedule/index.html#module-2-competition-pricing-and-selection-on-observables",
+    "href": "schedule/index.html#module-2-competition-pricing-and-selection-on-observables",
     "title": "Schedule",
-    "section": "Module 1: Pricing and Selection on Observables",
-    "text": "Module 1: Pricing and Selection on Observables\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nDetails\nSlides\nAssignment\n\n\n\n\n5\n2/3\nBasics of Hospital Pricing\n\n\n\n\n\n6\n2/5\nUnderstanding HCRIS Data\n\n\n\n\n\n7\n2/10\nSelection on Observables, Part I\n\n\n\n\n\n8\n2/12\nSelection on Observables, Part II\n\n\n\n\n\n9\n2/17\nHomework 2, Initial Submission\n\n\n\n\n\n10\n2/19\nHomework 2, Second Submission\n\n\n\n\n\n\n2/21\nHomework 2, Final Due Date"
+    "section": "Module 2: Competition, Pricing, and Selection on Observables",
+    "text": "Module 2: Competition, Pricing, and Selection on Observables\n\n\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nPython\nR\nOutline\nSlides\nAssignment\n\n\n\n\n5\n1/27\nBasics of Medicare Advantage\n\n\n\n\n\n\n\n6\n1/29\nMedicare Advantage Data\n\n\n\n\n\n\n\n7\n2/3\nSelection on Observables, Part I\n\n\n\n\n\n\n\n8\n2/5\nSelection on Observables, Part II\n\n\n\n\n\n\n\n9\n2/10\nHomework 2, Initial Submission\n\n\n\n\n\n\n\n10\n2/12\nHomework 2, Second Submission\n\n\n\n\n\n\n\n\n2/13\nHomework 2, Final Due Date"
   },
   {
-    "objectID": "schedule/index.html#module-2-demand-for-cigarettes-and-instrumental-variables",
-    "href": "schedule/index.html#module-2-demand-for-cigarettes-and-instrumental-variables",
+    "objectID": "schedule/index.html#module-3-insurance-quality-and-regression-discontinuity",
+    "href": "schedule/index.html#module-3-insurance-quality-and-regression-discontinuity",
     "title": "Schedule",
-    "section": "Module 2: Demand for Cigarettes and Instrumental Variables",
-    "text": "Module 2: Demand for Cigarettes and Instrumental Variables\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nDetails\nSlides\nAssignment\n\n\n\n\n11\n2/24\nSmoking and Demand Elasticity\n\n\n\n\n\n12\n2/26\nCDC Data on Smoking and Cigarette Prices\n\n\n\n\n\n13\n3/3\nInstrumental Variables, Part I\n\n\n\n\n\n14\n3/5\nInstrumental Variables, Part II\n\n\n\n\n\n15\n3/17\nHomework 3, Initial Submission\n\n\n\n\n\n16\n3/19\nHomework 3, Second Submission\n\n\n\n\n\n\n3/21\nHomework 3, Final Due Date"
+    "section": "Module 3: Insurance Quality and Regression Discontinuity",
+    "text": "Module 3: Insurance Quality and Regression Discontinuity\n\n\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nPython\nR\nOutline\nSlides\nAssignment\n\n\n\n\n11\n2/17\nMedicare Advantage Star Ratings\n\n\n\n\n\n\n\n12\n2/19\nMore Medicare Advantage Data\n\n\n\n\n\n\n\n13\n2/23\nRegression Discontinuity, Part I\n\n\n\n\n\n\n\n14\n2/26\nRegression Discontinuity, Part II\n\n\n\n\n\n\n\n15\n3/3\nHomework 3, Initial Submission\n\n\n\n\n\n\n\n16\n3/5\nHomework 3, Second Submission\n\n\n\n\n\n\n\n\n3/6\nHomework 3, Final Due Date"
   },
   {
-    "objectID": "schedule/index.html#module-3-medicare-advantage-and-regression-discontinuity",
-    "href": "schedule/index.html#module-3-medicare-advantage-and-regression-discontinuity",
+    "objectID": "schedule/index.html#module-4-hospital-pricing-pay-for-performance-and-instrumental-variables",
+    "href": "schedule/index.html#module-4-hospital-pricing-pay-for-performance-and-instrumental-variables",
     "title": "Schedule",
-    "section": "Module 3: Medicare Advantage and Regression Discontinuity",
-    "text": "Module 3: Medicare Advantage and Regression Discontinuity\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nDetails\nSlides\nAssignment\n\n\n\n\n17\n3/24\nBasics of Medicare Advantage\n\n\n\n\n\n18\n3/26\nMedicare Advantage Data\n\n\n\n\n\n19\n3/31\nRegression Discontinuity, Part I\n\n\n\n\n\n20\n4/2\nRegression Discontinuity, Part II\n\n\n\n\n\n21\n4/7\nHomework 4, Initial Submission\n\n\n\n\n\n22\n4/9\nHomework 4, Second Submission\n\n\n\n\n\n\n4/11\nHomework 4, Final Due Date"
+    "section": "Module 4: Hospital Pricing, Pay for Performance, and Instrumental Variables",
+    "text": "Module 4: Hospital Pricing, Pay for Performance, and Instrumental Variables\n\n\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nPython\nR\nOutline\nSlides\nAssignment\n\n\n\n\n17\n3/17\nBasics of Hospital Pricing and P4P\n\n\n\n\n\n\n\n18\n3/19\nUnderstanding HCRIS Data\n\n\n\n\n\n\n\n19\n3/24\nInstrumental Variables, Part I\n\n\n\n\n\n\n\n20\n3/26\nInstrumental Variables, Part II\n\n\n\n\n\n\n\n21\n3/31\nHomework 4, Initial Submission\n\n\n\n\n\n\n\n22\n4/2\nHomework 4, Second Submission\n\n\n\n\n\n\n\n\n4/3\nHomework 4, Final Due Date"
   },
   {
-    "objectID": "schedule/index.html#module-4-medicaid-expansion-and-difference-in-differences",
-    "href": "schedule/index.html#module-4-medicaid-expansion-and-difference-in-differences",
+    "objectID": "schedule/index.html#module-5-hospital-pricing-medicaid-and-difference-in-differences",
+    "href": "schedule/index.html#module-5-hospital-pricing-medicaid-and-difference-in-differences",
     "title": "Schedule",
-    "section": "Module 4: Medicaid Expansion and Difference-in-Differences",
-    "text": "Module 4: Medicaid Expansion and Difference-in-Differences\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nDetails\nSlides\nAssignment\n\n\n\n\n23\n4/14\nMedicaid and the ACA\n\n\n\n\n\n24\n4/16\nDifference-in-Differences, Part I\n\n\n\n\n\n25\n4/21\nDifference-in-Differences, Part II\n\n\n\n\n\n26\n4/23\nHomework 5, Initial Submission\n\n\n\n\n\n27\n4/28\nHomework 5, Second Submission\n\n\n\n\n\n\n5/5\nHomework 5, Final Due Date"
+    "section": "Module 5: Hospital Pricing, Medicaid, and Difference-in-Differences",
+    "text": "Module 5: Hospital Pricing, Medicaid, and Difference-in-Differences\n\n\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nPython\nR\nOutline\nSlides\nAssignment\n\n\n\n\n23\n4/7\nMedicaid and the ACA\n\n\n\n\n\n\n\n24\n4/9\nIntroduction to Panel Data\n\n\n\n\n\n\n\n25\n4/14\nDifference-in-Differences, Part I\n\n\n\n\n\n\n\n26\n4/16\nDifference-in-Differences, Part II\n\n\n\n\n\n\n\n27\n4/21\nHomework 5, Initial Submission\n\n\n\n\n\n\n\n28\n4/23\nHomework 5, Second Submission\n\n\n\n\n\n\n\n\n4/24\nHomework 5, Final Due Date"
   },
   {
     "objectID": "schedule/class-24.html",
@@ -123,86 +123,86 @@
   {
     "objectID": "schedule/class-20.html",
     "href": "schedule/class-20.html",
-    "title": "Class 20: Regression Discontinuity Part II",
-    "section": "",
-    "text": "Today we’ll work with a real-life example of RD using Medicare Advantage star ratings."
-  },
-  {
-    "objectID": "schedule/class-20.html#objectives",
-    "href": "schedule/class-20.html#objectives",
-    "title": "Class 20: Regression Discontinuity Part II",
-    "section": "Objectives",
-    "text": "Objectives\n\nExplain optimal bin width and bandwidth calculations\nDefine “manipulation” of the running variable\nDefine what we mean by “covariate balance” and why it matters for RDD"
-  },
-  {
-    "objectID": "schedule/class-20.html#activities",
-    "href": "schedule/class-20.html#activities",
-    "title": "Class 20: Regression Discontinuity Part II",
-    "section": "Activities",
-    "text": "Activities\n\nImplement an RD strategy with Medicare Advantage star ratings\nTest for manipulation of the running variable\nTest for covariate balance"
-  },
-  {
-    "objectID": "schedule/class-18.html",
-    "href": "schedule/class-18.html",
-    "title": "Class 18: Medicare Advantage Data",
-    "section": "",
-    "text": "Today we’ll revisit the MA data from Module 0. We’ll also introduce data on the MA quality rating program and how it plays out in real life."
-  },
-  {
-    "objectID": "schedule/class-18.html#objectives",
-    "href": "schedule/class-18.html#objectives",
-    "title": "Class 18: Medicare Advantage Data",
-    "section": "Objectives",
-    "text": "Objectives\n\nUnderstand the MA data and datasets required for this Module\nExplain the MA star rating program and how the star ratings are calculated\nExplain the MA quality improvement program"
-  },
-  {
-    "objectID": "schedule/class-18.html#activities",
-    "href": "schedule/class-18.html#activities",
-    "title": "Class 18: Medicare Advantage Data",
-    "section": "Activities",
-    "text": "Activities\n\nClone the Medicare Advantage repository (if you haven’t already) and begin working with data."
-  },
-  {
-    "objectID": "schedule/class-14.html",
-    "href": "schedule/class-14.html",
     "title": "Class 14: Instrumental Variables Part II",
     "section": "",
     "text": "Today, we employ the IV estimator in the context of demand estimation for cigarettes. We also introduce the idea of a “fixed effect” in a regression specification."
   },
   {
-    "objectID": "schedule/class-14.html#objectives",
-    "href": "schedule/class-14.html#objectives",
+    "objectID": "schedule/class-20.html#objectives",
+    "href": "schedule/class-20.html#objectives",
     "title": "Class 14: Instrumental Variables Part II",
     "section": "Objectives",
     "text": "Objectives\n\nUnderstand and use an IV estimator in R\nDefine and explain a fixed effect in a regression context\nUnderstand and describe the problem of weak instruments and how to test for weak instruments empirically"
   },
   {
-    "objectID": "schedule/class-14.html#activities",
-    "href": "schedule/class-14.html#activities",
+    "objectID": "schedule/class-20.html#activities",
+    "href": "schedule/class-20.html#activities",
     "title": "Class 14: Instrumental Variables Part II",
     "section": "Activities",
     "text": "Activities\n\nContinue work with the CDC Tax Burden on Tobacco data\nEstimate the price elasticity of demand for cigarettes using taxes as an instrument for price"
   },
   {
+    "objectID": "schedule/class-18.html",
+    "href": "schedule/class-18.html",
+    "title": "Class 6: HCRIS Data",
+    "section": "",
+    "text": "In this class, we’ll discuss the Hospital Cost Report Information System (HCRIS) data and how to use these data to estimate hospital prices."
+  },
+  {
+    "objectID": "schedule/class-18.html#objectives",
+    "href": "schedule/class-18.html#objectives",
+    "title": "Class 6: HCRIS Data",
+    "section": "Objectives",
+    "text": "Objectives\n\nUnderstand the nature of hospital pricing\nExplain HCRIS data, how the data are generated, and how the data can be used to estimate a hospital’s “price”"
+  },
+  {
+    "objectID": "schedule/class-18.html#activities",
+    "href": "schedule/class-18.html#activities",
+    "title": "Class 6: HCRIS Data",
+    "section": "Activities",
+    "text": "Activities\n\nClone the Hospital Cost Report Information System (HCRIS) repository for this class and begin working with data. See also a similar repository here from Adam Sacarny"
+  },
+  {
+    "objectID": "schedule/class-14.html",
+    "href": "schedule/class-14.html",
+    "title": "Class 20: Regression Discontinuity Part II",
+    "section": "",
+    "text": "Today we’ll work with a real-life example of RD using Medicare Advantage star ratings."
+  },
+  {
+    "objectID": "schedule/class-14.html#objectives",
+    "href": "schedule/class-14.html#objectives",
+    "title": "Class 20: Regression Discontinuity Part II",
+    "section": "Objectives",
+    "text": "Objectives\n\nExplain optimal bin width and bandwidth calculations\nDefine “manipulation” of the running variable\nDefine what we mean by “covariate balance” and why it matters for RDD"
+  },
+  {
+    "objectID": "schedule/class-14.html#activities",
+    "href": "schedule/class-14.html#activities",
+    "title": "Class 20: Regression Discontinuity Part II",
+    "section": "Activities",
+    "text": "Activities\n\nImplement an RD strategy with Medicare Advantage star ratings\nTest for manipulation of the running variable\nTest for covariate balance"
+  },
+  {
     "objectID": "schedule/class-12.html",
     "href": "schedule/class-12.html",
-    "title": "Class 12: Data on Smoking and Cigarette Prices",
+    "title": "Class 18: More Medicare Advantage Data",
     "section": "",
-    "text": "Today we’ll discuss demand estimation in the context of smoking. We’ll also introduce the idea of instrumental variables as a way to estimate causal effects when confronted with selection on unobservables."
+    "text": "Today we’ll revisit the MA data from Module 0. We’ll also introduce data on the MA quality rating program and how it plays out in real life."
   },
   {
     "objectID": "schedule/class-12.html#objectives",
     "href": "schedule/class-12.html#objectives",
-    "title": "Class 12: Data on Smoking and Cigarette Prices",
+    "title": "Class 18: More Medicare Advantage Data",
     "section": "Objectives",
-    "text": "Objectives\n\nUnderstand CDC and tax data sources\nIntroduce the idea of instrumental variables"
+    "text": "Objectives\n\nUnderstand the MA data and datasets required for this Module\nExplain the MA star rating program and how the star ratings are calculated\nExplain the MA quality improvement program"
   },
   {
     "objectID": "schedule/class-12.html#activities",
     "href": "schedule/class-12.html#activities",
-    "title": "Class 12: Data on Smoking and Cigarette Prices",
+    "title": "Class 18: More Medicare Advantage Data",
     "section": "Activities",
-    "text": "Activities\n\nBegin working with CDC Tax Burden data\nDerive initial instrumental variables estimate\nDefine and explain the instrumental variable estimate as a ratio of a “reduced-form” to a “first-stage” estimate"
+    "text": "Activities\n\nClone the Medicare Advantage repository (if you haven’t already) and begin working with data."
   },
   {
     "objectID": "schedule/class-08.html",
@@ -228,23 +228,23 @@
   {
     "objectID": "schedule/class-06.html",
     "href": "schedule/class-06.html",
-    "title": "Class 6: HCRIS Data",
+    "title": "Class 6: Medicare Advantage Data",
     "section": "",
-    "text": "In this class, we’ll discuss the Hospital Cost Report Information System (HCRIS) data and how to use these data to estimate hospital prices."
+    "text": "Today we’ll revisit the MA data from Module 0. We’ll also introduce data on the MA quality rating program and how it plays out in real life."
   },
   {
     "objectID": "schedule/class-06.html#objectives",
     "href": "schedule/class-06.html#objectives",
-    "title": "Class 6: HCRIS Data",
+    "title": "Class 6: Medicare Advantage Data",
     "section": "Objectives",
-    "text": "Objectives\n\nUnderstand the nature of hospital pricing\nExplain HCRIS data, how the data are generated, and how the data can be used to estimate a hospital’s “price”"
+    "text": "Objectives\n\nUnderstand the MA data and datasets required for this Module\nExplain the MA star rating program and how the star ratings are calculated\nExplain the MA quality improvement program"
   },
   {
     "objectID": "schedule/class-06.html#activities",
     "href": "schedule/class-06.html#activities",
-    "title": "Class 6: HCRIS Data",
+    "title": "Class 6: Medicare Advantage Data",
     "section": "Activities",
-    "text": "Activities\n\nClone the Hospital Cost Report Information System (HCRIS) repository for this class and begin working with data. See also a similar repository here from Adam Sacarny"
+    "text": "Activities\n\nClone the Medicare Advantage repository (if you haven’t already) and begin working with data."
   },
   {
     "objectID": "schedule/class-03.html",
@@ -485,16 +485,23 @@
   {
     "objectID": "schedule/class-05.html",
     "href": "schedule/class-05.html",
-    "title": "Class 5: Basics of Hospital Pricing",
+    "title": "Class 5: Medicare Advantage",
     "section": "",
-    "text": "In this module, we’ll introduce the idea of “selection on observables” and the different ways to exploit that idea to make casual statements. We’ll do this in the context of hospital pricing, the research question being whether and to what extent hospitals receiving a financial penalty also raise their prices."
+    "text": "Links to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 6 of Causal Inference: The Mixtape\nChapter 20 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapter 6 of (Angrist and Pischke 2009)\n(Darden and McCarthy 2015)\n(Gruber 2017)\n\n\n Data for this module:\n\nMedicare Advantage repository"
   },
   {
     "objectID": "schedule/class-05.html#readings-and-other-links",
     "href": "schedule/class-05.html#readings-and-other-links",
-    "title": "Class 5: Basics of Hospital Pricing",
-    "section": "Readings and other links",
-    "text": "Readings and other links\nLinks to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 5 of Causal Inference: The Mixtape\nChapter 14 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapters 1-2, and 4 of Causal Inference: The Mixtape\nChapters 1-5, 10, and 13 of The Effect: An Introduction to Research Design and Causality\nChapters 2-3 of (Angrist and Pischke 2009)\n(Darden, McCarthy, and Barrette 2018)\n(Cooper et al. 2019). Link to paper here.\n\n Data for this module:\n\nHospital Cost Report Information System (HCRIS) repository\nSee also a similar repository here from Adam Sacarny"
+    "title": "Class 5: Medicare Advantage",
+    "section": "",
+    "text": "Links to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 6 of Causal Inference: The Mixtape\nChapter 20 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapter 6 of (Angrist and Pischke 2009)\n(Darden and McCarthy 2015)\n(Gruber 2017)\n\n\n Data for this module:\n\nMedicare Advantage repository"
+  },
+  {
+    "objectID": "schedule/class-05.html#objectives",
+    "href": "schedule/class-05.html#objectives",
+    "title": "Class 5: Medicare Advantage",
+    "section": "Objectives",
+    "text": "Objectives\n\nExplain some of the history and institutional details of Medicare Advantage\nUnderstand the role of quality ratings on insurance plan choice"
   },
   {
     "objectID": "schedule/class-07.html",
@@ -520,93 +527,79 @@
   {
     "objectID": "schedule/class-11.html",
     "href": "schedule/class-11.html",
-    "title": "Class 11: Smoking and Demand Elasticity",
-    "section": "",
-    "text": "The goal of this module is to understand instrumental variables as a causal identification strategy. We’ll do this in the context of smoking and cigarette prices. Effectively, we want to estimate a demand curve for cigarettes, accounting for the fact that movements in quantity and price derive from changes in both supply and demand."
-  },
-  {
-    "objectID": "schedule/class-11.html#readings-and-other-links",
-    "href": "schedule/class-11.html#readings-and-other-links",
-    "title": "Class 11: Smoking and Demand Elasticity",
-    "section": "Readings and other links",
-    "text": "Readings and other links\nLinks to papers are listed alongside the full reference.\n\n Required readings for this module:\n\nChapter 7 of Causal Inference: The Mixtape\nChapter 19 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapter 4 of (Angrist and Pischke 2009)\n(Gruber 2001). Paper link here.\n(Ross and Chaloupka 2003). Paper link here\n\n Data for this module:\n\nCDC Tax Burden on Tobacco"
-  },
-  {
-    "objectID": "schedule/class-11.html#objectives",
-    "href": "schedule/class-11.html#objectives",
-    "title": "Class 11: Smoking and Demand Elasticity",
-    "section": "Objectives",
-    "text": "Objectives\n\nExplain some of the history of smoking in the U.S.\nDescribe the empirical barriers to estimating demand curves"
-  },
-  {
-    "objectID": "schedule/class-11.html#activities",
-    "href": "schedule/class-11.html#activities",
-    "title": "Class 11: Smoking and Demand Elasticity",
-    "section": "Activities",
-    "text": "Activities\n\nReview homework 2 and matching/weighting in practice"
-  },
-  {
-    "objectID": "schedule/class-13.html",
-    "href": "schedule/class-13.html",
-    "title": "Class 13: Instrumental Variables Part I",
-    "section": "",
-    "text": "Today we’ll formally introduce instrumental variables and discuss some of the thorny issues associated with IV in practice (namely, testing for instrument validity and interpreting the results)."
-  },
-  {
-    "objectID": "schedule/class-13.html#objectives",
-    "href": "schedule/class-13.html#objectives",
-    "title": "Class 13: Instrumental Variables Part I",
-    "section": "Objectives",
-    "text": "Objectives\n\nUnderstand the concept of instrumental variables and how they can be used to estimate causal effects\nList and explain the key assumptions for a “good” instrument\nDefine and explain a local average treatment effect"
-  },
-  {
-    "objectID": "schedule/class-13.html#activities",
-    "href": "schedule/class-13.html#activities",
-    "title": "Class 13: Instrumental Variables Part I",
-    "section": "Activities",
-    "text": "Activities\n\nContinue work with the CDC Tax Burden on Tobacco data\nData simulation and practical issues with IV"
-  },
-  {
-    "objectID": "schedule/class-17.html",
-    "href": "schedule/class-17.html",
     "title": "Class 17: Medicare Advantage and Quality Reporting",
     "section": "",
     "text": "The goal of this module is to understand regression discontinuity as a causal identification strategy. We’ll do this in the context of Medicare Advantage quality ratings, where we’ll estimate the effect of higher quality ratings on enrollments. Similar to the prior module, we’ll use RD as a way to avoid problems of endogeneity of ratings."
   },
   {
-    "objectID": "schedule/class-17.html#readings-and-other-links",
-    "href": "schedule/class-17.html#readings-and-other-links",
+    "objectID": "schedule/class-11.html#readings-and-other-links",
+    "href": "schedule/class-11.html#readings-and-other-links",
     "title": "Class 17: Medicare Advantage and Quality Reporting",
     "section": "Readings and other links",
     "text": "Readings and other links\nLinks to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 6 of Causal Inference: The Mixtape\nChapter 20 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapter 6 of (Angrist and Pischke 2009)\n(Darden and McCarthy 2015)\n(Gruber 2017)\n\n\n Data for this module:\n\nMedicare Advantage repository"
   },
   {
-    "objectID": "schedule/class-17.html#objectives",
-    "href": "schedule/class-17.html#objectives",
+    "objectID": "schedule/class-11.html#objectives",
+    "href": "schedule/class-11.html#objectives",
     "title": "Class 17: Medicare Advantage and Quality Reporting",
     "section": "Objectives",
     "text": "Objectives\n\nExplain some of the history and institutional details of Medicare Advantage\nUnderstand the role of quality ratings on insurance plan choice"
   },
   {
-    "objectID": "schedule/class-19.html",
-    "href": "schedule/class-19.html",
+    "objectID": "schedule/class-13.html",
+    "href": "schedule/class-13.html",
     "title": "Class 19: Regression Discontinuity Part I",
     "section": "",
     "text": "We’ll begin implementing an RD with simulated data. We’ll discuss the basics of the RD identification strategy, its implementation, and some details including bin and bandwidth selection."
   },
   {
-    "objectID": "schedule/class-19.html#objectives",
-    "href": "schedule/class-19.html#objectives",
+    "objectID": "schedule/class-13.html#objectives",
+    "href": "schedule/class-13.html#objectives",
     "title": "Class 19: Regression Discontinuity Part I",
     "section": "Objectives",
     "text": "Objectives\n\nDescribe the intuition underlying the RD identification strategy\nImplement an RD strategy with simulated data\nExplain optimal bandwidth and bin width selection"
   },
   {
-    "objectID": "schedule/class-19.html#activities",
-    "href": "schedule/class-19.html#activities",
+    "objectID": "schedule/class-13.html#activities",
+    "href": "schedule/class-13.html#activities",
     "title": "Class 19: Regression Discontinuity Part I",
     "section": "Activities",
     "text": "Activities\n\nClone the Medicare Advantage repository (if you haven’t already) and begin working with data\nImplement RD design with simulated data in R"
+  },
+  {
+    "objectID": "schedule/class-17.html",
+    "href": "schedule/class-17.html",
+    "title": "Class 5: Basics of Hospital Pricing",
+    "section": "",
+    "text": "In this module, we’ll introduce the idea of “selection on observables” and the different ways to exploit that idea to make casual statements. We’ll do this in the context of hospital pricing, the research question being whether and to what extent hospitals receiving a financial penalty also raise their prices."
+  },
+  {
+    "objectID": "schedule/class-17.html#readings-and-other-links",
+    "href": "schedule/class-17.html#readings-and-other-links",
+    "title": "Class 5: Basics of Hospital Pricing",
+    "section": "Readings and other links",
+    "text": "Readings and other links\nLinks to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 5 of Causal Inference: The Mixtape\nChapter 14 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapters 1-2, and 4 of Causal Inference: The Mixtape\nChapters 1-5, 10, and 13 of The Effect: An Introduction to Research Design and Causality\nChapters 2-3 of (Angrist and Pischke 2009)\n(Darden, McCarthy, and Barrette 2018)\n(Cooper et al. 2019). Link to paper here.\n\n Data for this module:\n\nHospital Cost Report Information System (HCRIS) repository\nSee also a similar repository here from Adam Sacarny"
+  },
+  {
+    "objectID": "schedule/class-19.html",
+    "href": "schedule/class-19.html",
+    "title": "Class 13: Instrumental Variables Part I",
+    "section": "",
+    "text": "Today we’ll formally introduce instrumental variables and discuss some of the thorny issues associated with IV in practice (namely, testing for instrument validity and interpreting the results)."
+  },
+  {
+    "objectID": "schedule/class-19.html#objectives",
+    "href": "schedule/class-19.html#objectives",
+    "title": "Class 13: Instrumental Variables Part I",
+    "section": "Objectives",
+    "text": "Objectives\n\nUnderstand the concept of instrumental variables and how they can be used to estimate causal effects\nList and explain the key assumptions for a “good” instrument\nDefine and explain a local average treatment effect"
+  },
+  {
+    "objectID": "schedule/class-19.html#activities",
+    "href": "schedule/class-19.html#activities",
+    "title": "Class 13: Instrumental Variables Part I",
+    "section": "Activities",
+    "text": "Activities\n\nContinue work with the CDC Tax Burden on Tobacco data\nData simulation and practical issues with IV"
   },
   {
     "objectID": "schedule/class-23.html",

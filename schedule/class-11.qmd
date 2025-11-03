@@ -1,27 +1,26 @@
 ---
-title: "Class 11: Smoking and Demand Elasticity"
-date: 2025-02-24
+title: "Class 17: Medicare Advantage and Quality Reporting"
+date: 2025-03-23
 ---
 
-The goal of this module is to understand instrumental variables as a causal identification strategy. We'll do this in the context of smoking and cigarette prices. Effectively, we want to estimate a demand curve for cigarettes, accounting for the fact that movements in quantity and price derive from changes in both supply and demand.
+The goal of this module is to understand regression discontinuity as a causal identification strategy. We'll do this in the context of Medicare Advantage quality ratings, where we'll estimate the effect of higher quality ratings on enrollments. Similar to the prior module, we'll use RD as a way to avoid problems of endogeneity of ratings.
+
 
 ## Readings and other links
 
-Links to papers are listed alongside the full reference.
+Links to papers are listed alongside the full reference. PDFs of each paper are also available on **Canvas**.
 
 - <i class="fas fa-book"></i> Required readings for this module:
-    - Chapter 7 of [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
-    - Chapter 19 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
+    - Chapter 6 of [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
+    - Chapter 20 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
 - <i class="fas fa-external-link-square-alt"></i> Supplemental information and readings:
-    - Chapter 4 of [@angrist2009]
-    - [@gruber2001]. Paper link [here](https://www.aeaweb.org/articles?id=10.1257/jep.15.2.193).
-    - [@ross2003]. Paper link [here](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.532.2071&rep=rep1&type=pdf)
+    - Chapter 6 of [@angrist2009]
+    - [@darden2015]
+    - [@gruber2017]    
 - <i class="fa fa-database"></i> Data for this module:
-    - [CDC Tax Burden on Tobacco](https://github.com/imccart-test/cdc-tobacco)
+    - [Medicare Advantage](https://github.com/imccart/ma-class) repository
 
 ## Objectives
-- Explain some of the history of smoking in the U.S.
-- Describe the empirical barriers to estimating demand curves
 
-## Activities
-- Review homework 2 and matching/weighting in practice
+- Explain some of the history and institutional details of Medicare Advantage 
+- Understand the role of quality ratings on insurance plan choice
