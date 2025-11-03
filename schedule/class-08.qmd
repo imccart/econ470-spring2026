@@ -1,0 +1,14 @@
+---
+title: "Class 8: Selection on Observables in Practice"
+date: 2025-02-17
+---
+
+Today we'll continue our work with matching, reweighting, and regression, but in the context of real life data on hospital prices.
+
+## Objectives
+- Understand HCRIS data and explain hospital pricing
+- Calculate an ATE or ATT using regression, matching, and weighting using real-world pricing data
+
+## Activities 
+- Continue working with the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/hcris-class) repository.
+- Estimate the effect of hospital penalties on hospital pricing

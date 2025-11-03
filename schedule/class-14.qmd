@@ -1,0 +1,20 @@
+---
+title: "Class 14: Instrumental Variables Part II"
+date: 2025-02-28
+---
+
+
+Today, we employ the IV estimator in the context of demand estimation for cigarettes. We also introduce the idea of a "fixed effect" in a regression specification.
+
+## Objectives
+
+- Understand and use an IV estimator in R
+- Define and explain a fixed effect in a regression context
+- Understand and describe the problem of weak instruments and how to test for weak instruments empirically
+
+
+## Activities 
+
+- Continue work with the [CDC Tax Burden on Tobacco](https://github.com/imccart/CDC-Tobacco) data
+- Estimate the price elasticity of demand for cigarettes using taxes as an instrument for price
+

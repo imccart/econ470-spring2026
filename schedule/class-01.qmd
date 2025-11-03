@@ -1,0 +1,31 @@
+---
+title: "Class 1: Introduction and Setup"
+date: 2025-01-17
+---
+
+Today we'll motivate the study of causal inference, go over the details of the course, and talk about the basics of data management and version control.
+
+## Readings and other links
+
+- Review the [syllabus](/syllabus/), [schedule](/schedule/), [content](/content/), and [assignments](/assignment/) pages for this class...just to get a feel for the site and how to navigate all of the information.
+- <i class="fas fa-book"></i> Materials we'll use throughout this module:
+    - Lesson 2 from [Data Science for Economists](https://github.com/uo-ec607/lectures). This is part of a course from [Grant McDermott](https://grantmcdermott.com/) with a ton of great online resources.
+    - [R for Data Science](https://r4ds.had.co.nz/)
+    - Understand filepaths. Short [video](https://youtu.be/NG7Y0kkGR8g) from Nick Huntington-Klein.
+    - Chapter 5 of [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
+    - Chapter 14 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
+- <i class="fa fa-database"></i> Data for this module:
+    - Data from [Gapminder](https://www.gapminder.org/)
+    - [Medicare Advantage](https://github.com/imccart/ma-class) repository
+
+## For next class
+
+I'll use `R` for this class, and I'll use `Visual Studio Code` as my text editor. I'll also use `Git` for version control. If you're not familiar with these tools, don't worry. We'll go over them in class. For next class, please do the following:
+
+1. Download [R](https://www.r-project.org/) and/or [Python](https://www.python.org/) (be sure to select the Add to PATH option when installing Python)
+2. Download [Visual Studio Code](https://code.visualstudio.com/)
+3. Download [Git](https://git-scm.com/downloads)
+4. Download [Quarto](https://quarto.org/) if you want to use it
+5. Create a account on [GitHub](https://github.com/)
+6. Download [GitHub Desktop](https://desktop.github.com/download/)
+7. Install relevant extensions in VS Code and select proper Python interpreter

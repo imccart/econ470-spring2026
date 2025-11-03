@@ -1,0 +1,17 @@
+---
+title: "Peer Code Review and Replication"
+# format:
+#   pdf: default
+---
+
+One of the best ways to improve your own coding and workflow is to study someone else's. That's the goal of the peer code review. For each of the homework assignments, you will be assigned a partner to review. The partner will be someone that you have not worked with as part of that assignment. You will be responsible for reviewing their code, attempting to replicate their analysis, and providing feedback. You will also receive feedback from your partner on your code. Each peer code review is worth 5% toward your final grade (10 points total, 2 points per question) and consists of the following questions. You will submit your answers to these questions as an online form in GradeScope (via Canvas).
+
+1. **Code Review and Efficiency**: Are there any parts of the code that seem inefficient or redundant? How could these sections be optimized for better performance or clarity?
+
+2. **Comparison of Results**: How well do their results compare with your own? Are there any areas where the two analyses are particularly different?
+
+3. **Replicability and Documentation**: Are you able to clone your peer's repository and replicate their results?
+
+4. **Diagnosing Replication**: If you were unable to replicate their results using their code, what do you think is the central problem? If you were able to replicate, are there things that could have been changed (e.g., code structure, documentation, commenting, etc) that would have made it easier?
+
+5. **Final Thoughts**: How might you update your own code based on your review of your peer's work?

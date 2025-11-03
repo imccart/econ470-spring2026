@@ -1,0 +1,16 @@
+---
+title: "Class 12: Data on Smoking and Cigarette Prices"
+date: 2025-02-24
+
+---
+
+Today we'll discuss demand estimation in the context of smoking. We'll also introduce the idea of instrumental variables as a way to estimate causal effects when confronted with selection on unobservables.
+
+## Objectives
+- Understand CDC and tax data sources
+- Introduce the idea of instrumental variables
+
+## Activities 
+- Begin working with CDC Tax Burden data
+- Derive initial instrumental variables estimate
+- Define and explain the instrumental variable estimate as a ratio of a "reduced-form" to a "first-stage" estimate

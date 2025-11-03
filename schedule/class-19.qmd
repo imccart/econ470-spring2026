@@ -1,0 +1,18 @@
+---
+title: "Class 19: Regression Discontinuity Part I"
+date: 2025-03-23
+---
+
+We'll begin implementing an RD with simulated data. We'll discuss the basics of the RD identification strategy, its implementation, and some details including bin and bandwidth selection.
+
+## Objectives
+
+- Describe the intuition underlying the RD identification strategy
+- Implement an RD strategy with simulated data
+- Explain optimal bandwidth and bin width selection
+
+
+## Activities 
+
+- Clone the [Medicare Advantage](https://github.com/imccart/ma-class) repository (if you haven't already) and begin working with data
+- Implement RD design with simulated data in R

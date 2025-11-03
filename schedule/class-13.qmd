@@ -1,0 +1,19 @@
+---
+title: "Class 13: Instrumental Variables Part I"
+date: 2025-02-28
+---
+
+Today we'll formally introduce instrumental variables and discuss some of the thorny issues associated with IV in practice (namely, testing for instrument validity and interpreting the results).
+
+
+## Objectives
+
+- Understand the concept of instrumental variables and how they can be used to estimate causal effects
+- List and explain the key assumptions for a "good" instrument
+- Define and explain a local average treatment effect
+
+
+## Activities 
+
+- Continue work with the [CDC Tax Burden on Tobacco](https://github.com/imccart/CDC-Tobacco) data
+- Data simulation and practical issues with IV

@@ -1,0 +1,16 @@
+---
+title: "Class 25: Difference-in-Differences in Practice"
+---
+
+The goal for today is to examine how to use a DD strategy with real-life data and discuss some current issues with the implementation of DD designs in practice
+
+
+## Objectives
+
+- Understand and explain some of the difficulties when interpreting the results of regression-based DD estimates
+- Be aware of alternative estimators that may be applicable in some settings
+
+## Activities 
+
+- Estimate an event study with constant treatment timing
+- Estimate an event study with differential treatment timing

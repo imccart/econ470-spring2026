@@ -1,0 +1,17 @@
+---
+title: "Class 18: Medicare Advantage Data"
+date: 2025-03-23
+---
+
+Today we'll revisit the MA data from Module 0. We'll also introduce data on the MA quality rating program and how it plays out in real life.
+
+## Objectives
+
+- Understand the MA data and datasets required for this Module
+- Explain the MA star rating program and how the star ratings are calculated
+- Explain the MA quality improvement program
+
+
+## Activities 
+
+- Clone the [Medicare Advantage](https://github.com/imccart/ma-class) repository (if you haven't already) and begin working with data.

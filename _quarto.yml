@@ -1,0 +1,91 @@
+---
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!README.md"
+    - "!LICENSE.md"
+  resources:
+    - "files/"
+
+execute:
+  # Re-render only when source changes
+  freeze: auto
+
+bibliography: files/bib/references.bib
+csl: files/bib/chicago-author-date.csl
+description-meta: "Course on Research Methods with Health Care Applications at Emory University"
+
+website:
+  title: "Research in Health Economics"
+  site-url: "https://econ470s26.classes.ianmccarthyecon.com/"
+
+  twitter-card:
+    image: "/files/social-image-f22.png"
+    card-style: summary_large_image
+    creator: "@ianhealthecon"
+    # site: "@andrewheiss"
+
+  open-graph:
+    image: "/files/social-image-f22.png"
+    locale: en_US
+
+  repo-url: "https://github.com/imccart/econ470-spring2026"
+
+  page-navigation: true
+
+  navbar:
+    pinned: true
+    background: primary
+    right:
+      - syllabus.qmd
+      - text: "Schedule"
+        file: schedule/index.qmd
+      - text: "Assignments"
+        file: assignments/index.qmd
+      - text: "Resources"
+        file: resources/index.qmd
+      - icon: github
+        href: "https://github.com/imccart/econ470-spring2026"
+        aria-label: GitHub
+
+  sidebar:
+    - title: "Assignments"
+      style: "docked"
+      background: dark
+      contents:
+        - assignments/index.qmd
+        - assignments/homework1.qmd
+        - assignments/homework2.qmd
+        - assignments/homework3.qmd
+        - assignments/homework4.qmd
+        - assignments/homework5.qmd
+        - assignments/code-review.qmd
+        - assignments/participation.qmd
+
+    - title: "Empty"
+      style: "docked"
+      background: dark
+
+  page-footer:
+    left: |
+      Content {{< fa brands creative-commons >}} 2026 by Ian McCarthy<br>
+      All content licensed under a {{< fa brands creative-commons >}}
+      {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}}
+      [Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
+    right: |
+      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
+      [View the source at {{< fa brands github >}} GitHub](https://github.com/imccart/econ470-spring2026)
+
+
+format:
+  html:
+    theme:
+      - litera
+      - html/custom.scss
+    toc: true
+    highlight-style: monokai
+    grid:
+      sidebar-width: 350px

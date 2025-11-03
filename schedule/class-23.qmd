@@ -1,0 +1,33 @@
+---
+title: "Class 23: Medicaid Expansion and Uninsurance"
+date: 2025-04-14
+---
+
+The goal of this module is to understand difference-in-differences as a causal identification strategy. We'll do this in the context of Medicaid expansion and its effect on uninsurance. 
+
+## Readings and other links
+
+Links to papers are listed alongside the full reference
+
+- <i class="fas fa-book"></i> Required readings for this module:
+    - Chapters 8-9 of [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
+    - Chapters 16-18 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
+- <i class="fas fa-external-link-square-alt"></i> Supplemental information and readings:
+    - Chapter 5 of [@angrist2009]
+    - [@courtemanche2017]
+    - [@obama2016]    
+- <i class="fa fa-database"></i> Data for this module:
+    - [Insurance Access and Medicaid Expansion](https://github.com/imccart-test/insurance-access) repository
+
+
+## Objectives
+
+- Understand some of the large changes introduced by the Affordable Care Act
+- Explain what we mean by "Medicaid expansion"
+- Understand the ACS data and how to access the data in R
+
+## Activities
+
+- Import ACS data via API in R
+- Summarize insurance status over time
+

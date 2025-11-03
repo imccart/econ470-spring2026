@@ -1,0 +1,149 @@
+---
+title: "Syllabus"
+page-layout: full
+# format:
+#   pdf: default
+---
+  
+## Course description
+
+This is a capstone course that combines health economics and human health content with econometrics data science. The course is therefore heavily applied in nature. We will work through four "canonical" research designs, in each case using real world data and applied to a contemporary health care issue and/or health policy.
+
+**Prerequisites:** Econ 320 (Econometrics) and at least one of the following health economics and policy classes: HLTH 370, Econ 371, Econ 372.
+
+## Learning outcomes
+
+The content of the course is split into three general areas: 1) data management in the real world; 2) health policy and health care institutions; and 3) empirical methods in program evaluation and causal inference. Each area of the course will be covered by way of an example research question. By the end of this course, you will be able to:
+
+1. Organize project files using Git and GitHub
+2. Clean and manage several data files using R or Python
+3. Summarize and visualize data in a reproducible way
+4. Implement selected methods for causal inference using real data
+5. Explain research results with a written report and discussion
+
+## Course materials
+
+### Where to go
+I use this website as an easier way for you to access course materials, including notes/slides, a detailed schedule, and assignments. I’ll also use Canvas to distribute any papers or specific readings that aren’t available publicly, as well as post information that I don’t want public like virtual meeting passwords (if necessary) and grades.
+
+
+### Readings
+There is no required textbook for this class, but there are several books that I recommend for additional information and examples. The first is not free but is still very good:
+
+  - @angrist2009
+  
+The following are also excellent resources, with the added bonus of having freely available versions of these texts online. Here are links to the free online versions:
+
+  - [R for Data Science](https://r4ds.had.co.nz/)
+  - [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
+  - [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
+  
+
+### Statistics software
+You are free to use either R or Python, as we will provide examples of code and other resources in both languages. That said, I use R for my work, and that is the language for which I can help you the most with any questions. If you choose to use Python (not a bad choice given its broad popularity), then I can certainly help with general questions and concepts, but I will be less helpful with any specific syntax issues.
+
+### Accessing data
+For all assignments and in-class activities, the necessary raw data will be available in our class OneDrive folder. For transparency, I will also point you to other GitHub repositories where available. We’ll spend some time on Git and GitHub at the beginning of the class, so don’t get too worried if this is new to you. If you're new to Git or GitHub and want to understand some of that better, take a look at [Grant McDermott's](https://grantmcdermott.com/) notes on [Data Science for Economists](https://github.com/uo-ec607/lectures) as well as [Jenny Bryan's](https://jennybryan.org/) online reference book, [Happy Git and GitHub with R](https://happygitwithr.com/). 
+
+### Logistics
+For day-to-day communication and announcements, I’ll use Canvas. Please be sure you’ve set up Canvas alerts so that you see all of these announcements in a timely manner.
+
+
+
+## Course policies
+
+**Be nice. Be honest. Don't cheat.**
+
+Various policies for this course are described below. Basically, let's all work to be good citizens and take seriously our various roles as a student, teacher, friend, colleague, human, etc.
+
+### Class meetings
+
+All regular class meetings will take place in **White Hall, 200** on Tuesdays and Thursdays from 8:30am to 9:45am. 
+
+
+### Office hours
+
+My designated office hours will be on Tuesday and Thursday from 11:30am to 1:00pm in R. Rollins, R418. I'm also available outside of these times. I just ask that you schedule an appointment in advance. [Make an appointment with me here.](https://mccarthy-meetings.youcanbook.me/) 
+
+While we call these "office hours" they really should be "student hours". These are set times dedicated to all of you. This means that I will be in my office waiting for you to come by with whatever questions you have. Take a look at this video for a more interesting presentation of what office hours really are and why you should come!
+
+<iframe src="https://player.vimeo.com/video/270014784" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="display: block; margin: 0 auto 1rem;"></iframe>
+
+For any questions that you don't think need a meeting, you can always reach out to me through email. I do my best to respond within 24 hours to all emails.
+
+### Co-Teacher
+
+We have an excellent Post Doctoral Student working with us this year, [https://stephbuon.github.io/][Steph Buongiorno]. Steph is also available to help with any questions you have about the material, assignments, or anything else.
+
+  - **Steph Buongiorno:** Office hours TBD
+
+
+### Turning things in
+All assignments should be submitted as PDFs in GradeScope, along with a link to a GitHub repository.
+
+### Academic integrity
+The Honor Code is in effect throughout the semester. By taking this course, you affirm that it is a violation of the code to cheat on exams, to plagiarize, to deviate from the teacher’s instructions about collaboration on work that is submitted for grades, to give false information to a faculty member, and to undertake any other form of academic misconduct. You agree that the instructor is entitled to move you to another seat during examinations, without explanation. You also affirm that if you witness others violating the code you have a duty to report them to the honor council. Students who violate the Honor Code may be subject to a written mark on their record, failure of the course, suspension, permanent dismissal, or a combination of these and other sanctions. The Honor Code may be reviewed [here](http://catalog.college.emory.edu/policies/honor-code.html).
+
+### ChatGPT
+In this course, students are encouraged to leverage the capabilities of ChatGPT and related AI software for academic exploration and assistance. However, it is essential to uphold the principles of academic integrity. While you are free to seek guidance from ChatGPT, the final submissions of all assignments and assessments must reflect your individual understanding and expression. Any instance of verbatim or substantially unaltered content from ChatGPT or other external sources (including your own classmates) will be considered plagiarism and subject to our policies on academic integrity (see above). The goal is to foster critical thinking and creativity while utilizing the tool responsibly. If you have any questions about the appropriate use of ChatGPT or related software, please ask me.
+
+### Accessibility services
+If you anticipate issues related to the format or requirements of this course, please meet with me. I would like us to discuss ways to ensure your full participation in the course. If you determine that accommodations are necessary, you may register with Accessibility Services at (404)727-9877 or via e-mail at accessibility@emory.edu. To register with OAS, students must self identify and initiate contact with the OAS office.
+
+### Absence policy
+Missing 25% or more of class meetings will result in automatic failure of a course. In other words, students absent seven (7) or more times, in a course that meets twice a week, will receive a grade of "F" for the course. Absences include trips, appointments, interviews, conferences, illness, injury, as well as simply not showing up. Religious observances, school business, and major illness will be considered; however, notify me in advance of any planned absences and submit your assignment prior to the event. After any absence, it is your responsibility to find out what material, assignments, or announcements you missed.
+
+### Lauren's Promise
+
+**I will listen and believe you if someone is threatening you.**
+
+Lauren McCluskey, a 21-year-old honors student athlete, [was murdered on October 22, 2018 by a man she briefly dated on the University of Utah campus](https://www.sltrib.com/opinion/commentary/2019/02/10/commentary-failing-lauren/). We must all take action to ensure that this never happens again.
+
+If you are in immediate danger, call 911 or Emory police (404-727-6111).
+
+Any form of sexual harassment or violence will not be excused or tolerated at Emory. If you are experiencing sexual assault, domestic violence, or stalking, please report it to me or directly to [Emory's Office of Respect](http://respect.emory.edu/index.html) (470-270-5360).
+
+
+## Assignments and grades
+
+Detailed descriptions of all assignments are on the [assignments](/assignments/) page. Each assignment will contribute to your final grade as described below.
+
+```{r assignments-grades, include=FALSE}
+library(dplyr)
+library(tibble)
+assignments <- tibble(
+  Assignment = c("Homework (30 x 5)", "Code Review (10 x 5)"),  
+  Points = c(30*5, 10*5)
+)
+
+assignments <- assignments %>%
+  mutate(Percent = Points / sum(Points),
+         Percent = scales::percent(Percent))
+
+grading <- tibble(
+  Grade = c("A","A-","B+","B","B-","C+"),
+  Range = c("93-100%","90-92%","87-89%","83-86%","80-82%","77-79%"),
+  Grade1=c("C","C-","D+","D","D-","F"),
+  Range1=c("73-76%","70-72%","67-69%","63-66%","60-62%","< 60%")
+)
+```
+
+<center>
+
+```{r assignments-table, echo=FALSE, results="asis"}
+library(pander)
+pandoc.table(assignments, justify="lcc")
+```
+
+</center>
+
+Your final percentage grade comes from your total points as a percent of all possible points available in the class (200). That percent then translates to a letter grade as follows:
+
+<center>
+
+```{r grades-table, echo=FALSE, results="asis"}
+pandoc.table(grading, justify="lclc",
+             col.names = c("Grade", "Range", "Grade", "Range"))
+```
+
+</center>

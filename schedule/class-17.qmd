@@ -1,0 +1,26 @@
+---
+title: "Class 17: Medicare Advantage and Quality Reporting"
+date: 2025-03-23
+---
+
+The goal of this module is to understand regression discontinuity as a causal identification strategy. We'll do this in the context of Medicare Advantage quality ratings, where we'll estimate the effect of higher quality ratings on enrollments. Similar to the prior module, we'll use RD as a way to avoid problems of endogeneity of ratings.
+
+
+## Readings and other links
+
+Links to papers are listed alongside the full reference. PDFs of each paper are also available on **Canvas**.
+
+- <i class="fas fa-book"></i> Required readings for this module:
+    - Chapter 6 of [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
+    - Chapter 20 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
+- <i class="fas fa-external-link-square-alt"></i> Supplemental information and readings:
+    - Chapter 6 of [@angrist2009]
+    - [@darden2015]
+    - [@gruber2017]    
+- <i class="fa fa-database"></i> Data for this module:
+    - [Medicare Advantage](https://github.com/imccart/ma-class) repository
+
+## Objectives
+
+- Explain some of the history and institutional details of Medicare Advantage 
+- Understand the role of quality ratings on insurance plan choice

@@ -1,0 +1,16 @@
+---
+title: "Class 24: Introduction to Difference-in-Differences"
+date: 2025-04-14
+---
+
+The goal of Part 2 of this module is to introduce the difference-in-differences identification strategy and begin to implement this strategy with simulated data.
+
+
+## Objectives
+
+- Describe the basics of panel data and fixed effects
+- Describe the DD research design
+
+## Activities 
+
+- Implement DD using simple averages and in a regression context
