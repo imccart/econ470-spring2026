@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://econ470s26.classes.ianmccarthyecon.com/syllabus.html</loc>
-    <lastmod>2025-10-28T19:26:38.628Z</lastmod>
+    <lastmod>2025-10-29T17:40:18.720Z</lastmod>
   </url>
   <url>
     <loc>https://econ470s26.classes.ianmccarthyecon.com/assignments/homework1.html</loc>
-    <lastmod>2025-01-24T15:44:28.690Z</lastmod>
+    <lastmod>2025-10-29T17:42:03.490Z</lastmod>
   </url>
   <url>
     <loc>https://econ470s26.classes.ianmccarthyecon.com/schedule/index.html</loc>
-    <lastmod>2025-04-14T12:05:43.353Z</lastmod>
+    <lastmod>2025-10-30T11:56:37.125Z</lastmod>
   </url>
   <url>
     <loc>https://econ470s26.classes.ianmccarthyecon.com/schedule/class-24.html</loc>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://econ470s26.classes.ianmccarthyecon.com/assignments/code-review.html</loc>
-    <lastmod>2025-01-29T15:29:28.147Z</lastmod>
+    <lastmod>2025-10-29T17:48:25.899Z</lastmod>
   </url>
   <url>
     <loc>https://econ470s26.classes.ianmccarthyecon.com/assignments/homework4.html</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://econ470s26.classes.ianmccarthyecon.com/assignments/index.html</loc>
-    <lastmod>2025-01-29T15:31:55.405Z</lastmod>
+    <lastmod>2025-10-29T17:48:45.889Z</lastmod>
   </url>
   <url>
     <loc>https://econ470s26.classes.ianmccarthyecon.com/resources/index.html</loc>
@@ -115,5 +115,9 @@
   <url>
     <loc>https://econ470s26.classes.ianmccarthyecon.com/assignments/homework2.html</loc>
     <lastmod>2025-01-13T13:05:36.014Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ470s26.classes.ianmccarthyecon.com/index.html</loc>
+    <lastmod>2025-11-03T19:44:11.834Z</lastmod>
   </url>
 </urlset>
