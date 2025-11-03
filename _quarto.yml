@@ -63,7 +63,6 @@ website:
         - assignments/homework4.qmd
         - assignments/homework5.qmd
         - assignments/code-review.qmd
-        - assignments/participation.qmd
 
     - title: "Empty"
       style: "docked"
