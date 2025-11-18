@@ -228,16 +228,16 @@ ul.task-list li input[type="checkbox"] {
 <section id="instructions" class="level2">
 <h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
 <p>This assignment is entirely about Git, GitHub, and data management. The goal is to give you a chance to practice wrangling and tidying data. We do this very early in the class because we will start doing some empirical analysis using real data soon. The faster you are comfortable with the datasets, the better. For more detailed instructions on how to submit your homework answers, please see the overview page <a href="..\assignments/">here</a>.</p>
-<p>Since this first homework assignment is a little unique and more about your software setup, homework 1 only consists of two submission stages instead of three. The due date for initial submission is <strong>1/29</strong>, and the final due date is <strong>1/31</strong>.</p>
+<p>Since this first homework assignment is a little unique and more about your software setup, homework 1 only consists of two submission stages instead of three. The due date for initial submission is <strong>1/22</strong>, and the final due date is <strong>1/23</strong>.</p>
 </section>
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
-<p>The first half of this assignment is entirely about version control in Git, setting up your GitHub respository, committing and pushing changes to your GitHub respository, and organizing your project folders. These steps are worth 9 points at each submission stage. Once you have your software setup complete, move on to the next part of the assignment.</p>
+<p>The first half of this assignment is entirely about finalizing your research environment, including version control in Git, setting up your GitHub respository, committing and pushing changes to your GitHub respository, and organizing your project folders. You’ll need to implement all of this using our designated high-performance computing resources via Open OnDemand. These steps are worth 9 points at each submission stage. Once you have your software setup complete, move on to the next part of the assignment.</p>
 </section>
 <section id="building-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="building-the-data">Building the data</h2>
-<p>Most of your professional lives will likely involve managing data. It can be tedious but also extremely rewarding when you finally get to find out what’s going on in the analysis stage. Anyway, let’s get to work! For this homework, you should first take a look at our <a href="https://github.com/imccart/ma-class">Medicare Advantage GitHub Repo</a>. This repo has a lot more than we need for this first homework assignment, but it provides a general overview of the data. If you’re working from the code files in this repo, you’ll need to make some simplifications to address the specific questions below.</p>
-<p>All we need to do for this first homework assignment is organize the <a href="https://github.com/imccart/ma-class/blob/main/data-code/1_Plan_Data.R">Monthly Plan Enrollment Data</a>, which includes data on plan and contract types, and the <a href="https://github.com/imccart/ma-class/blob/main/data-code/3_Service_Areas.R">Service Area</a> files, focusing specifically on 2015. Note that the raw enrollment data are monthly, so you’ll need to either select a given month of data to work with or combine all of the months and collapse to a single plan-county-year. You’ll need to merge the service area data into the monthly enrollment data using an “inner merge” (i.e., take only those rows that match between the datasets).</p>
+<p>With your setup in place, let’s do some very minor data management (import, cleaning, and merging). You should first review this <a href="https://github.com/imccart/Medicare-Advantage">Medicare Advantage GitHub Repo</a>. This repo has a lot more than we need for this first homework assignment, but it provides a general overview of the data. If you’re working from the code files in this repo, you’ll need to make some simplifications to address the specific questions below.</p>
+<p>All we need to do for this first homework assignment is organize the <a href="https://github.com/imccart/Medicare-Advantage/blob/main/data-code/1_Plan_Data.R">Monthly Plan Enrollment Data</a>, which includes data on plan and contract types, and the <a href="https://github.com/imccart/Medicare-Advantage/blob/main/data-code/3_Service_Areas.R">Service Area</a> files, focusing specifically on 2018. Note that the raw enrollment data are monthly, so you’ll need to combine all of the months and collapse to a single plan-county-year. You’ll need to merge the service area data into the monthly enrollment data using an “inner merge” (i.e., take only those rows that match between the datasets).</p>
 <p>Once you’ve created this dataset, answer the following:</p>
 <ol type="1">
 <li>Provide a table of the count of plans under each plan type. Your table should look something like <a href="#tbl-extable" class="quarto-xref">Table&nbsp;1</a>. (2 points)</li>
@@ -260,15 +260,15 @@ Table&nbsp;1: Plan Count by Year
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Type 1</td>
-<td style="text-align: right;">27</td>
+<td style="text-align: right;">40</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Type 2</td>
-<td style="text-align: right;">46</td>
+<td style="text-align: right;">41</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Type 3</td>
-<td style="text-align: right;">46</td>
+<td style="text-align: right;">41</td>
 </tr>
 </tbody>
 </table>
