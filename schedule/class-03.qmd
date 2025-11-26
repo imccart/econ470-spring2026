@@ -1,16 +1,17 @@
 ---
-title: "Class 3: Introduction to Causal Inference"
-date: 2025-01-24
+title: "Class 3: Basics of Data Management"
+date: 2026-01-20
 ---
 
-Today we'll introduce the potential outcomes framework. We'll discuss what this means and what we'll seek to estimate going forward.
+Today we'll practice some basics of data management like importing, basic data cleanup, merging, variable creation, and reshaping
 
 ## Objectives
-- Explain potential outcomes
-- Derive and explain the average treatment effect 
-- Explain the differences between an average treatment effect and the average treatment effect on the treated
+- Explain the difference between absolute and relative file paths
+- Import data using proper file paths
+- Summarize and visualize data for common pitfalls
+- Be able to merge and reshape data in R or Python
 
 ## Activities
-- Finalize software setup
 - Confirm ability to commit and push changes to GitHub
-- Create your own [Medicare Advantage repository](https://github.com/imccart/ma-class) and begin working with data for homework 1
+- Work through data management notebook in Google Colab, [{{< fa file-code >}}](https://colab.research.google.com/github/imccart/empirical-methods-content/blob/main/01-intro/data_management.ipynb)
+- Initiate respository for Homework 1

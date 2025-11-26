@@ -9,15 +9,6 @@ In this module, we'll introduce the idea of "selection on observables" and the d
 
 Links to papers are listed alongside the full reference. PDFs of each paper are also available on **Canvas**.
 
-- <i class="fas fa-book"></i> Required readings for this module:
-    - Chapter 5 of [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
-    - Chapter 14 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
-- <i class="fas fa-external-link-square-alt"></i> Supplemental information and readings:
-    - Chapters 1-2, and 4 of [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
-    - Chapters 1-5, 10, and 13 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
-    - Chapters 2-3 of [@angrist2009]
-    - [@darden2018]
-    - [@cooper2019]. Link to paper [here](https://academic.oup.com/qje/article/134/1/51/5090426).
 - <i class="fa fa-database"></i> Data for this module:
     - [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/HCRIS) repository
     - See also a similar repository [here](https://github.com/asacarny/hospital-cost-reports) from [Adam Sacarny](http://sacarny.com/)

@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -261,39 +227,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="instructions" class="level2">
 <h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
-<p>In this assignment, you’ll recreate the HCRIS data and answer a few questions along the way. The first step is to make sure you’re working with the <a href="https://github.com/imccart/hcris-class">HCRIS GitHub repository</a> and downloaded all of the raw data sources. Once you have the data downloaded and the code running, answer the following questions. For more detailed instructions on how to submit your homework answers, please see the overview page <a href="..\assignments/">here</a>.</p>
-<p>The due date for initial submission is <strong>2/17</strong>, the revision due date is <strong>2/19</strong>, and the final due date is Friday, <strong>2/21</strong>.</p>
+<p>In this assignment, you’ll recreate a more complete version of the Medicare Advantage data. The first step is to familiarize yourself with the <a href="https://github.com/imccart/Medicare-Advantage">Medicare Advantage GitHub repository</a> and the associated data files.</p>
+<p>The due date for initial submission is <strong>2/10</strong>, the revision due date is <strong>2/12</strong>, and the final due date is Friday, <strong>2/13</strong>.</p>
 </section>
 <section id="summarize-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="summarize-the-data">Summarize the data</h2>
+<p>For our initial summary, we will work with data from 2014 to 2019. Based on these years of data, please address the following:</p>
 <ol type="1">
-<li><p>How many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.</p></li>
-<li><p>After removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?</p></li>
-<li><p>What is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at <a href="https://ggplot2tutor.com/powerlifting/squats/">Violin Plots with ggplot2</a>.</p></li>
-<li><p>What is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.</p></li>
+<li><p>Remove all SNPs, 800-series plans, and prescription drug only plans (i.e., plans that do not offer Part C benefits). Provide a box and whisker plot showing the distribution of plan counts by county over time. Do you think that the number of plans is sufficient, too few, or too many?</p></li>
+<li><p>Provide frequency histograms showing the distribution of plan bids in 2014 and 2018. How has this distribution changed over time?</p></li>
+<li><p>Plot the average HHI over time from 2014 through 2019. How has the HHI changed over time?</p></li>
+<li><p>Plot the average share of Medicare Advantage (relative to all Medicare eligibles) over time from 2014 through 2019. Has Medicare Advantage increased or decreased in popularity?</p></li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>discount_factor <span class="ot">=</span> <span class="dv">1</span><span class="sc">-</span>tot_discounts<span class="sc">/</span>tot_charges</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>price_num <span class="ot">=</span> (ip_charges <span class="sc">+</span> icu_charges <span class="sc">+</span> ancillary_charges)<span class="sc">*</span>discount_factor <span class="sc">-</span> tot_mcare_payment</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>price_denom <span class="ot">=</span> tot_discharges <span class="sc">-</span> mcare_discharges</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>price <span class="ot">=</span> price_num<span class="sc">/</span>price_denom</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
 <section id="estimate-ates" class="level2">
 <h2 class="anchored" data-anchor-id="estimate-ates">Estimate ATEs</h2>
-<p>For the rest of the assignment, you should include only observations in 2012. So we are now dealing with cross-sectional data in which some hospitals are penalized and some are not. Please also define <strong>penalty</strong> as whether the sum of the HRRP and HVBP amounts are negative (i.e., a net penalty under the two programs). Code to do this is in the class slides.</p>
-<ol start="5" type="1">
-<li><p>Calculate the average price among penalized versus non-penalized hospitals.</p></li>
-<li><p>Split hospitals into quartiles based on bed size. To do this, create 4 new indicator variables, where each variable is set to 1 if the hospital’s bed size falls into the relevant quartile. Provide a table of the average price among treated/control groups for each quartile.</p></li>
+<p>For the rest of the assignment, you should include <strong>only observations in 2018</strong>. As we did in class, please define “competitive” markets as those with HHIs in the lower 33rd percentile of the national distribution of HHI, and define “concentrated” or “uncompetitive” markets as with with HHIs in the upper 66th percentile. This is somewhat arbitrary but it allows us to define a binary treatment variable in a way that we can more easily implement the methods in this module.</p>
+<ol type="1">
+<li><p>Calculate the average bid among competitive versus uncompetitive markets.</p></li>
+<li><p>Split markets into quartiles based on Medicare fee-for-service (FFS) costs. To do this, create 4 new indicator variables, where each variable is set to 1 if the FFS costs falls into the relevant quartile. Provide a table of the average bid among treated/control groups for each quartile.</p></li>
 <li><p>Find the average treatment effect using each of the following estimators, and present your results in a single table:</p>
 <ul>
-<li>Nearest neighbor matching (1-to-1) with inverse variance distance based on quartiles of bed size</li>
-<li>Nearest neighbor matching (1-to-1) with Mahalanobis distance based on quartiles of bed size</li>
-<li>Inverse propensity weighting, where the propensity scores are based on quartiles of bed size</li>
-<li>Simple linear regression, adjusting for quartiles of bed size using dummy variables and appropriate interactions as discussed in class</li>
+<li>Nearest neighbor matching (1-to-1) with inverse variance distance based on quartiles of FFS costs</li>
+<li>Nearest neighbor matching (1-to-1) with Mahalanobis distance based on quartiles of FFS costs</li>
+<li>Inverse propensity weighting, where the propensity scores are based on quartiles of FFS costs</li>
+<li>Simple linear regression, adjusting for quartiles of FFS costs using dummy variables and appropriate interactions as discussed in class</li>
 </ul></li>
 <li><p>With these different treatment effect estimators, are the results similar, identical, very different?</p></li>
-<li><p>Do you think you’ve estimated a causal effect of the penalty? Why or why not? (just a couple of sentences)</p></li>
+<li><p>Pick your favorite flavor of estimators in this section (matching, weighting, regression, etc) and re-estimate treatment effects using the continuous FFS costs variable as well as total Medicare beneficiaries as your covariates. How does this result compare to the analogous estimate when matching/weighting only on FFS quartile?</p></li>
 <li><p>Briefly describe your experience working with these data (just a few sentences). Tell me one thing you learned and one thing that really aggravated or surprised you.</p></li>
 </ol>
 

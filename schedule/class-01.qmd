@@ -1,9 +1,9 @@
 ---
 title: "Class 1: Introduction and Setup"
-date: 2025-01-17
+date: 2026-01-13
 ---
 
-Today we'll motivate the study of causal inference, go over the details of the course, and talk about the basics of data management and version control.
+Today we'll motivate the study of causal inference and go over the details of the course
 
 ## Readings and other links
 
@@ -20,12 +20,4 @@ Today we'll motivate the study of causal inference, go over the details of the c
 
 ## For next class
 
-I'll use `R` for this class, and I'll use `Visual Studio Code` as my text editor. I'll also use `Git` for version control. If you're not familiar with these tools, don't worry. We'll go over them in class. For next class, please do the following:
-
-1. Download [R](https://www.r-project.org/) and/or [Python](https://www.python.org/) (be sure to select the Add to PATH option when installing Python)
-2. Download [Visual Studio Code](https://code.visualstudio.com/)
-3. Download [Git](https://git-scm.com/downloads)
-4. Download [Quarto](https://quarto.org/) if you want to use it
-5. Create a account on [GitHub](https://github.com/)
-6. Download [GitHub Desktop](https://desktop.github.com/download/)
-7. Install relevant extensions in VS Code and select proper Python interpreter
+This semester we are fortunate to have access to high-powered computing services within Emory. This will greatly simplify our software setups and avoid many idiosyncracies associated with installaion errors across different computers. Instructions for accessing these resources is on Canvas. Before next class, please be sure that you can access your online Jupyter Notebook and that you've properly synced/authenticated your GitHub account.

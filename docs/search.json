@@ -37,7 +37,7 @@
     "href": "assignments/homework1.html#building-the-data",
     "title": "Homework 1",
     "section": "Building the data",
-    "text": "Building the data\nWith your setup in place, let’s do some very minor data management (import, cleaning, and merging). You should first review this Medicare Advantage GitHub Repo. This repo has a lot more than we need for this first homework assignment, but it provides a general overview of the data. If you’re working from the code files in this repo, you’ll need to make some simplifications to address the specific questions below.\nAll we need to do for this first homework assignment is organize the Monthly Plan Enrollment Data, which includes data on plan and contract types, and the Service Area files, focusing specifically on 2018. Note that the raw enrollment data are monthly, so you’ll need to combine all of the months and collapse to a single plan-county-year. You’ll need to merge the service area data into the monthly enrollment data using an “inner merge” (i.e., take only those rows that match between the datasets).\nOnce you’ve created this dataset, answer the following:\n\nProvide a table of the count of plans under each plan type. Your table should look something like Table 1. (2 points)\n\n\n\n\n\nTable 1: Plan Count by Year\n\n\n\n\n\n\n\n2015\n\n\n\n\nType 1\n40\n\n\nType 2\n41\n\n\nType 3\n41\n\n\n\n\n\n\n\n\n\nRemove all special needs plans (SNP), employer group plans (eghp), and all “800-series” plans. Provide an updated version of Table 1 after making these exclusions. (2 points)\nProvide a table of the average enrollments for each plan type in 2015. (2 points)",
+    "text": "Building the data\nWith your setup in place, let’s do some very minor data management (import, cleaning, and merging). You should first review this Medicare Advantage GitHub Repo. This repo has a lot more than we need for this first homework assignment, but it provides a general overview of the data. If you’re working from the code files in this repo, you’ll need to make some simplifications to address the specific questions below.\nAll we need to do for this first homework assignment is organize the Monthly Plan Enrollment Data, which includes data on plan and contract types, and the Service Area files, focusing specifically on 2018. Note that the raw enrollment data are monthly, so you’ll need to combine all of the months and collapse to a single plan-county-year. You’ll need to merge the service area data into the monthly enrollment data using an “inner merge” (i.e., take only those rows that match between the datasets).\nOnce you’ve created this dataset, answer the following:\n\nProvide a table of the count of plans under each plan type. Your table should look something like Table 1. (2 points)\n\n\n\n\n\nTable 1: Plan Count by Year\n\n\n\n\n\n\n\n2015\n\n\n\n\nType 1\n48\n\n\nType 2\n45\n\n\nType 3\n26\n\n\n\n\n\n\n\n\n\nRemove all special needs plans (SNP), employer group plans (eghp), and all “800-series” plans. Provide an updated version of Table 1 after making these exclusions. (2 points)\nProvide a table of the average enrollments for each plan type. (2 points)",
     "crumbs": [
       "Assignments",
       "Homework 1"
@@ -209,35 +209,35 @@
     "href": "schedule/class-08.html",
     "title": "Class 8: Selection on Observables in Practice",
     "section": "",
-    "text": "Today we’ll continue our work with matching, reweighting, and regression, but in the context of real life data on hospital prices."
+    "text": "Today we’ll continue our work with matching, reweighting, and regression, but in the context of real life data for Medicare Advantage."
   },
   {
     "objectID": "schedule/class-08.html#objectives",
     "href": "schedule/class-08.html#objectives",
     "title": "Class 8: Selection on Observables in Practice",
     "section": "Objectives",
-    "text": "Objectives\n\nUnderstand HCRIS data and explain hospital pricing\nCalculate an ATE or ATT using regression, matching, and weighting using real-world pricing data"
+    "text": "Objectives\n\nUnderstand MA data and describe the differences between insurers, contracts, and plans in the MA data\nCalculate an ATE or ATT using regression, matching, and weighting using MA data"
   },
   {
     "objectID": "schedule/class-08.html#activities",
     "href": "schedule/class-08.html#activities",
     "title": "Class 8: Selection on Observables in Practice",
     "section": "Activities",
-    "text": "Activities\n\nContinue working with the Hospital Cost Report Information System (HCRIS) repository.\nEstimate the effect of hospital penalties on hospital pricing"
+    "text": "Activities\n\nContinue working with the Medicare Advantage repository\nEstimate the effect of competition on plan pricing and premiums using MA data"
   },
   {
     "objectID": "schedule/class-06.html",
     "href": "schedule/class-06.html",
     "title": "Class 6: Medicare Advantage Data",
     "section": "",
-    "text": "Today we’ll revisit the MA data from Module 0. We’ll also introduce data on the MA quality rating program and how it plays out in real life."
+    "text": "Today we’ll look into the MA data and repository in much more detail."
   },
   {
     "objectID": "schedule/class-06.html#objectives",
     "href": "schedule/class-06.html#objectives",
     "title": "Class 6: Medicare Advantage Data",
     "section": "Objectives",
-    "text": "Objectives\n\nUnderstand the MA data and datasets required for this Module\nExplain the MA star rating program and how the star ratings are calculated\nExplain the MA quality improvement program"
+    "text": "Objectives\n\nUnderstand the MA data and datasets required for this Module\nImport and initial review of Medicare Advantage data\nManipulate MA data into county level for final analysis"
   },
   {
     "objectID": "schedule/class-06.html#activities",
@@ -249,30 +249,30 @@
   {
     "objectID": "schedule/class-03.html",
     "href": "schedule/class-03.html",
-    "title": "Class 3: Introduction to Causal Inference",
+    "title": "Class 3: Basics of Data Management",
     "section": "",
-    "text": "Today we’ll introduce the potential outcomes framework. We’ll discuss what this means and what we’ll seek to estimate going forward."
+    "text": "Today we’ll practice some basics of data management like importing, basic data cleanup, merging, variable creation, and reshaping"
   },
   {
     "objectID": "schedule/class-03.html#objectives",
     "href": "schedule/class-03.html#objectives",
-    "title": "Class 3: Introduction to Causal Inference",
+    "title": "Class 3: Basics of Data Management",
     "section": "Objectives",
-    "text": "Objectives\n\nExplain potential outcomes\nDerive and explain the average treatment effect\nExplain the differences between an average treatment effect and the average treatment effect on the treated"
+    "text": "Objectives\n\nExplain the difference between absolute and relative file paths\nImport data using proper file paths\nSummarize and visualize data for common pitfalls\nBe able to merge and reshape data in R or Python"
   },
   {
     "objectID": "schedule/class-03.html#activities",
     "href": "schedule/class-03.html#activities",
-    "title": "Class 3: Introduction to Causal Inference",
+    "title": "Class 3: Basics of Data Management",
     "section": "Activities",
-    "text": "Activities\n\nFinalize software setup\nConfirm ability to commit and push changes to GitHub\nCreate your own Medicare Advantage repository and begin working with data for homework 1"
+    "text": "Activities\n\nConfirm ability to commit and push changes to GitHub\nWork through data management notebook in Google Colab, \nInitiate respository for Homework 1"
   },
   {
     "objectID": "schedule/class-01.html",
     "href": "schedule/class-01.html",
     "title": "Class 1: Introduction and Setup",
     "section": "",
-    "text": "Today we’ll motivate the study of causal inference, go over the details of the course, and talk about the basics of data management and version control."
+    "text": "Today we’ll motivate the study of causal inference and go over the details of the course"
   },
   {
     "objectID": "schedule/class-01.html#readings-and-other-links",
@@ -286,7 +286,7 @@
     "href": "schedule/class-01.html#for-next-class",
     "title": "Class 1: Introduction and Setup",
     "section": "For next class",
-    "text": "For next class\nI’ll use R for this class, and I’ll use Visual Studio Code as my text editor. I’ll also use Git for version control. If you’re not familiar with these tools, don’t worry. We’ll go over them in class. For next class, please do the following:\n\nDownload R and/or Python (be sure to select the Add to PATH option when installing Python)\nDownload Visual Studio Code\nDownload Git\nDownload Quarto if you want to use it\nCreate a account on GitHub\nDownload GitHub Desktop\nInstall relevant extensions in VS Code and select proper Python interpreter"
+    "text": "For next class\nThis semester we are fortunate to have access to high-powered computing services within Emory. This will greatly simplify our software setups and avoid many idiosyncracies associated with installaion errors across different computers. Instructions for accessing these resources is on Canvas. Before next class, please be sure that you can access your online Jupyter Notebook and that you’ve properly synced/authenticated your GitHub account."
   },
   {
     "objectID": "assignments/index.html",
@@ -323,7 +323,7 @@
     "href": "assignments/homework4.html",
     "title": "Homework 4",
     "section": "",
-    "text": "In this assignment, you’ll again work with the Medicare Advantage data. These data are described in detail in the Medicare Advantage GitHub Repo. We worked with a subset of these data back in assignment 1; however, this assignment requires that you work with a more complete version of the Medicare Advantage data. We’ll again focus on the years 2010-2015. Once you have the data downloaded and the code running, answer the following questions:\nThe due date for initial submission is 4/7, the revision due date is 4/9, and the final due date is Friday, 4/11.",
+    "text": "In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the HCRIS GitHub Repo.\nOnce you have the data downloaded and the code running, answer the following questions:\nThe due date for initial submission is 4/7, the revision due date is 4/9, and the final due date is Friday, 4/11.",
     "crumbs": [
       "Assignments",
       "Homework 4"
@@ -334,7 +334,7 @@
     "href": "assignments/homework4.html#instructions",
     "title": "Homework 4",
     "section": "",
-    "text": "In this assignment, you’ll again work with the Medicare Advantage data. These data are described in detail in the Medicare Advantage GitHub Repo. We worked with a subset of these data back in assignment 1; however, this assignment requires that you work with a more complete version of the Medicare Advantage data. We’ll again focus on the years 2010-2015. Once you have the data downloaded and the code running, answer the following questions:\nThe due date for initial submission is 4/7, the revision due date is 4/9, and the final due date is Friday, 4/11.",
+    "text": "In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the HCRIS GitHub Repo.\nOnce you have the data downloaded and the code running, answer the following questions:\nThe due date for initial submission is 4/7, the revision due date is 4/9, and the final due date is Friday, 4/11.",
     "crumbs": [
       "Assignments",
       "Homework 4"
@@ -345,7 +345,7 @@
     "href": "assignments/homework4.html#summarize-the-data",
     "title": "Homework 4",
     "section": "Summarize the data",
-    "text": "Summarize the data\n\nRemove all SNPs, 800-series plans, and prescription drug only plans (i.e., plans that do not offer Part C benefits). Provide a box and whisker plot showing the distribution of plan counts by county over time. Do you think that the number of plans is sufficient, too few, or too many?\nProvide bar graphs showing the distribution of star ratings in 2010, 2012, and 2015. How has this distribution changed over time?\nPlot the average benchmark payment over time from 2010 through 2015. How much has the average benchmark payment risen over the years?\nPlot the average share of Medicare Advantage (relative to all Medicare eligibles) over time from 2010 through 2015. Has Medicare Advantage increased or decreased in popularity? How does this share correlate with benchmark payments?",
+    "text": "Summarize the data\n\nHow many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.\nAfter removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?\nWhat is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at Violin Plots with ggplot2.\nWhat is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.\n\n\ndiscount_factor = 1-tot_discounts/tot_charges\nprice_num = (ip_charges + icu_charges + ancillary_charges)*discount_factor - tot_mcare_payment\nprice_denom = tot_discharges - mcare_discharges\nprice = price_num/price_denom",
     "crumbs": [
       "Assignments",
       "Homework 4"
@@ -471,23 +471,23 @@
   {
     "objectID": "schedule/class-02.html",
     "href": "schedule/class-02.html",
-    "title": "Class 2: Software Setup",
+    "title": "Class 2: Workflow and Version Control",
     "section": "",
-    "text": "Today, we’ll make sure we’re all set up up with R or Python, Git, GitHub, GitHub Desktop, and VS Code. We’ll also review some basic data management concepts and get started with Git and VS Code."
+    "text": "Today, we’ll make sure we’re all set up up with your Jupyter Notebook via Open OnDemand. From this environment, you can use R or Python, you can commit changes in Git and push/pull changes to GitHub, and you can compile your code into a PDF. Eventually, we’ll introduce quarto markdown into our notebooks to compile more professional looking documents, but we don’t need to worry about that yet."
   },
   {
     "objectID": "schedule/class-02.html#objectives",
     "href": "schedule/class-02.html#objectives",
-    "title": "Class 2: Software Setup",
+    "title": "Class 2: Workflow and Version Control",
     "section": "Objectives",
-    "text": "Objectives\n\nSet up VS Code with R and Git. For some basic instructions, see R in VS Code and Git in VS Code\nSet up SSH keys for communication with GitHub. Some tips available here.\nCreate your first repository and link to local directory under version control with Git\nReview common data manipulation concepts and techniques"
+    "text": "Objectives\n\nAuthenticate GitHub account in Open OnDemand environment\nCreate your first repository and link to “local” directory under version control with Git\nSet up a basic Jupyter Notebook using Open OnDemand\nFamiliarize yourself with the folder structure\nReview common data manipulation concepts and techniques"
   },
   {
     "objectID": "schedule/class-05.html",
     "href": "schedule/class-05.html",
-    "title": "Class 5: Medicare Advantage",
+    "title": "Class 5: Motivation and Policy Background",
     "section": "",
-    "text": "Links to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 6 of Causal Inference: The Mixtape\nChapter 20 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapter 6 of (Angrist and Pischke 2009)\n(Darden and McCarthy 2015)\n(Gruber 2017)\n\n\n Data for this module:\n\nMedicare Advantage repository"
+    "text": "Links to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 5 of Causal Inference: The Mixtape\nChapter 14 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapters 1-2, and 4 of Causal Inference: The Mixtape\nChapters 1-5, 10, and 13 of The Effect: An Introduction to Research Design and Causality\nChapters 2-3 of (Angrist and Pischke 2009)\n\n Data for this module:\n\nMedicare Advantage repository"
   },
   {
     "objectID": "schedule/class-05.html#readings-and-other-links",
@@ -499,9 +499,9 @@
   {
     "objectID": "schedule/class-05.html#objectives",
     "href": "schedule/class-05.html#objectives",
-    "title": "Class 5: Medicare Advantage",
+    "title": "Class 5: Motivation and Policy Background",
     "section": "Objectives",
-    "text": "Objectives\n\nExplain some of the history and institutional details of Medicare Advantage\nUnderstand the role of quality ratings on insurance plan choice"
+    "text": "Objectives\n\nExplain some of the history and institutional details of Medicare Advantage\nUnderstand the economic theory underlying competition and pricing\nUnderstand, explain, and be able to calculate common measures of competition"
   },
   {
     "objectID": "schedule/class-07.html",
@@ -522,7 +522,7 @@
     "href": "schedule/class-07.html#activities",
     "title": "Class 7: Selection on Observables",
     "section": "Activities",
-    "text": "Activities\n\nContinue working with the Hospital Cost Report Information System (HCRIS) repository.\nEstimate treatment effects with simulated data, using matching, regression, and re-weighting. The code file for in-class simulated data is available here"
+    "text": "Activities\n\nContinue working with the Medicare Advantage Repository\nEstimate treatment effects with simulated data, using matching, regression, and re-weighting"
   },
   {
     "objectID": "schedule/class-11.html",
@@ -578,7 +578,7 @@
     "href": "schedule/class-17.html#readings-and-other-links",
     "title": "Class 5: Basics of Hospital Pricing",
     "section": "Readings and other links",
-    "text": "Readings and other links\nLinks to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 5 of Causal Inference: The Mixtape\nChapter 14 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapters 1-2, and 4 of Causal Inference: The Mixtape\nChapters 1-5, 10, and 13 of The Effect: An Introduction to Research Design and Causality\nChapters 2-3 of (Angrist and Pischke 2009)\n(Darden, McCarthy, and Barrette 2018)\n(Cooper et al. 2019). Link to paper here.\n\n Data for this module:\n\nHospital Cost Report Information System (HCRIS) repository\nSee also a similar repository here from Adam Sacarny"
+    "text": "Readings and other links\nLinks to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Data for this module:\n\nHospital Cost Report Information System (HCRIS) repository\nSee also a similar repository here from Adam Sacarny"
   },
   {
     "objectID": "schedule/class-19.html",
@@ -655,7 +655,7 @@
     "href": "assignments/homework2.html",
     "title": "Homework 2",
     "section": "",
-    "text": "In this assignment, you’ll recreate the HCRIS data and answer a few questions along the way. The first step is to make sure you’re working with the HCRIS GitHub repository and downloaded all of the raw data sources. Once you have the data downloaded and the code running, answer the following questions. For more detailed instructions on how to submit your homework answers, please see the overview page here.\nThe due date for initial submission is 2/17, the revision due date is 2/19, and the final due date is Friday, 2/21.",
+    "text": "In this assignment, you’ll recreate a more complete version of the Medicare Advantage data. The first step is to familiarize yourself with the Medicare Advantage GitHub repository and the associated data files.\nThe due date for initial submission is 2/10, the revision due date is 2/12, and the final due date is Friday, 2/13.",
     "crumbs": [
       "Assignments",
       "Homework 2"
@@ -666,7 +666,7 @@
     "href": "assignments/homework2.html#instructions",
     "title": "Homework 2",
     "section": "",
-    "text": "In this assignment, you’ll recreate the HCRIS data and answer a few questions along the way. The first step is to make sure you’re working with the HCRIS GitHub repository and downloaded all of the raw data sources. Once you have the data downloaded and the code running, answer the following questions. For more detailed instructions on how to submit your homework answers, please see the overview page here.\nThe due date for initial submission is 2/17, the revision due date is 2/19, and the final due date is Friday, 2/21.",
+    "text": "In this assignment, you’ll recreate a more complete version of the Medicare Advantage data. The first step is to familiarize yourself with the Medicare Advantage GitHub repository and the associated data files.\nThe due date for initial submission is 2/10, the revision due date is 2/12, and the final due date is Friday, 2/13.",
     "crumbs": [
       "Assignments",
       "Homework 2"
@@ -677,7 +677,7 @@
     "href": "assignments/homework2.html#summarize-the-data",
     "title": "Homework 2",
     "section": "Summarize the data",
-    "text": "Summarize the data\n\nHow many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.\nAfter removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?\nWhat is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at Violin Plots with ggplot2.\nWhat is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.\n\n\ndiscount_factor = 1-tot_discounts/tot_charges\nprice_num = (ip_charges + icu_charges + ancillary_charges)*discount_factor - tot_mcare_payment\nprice_denom = tot_discharges - mcare_discharges\nprice = price_num/price_denom",
+    "text": "Summarize the data\nFor our initial summary, we will work with data from 2014 to 2019. Based on these years of data, please address the following:\n\nRemove all SNPs, 800-series plans, and prescription drug only plans (i.e., plans that do not offer Part C benefits). Provide a box and whisker plot showing the distribution of plan counts by county over time. Do you think that the number of plans is sufficient, too few, or too many?\nProvide frequency histograms showing the distribution of plan bids in 2014 and 2018. How has this distribution changed over time?\nPlot the average HHI over time from 2014 through 2019. How has the HHI changed over time?\nPlot the average share of Medicare Advantage (relative to all Medicare eligibles) over time from 2014 through 2019. Has Medicare Advantage increased or decreased in popularity?",
     "crumbs": [
       "Assignments",
       "Homework 2"
@@ -688,7 +688,7 @@
     "href": "assignments/homework2.html#estimate-ates",
     "title": "Homework 2",
     "section": "Estimate ATEs",
-    "text": "Estimate ATEs\nFor the rest of the assignment, you should include only observations in 2012. So we are now dealing with cross-sectional data in which some hospitals are penalized and some are not. Please also define penalty as whether the sum of the HRRP and HVBP amounts are negative (i.e., a net penalty under the two programs). Code to do this is in the class slides.\n\nCalculate the average price among penalized versus non-penalized hospitals.\nSplit hospitals into quartiles based on bed size. To do this, create 4 new indicator variables, where each variable is set to 1 if the hospital’s bed size falls into the relevant quartile. Provide a table of the average price among treated/control groups for each quartile.\nFind the average treatment effect using each of the following estimators, and present your results in a single table:\n\nNearest neighbor matching (1-to-1) with inverse variance distance based on quartiles of bed size\nNearest neighbor matching (1-to-1) with Mahalanobis distance based on quartiles of bed size\nInverse propensity weighting, where the propensity scores are based on quartiles of bed size\nSimple linear regression, adjusting for quartiles of bed size using dummy variables and appropriate interactions as discussed in class\n\nWith these different treatment effect estimators, are the results similar, identical, very different?\nDo you think you’ve estimated a causal effect of the penalty? Why or why not? (just a couple of sentences)\nBriefly describe your experience working with these data (just a few sentences). Tell me one thing you learned and one thing that really aggravated or surprised you.",
+    "text": "Estimate ATEs\nFor the rest of the assignment, you should include only observations in 2018. As we did in class, please define “competitive” markets as those with HHIs in the lower 33rd percentile of the national distribution of HHI, and define “concentrated” or “uncompetitive” markets as with with HHIs in the upper 66th percentile. This is somewhat arbitrary but it allows us to define a binary treatment variable in a way that we can more easily implement the methods in this module.\n\nCalculate the average bid among competitive versus uncompetitive markets.\nSplit markets into quartiles based on Medicare fee-for-service (FFS) costs. To do this, create 4 new indicator variables, where each variable is set to 1 if the FFS costs falls into the relevant quartile. Provide a table of the average bid among treated/control groups for each quartile.\nFind the average treatment effect using each of the following estimators, and present your results in a single table:\n\nNearest neighbor matching (1-to-1) with inverse variance distance based on quartiles of FFS costs\nNearest neighbor matching (1-to-1) with Mahalanobis distance based on quartiles of FFS costs\nInverse propensity weighting, where the propensity scores are based on quartiles of FFS costs\nSimple linear regression, adjusting for quartiles of FFS costs using dummy variables and appropriate interactions as discussed in class\n\nWith these different treatment effect estimators, are the results similar, identical, very different?\nPick your favorite flavor of estimators in this section (matching, weighting, regression, etc) and re-estimate treatment effects using the continuous FFS costs variable as well as total Medicare beneficiaries as your covariates. How does this result compare to the analogous estimate when matching/weighting only on FFS quartile?\nBriefly describe your experience working with these data (just a few sentences). Tell me one thing you learned and one thing that really aggravated or surprised you.",
     "crumbs": [
       "Assignments",
       "Homework 2"
@@ -735,5 +735,12 @@
     "title": "Syllabus",
     "section": "Assignments and grades",
     "text": "Assignments and grades\nDetailed descriptions of all assignments are on the assignments page. Each assignment will contribute to your final grade as described below.\n\n\n\n\n\n\n\n\n\nAssignment\nPoints\nPercent\n\n\n\n\nHomework (30 x 5)\n150\n75%\n\n\nCode Review (10 x 5)\n50\n25%\n\n\n\n\nYour final percentage grade comes from your total points as a percent of all possible points available in the class (200). That percent then translates to a letter grade as follows:\n\n\n\n\n\n\n\n\n\n\nGrade\nRange\nGrade\nRange\n\n\n\n\nA\n93-100%\nC\n73-76%\n\n\nA-\n90-92%\nC-\n70-72%\n\n\nB+\n87-89%\nD+\n67-69%\n\n\nB\n83-86%\nD\n63-66%\n\n\nB-\n80-82%\nD-\n60-62%\n\n\nC+\n77-79%\nF\n&lt; 60%"
+  },
+  {
+    "objectID": "schedule/class-05.html#relevant-links-and-other-materials",
+    "href": "schedule/class-05.html#relevant-links-and-other-materials",
+    "title": "Class 5: Motivation and Policy Background",
+    "section": "",
+    "text": "Links to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 5 of Causal Inference: The Mixtape\nChapter 14 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapters 1-2, and 4 of Causal Inference: The Mixtape\nChapters 1-5, 10, and 13 of The Effect: An Introduction to Research Design and Causality\nChapters 2-3 of (Angrist and Pischke 2009)\n\n Data for this module:\n\nMedicare Advantage repository"
   }
 ]

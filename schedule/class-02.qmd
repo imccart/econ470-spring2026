@@ -1,12 +1,13 @@
 ---
-title: "Class 2: Software Setup"
-date: 2025-01-17
+title: "Class 2: Workflow and Version Control"
+date: 2026-01-15
 ---
 
-Today, we'll make sure we're all set up up with `R` or `Python`, `Git`, `GitHub`, `GitHub Desktop`, and `VS Code`. We'll also review some basic data management concepts and get started with `Git` and `VS Code`.
+Today, we'll make sure we're all set up up with your Jupyter Notebook via Open OnDemand. From this environment, you can use `R` or `Python`, you can commit changes in `Git` and push/pull changes to `GitHub`, and you can compile your code into a PDF. Eventually, we'll introduce `quarto` markdown into our notebooks to compile more professional looking documents, but we don't need to worry about that yet. 
 
 ## Objectives
-- Set up VS Code with R and Git. For some basic instructions, see [R in VS Code](https://code.visualstudio.com/docs/languages/r) and [Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
-- Set up SSH keys for communication with GitHub. Some tips available [here](https://happygitwithr.com/ssh-keys).
-- Create your first repository and link to local directory under version control with Git
+- Authenticate GitHub account in Open OnDemand environment
+- Create your first repository and link to "local" directory under version control with Git
+- Set up a basic Jupyter Notebook using Open OnDemand
+- Familiarize yourself with the folder structure
 - Review common data manipulation concepts and techniques

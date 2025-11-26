@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -227,17 +261,24 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="instructions" class="level2">
 <h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
-<p>In this assignment, you’ll again work with the Medicare Advantage data. These data are described in detail in the <a href="https://github.com/imccart/ma-class">Medicare Advantage GitHub Repo</a>. We worked with a subset of these data back in assignment 1; however, this assignment requires that you work with a more complete version of the Medicare Advantage data. We’ll again focus on the years 2010-2015. Once you have the data downloaded and the code running, answer the following questions:</p>
+<p>In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the <a href="https://github.com/imccart/HCRIS">HCRIS GitHub Repo</a>.</p>
+<p>Once you have the data downloaded and the code running, answer the following questions:</p>
 <p>The due date for initial submission is <strong>4/7</strong>, the revision due date is <strong>4/9</strong>, and the final due date is Friday, <strong>4/11</strong>.</p>
 </section>
 <section id="summarize-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="summarize-the-data">Summarize the data</h2>
 <ol type="1">
-<li><p>Remove all SNPs, 800-series plans, and prescription drug only plans (i.e., plans that do not offer Part C benefits). Provide a box and whisker plot showing the distribution of plan counts by county over time. Do you think that the number of plans is sufficient, too few, or too many?</p></li>
-<li><p>Provide bar graphs showing the distribution of star ratings in 2010, 2012, and 2015. How has this distribution changed over time?</p></li>
-<li><p>Plot the average benchmark payment over time from 2010 through 2015. How much has the average benchmark payment risen over the years?</p></li>
-<li><p>Plot the average share of Medicare Advantage (relative to all Medicare eligibles) over time from 2010 through 2015. Has Medicare Advantage increased or decreased in popularity? How does this share correlate with benchmark payments?</p></li>
+<li><p>How many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.</p></li>
+<li><p>After removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?</p></li>
+<li><p>What is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at <a href="https://ggplot2tutor.com/powerlifting/squats/">Violin Plots with ggplot2</a>.</p></li>
+<li><p>What is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.</p></li>
 </ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>discount_factor <span class="ot">=</span> <span class="dv">1</span><span class="sc">-</span>tot_discounts<span class="sc">/</span>tot_charges</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>price_num <span class="ot">=</span> (ip_charges <span class="sc">+</span> icu_charges <span class="sc">+</span> ancillary_charges)<span class="sc">*</span>discount_factor <span class="sc">-</span> tot_mcare_payment</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>price_denom <span class="ot">=</span> tot_discharges <span class="sc">-</span> mcare_discharges</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>price <span class="ot">=</span> price_num<span class="sc">/</span>price_denom</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="estimate-ates" class="level2">
 <h2 class="anchored" data-anchor-id="estimate-ates">Estimate ATEs</h2>

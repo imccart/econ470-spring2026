@@ -1,6 +1,6 @@
 ---
 title: "Class 7: Selection on Observables"
-date: 2025-02-17
+date: 2026-02-03
 ---
 
 This class begins our first attempt to estimate a causal treatment effect. We'll do so with a few approaches, all of which rely on the combination of a "selection on observables" or "conditional independence" assumption, along with a "common support" assumption.
@@ -11,5 +11,5 @@ This class begins our first attempt to estimate a causal treatment effect. We'll
 - Calculate an ATE or ATT using regression, matching, and weighting
 
 ## Activities 
-- Continue working with the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/hcris-class) repository.
-- Estimate treatment effects with simulated data, using matching, regression, and re-weighting. The code file for in-class simulated data is available [here](https://imccart.github.io/econ470-content/01-hospital-pricing/in-class-code.R)
+- Continue working with the [Medicare Advantage Repository](https://github.com/imccart/Medicare-Advantage)
+- Estimate treatment effects with simulated data, using matching, regression, and re-weighting

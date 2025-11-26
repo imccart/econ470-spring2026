@@ -16,7 +16,7 @@ The first half of this assignment is entirely about finalizing your research env
 ## Building the data
 With your setup in place, let's do some very minor data management (import, cleaning, and merging). You should first review this [Medicare Advantage GitHub Repo](https://github.com/imccart/Medicare-Advantage). This repo has a lot more than we need for this first homework assignment, but it provides a general overview of the data. If you're working from the code files in this repo, you'll need to make some simplifications to address the specific questions below.
 
-All we need to do for this first homework assignment is organize the [Monthly Plan Enrollment Data](https://github.com/imccart/Medicare-Advantage/blob/main/data-code/1_Plan_Data.R), which includes data on plan and contract types, and the [Service Area](https://github.com/imccart/Medicare-Advantage/blob/main/data-code/3_Service_Areas.R) files, focusing specifically on 2018. Note that the raw enrollment data are monthly, so you'll need to combine all of the months and collapse to a single plan-county-year. You'll need to merge the service area data into the monthly enrollment data using an "inner merge" (i.e., take only those rows that match between the datasets). 
+All we need to do for this first homework assignment is organize the [Monthly Plan Enrollment Data](https://github.com/imccart/Medicare-Advantage/blob/main/data-code/1_Plan_Data.R), which includes data on plan and contract types, and the [Service Area](https://github.com/imccart/Medicare-Advantage/blob/main/data-code/3_Service_Areas.R) files, focusing specifically on **2018**. Note that the raw enrollment data are monthly, so you'll need to combine all of the months and collapse to a single plan-county-year. You'll need to merge the service area data into the monthly enrollment data using an "inner merge" (i.e., take only those rows that match between the datasets). 
 
 Once you've created this dataset, answer the following:
 
@@ -39,5 +39,5 @@ knitr::kable(test.data, col.names=c("2015"),
 
 2. Remove all special needs plans (SNP), employer group plans (eghp), and all "800-series" plans. Provide an updated version of @tbl-extable after making these exclusions. (2 points)
 
-3. Provide a table of the average enrollments for each plan type in 2015. (2 points)
+3. Provide a table of the average enrollments for each plan type. (2 points)
  

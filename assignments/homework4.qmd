@@ -5,18 +5,30 @@ title: "Homework 4"
 ---
 
 ## Instructions
-In this assignment, you'll again work with the Medicare Advantage data. These data are described in detail in the [Medicare Advantage GitHub Repo](https://github.com/imccart/ma-class). We worked with a subset of these data back in assignment 1; however, this assignment requires that you work with a more complete version of the Medicare Advantage data. We'll again focus on the years 2010-2015. Once you have the data downloaded and the code running, answer the following questions:
+In this assignment, you'll turn to the Hospital Cost Report Information System data. These data are described in detail in the [HCRIS GitHub Repo](https://github.com/imccart/HCRIS). 
+
+Once you have the data downloaded and the code running, answer the following questions:
 
 The due date for initial submission is **4/7**, the revision due date is **4/9**, and the final due date is Friday, **4/11**.
 
+
 ## Summarize the data
-1. Remove all SNPs, 800-series plans, and prescription drug only plans (i.e., plans that do not offer Part C benefits). Provide a box and whisker plot showing the distribution of plan counts by county over time. Do you think that the number of plans is sufficient, too few, or too many?
-   
-2. Provide bar graphs showing the distribution of star ratings in 2010, 2012, and 2015. How has this distribution changed over time?
 
-3. Plot the average benchmark payment over time from 2010 through 2015. How much has the average benchmark payment risen over the years?
+1. How many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.
 
-4. Plot the average share of Medicare Advantage (relative to all Medicare eligibles) over time from 2010 through 2015. Has Medicare Advantage increased or decreased in popularity? How does this share correlate with benchmark payments?
+2. After removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?
+
+3. What is the distribution of total charges (tot_charges in the data) in each year? Show your results with a "violin" plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at [Violin Plots with ggplot2](https://ggplot2tutor.com/powerlifting/squats/).
+
+4. What is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.
+```{r}
+#| eval: false
+discount_factor = 1-tot_discounts/tot_charges
+price_num = (ip_charges + icu_charges + ancillary_charges)*discount_factor - tot_mcare_payment
+price_denom = tot_discharges - mcare_discharges
+price = price_num/price_denom
+```
+
 
 ## Estimate ATEs
 For the rest of the assignment, we'll use a regression discontinuity design to estimate the average treatment effect from receiving a marginally higher rating. We'll focus only on 2010.

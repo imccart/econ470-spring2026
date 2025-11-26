@@ -1,17 +1,16 @@
 ---
 title: "Class 6: Medicare Advantage Data"
-date: 2025-03-23
+date: 2026-01-29
 ---
 
-Today we'll revisit the MA data from Module 0. We'll also introduce data on the MA quality rating program and how it plays out in real life.
+Today we'll look into the MA data and repository in much more detail. 
 
 ## Objectives
 
 - Understand the MA data and datasets required for this Module
-- Explain the MA star rating program and how the star ratings are calculated
-- Explain the MA quality improvement program
-
+- Import and initial review of Medicare Advantage data
+- Manipulate MA data into county level for final analysis
 
 ## Activities 
 
-- Clone the [Medicare Advantage](https://github.com/imccart/ma-class) repository (if you haven't already) and begin working with data.
+- Clone the [Medicare Advantage](https://github.com/imccart/Medicare-Advantage) repository (if you haven't already) and begin working with data.
