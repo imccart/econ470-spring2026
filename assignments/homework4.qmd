@@ -5,11 +5,7 @@ title: "Homework 4"
 ---
 
 ## Instructions
-In this assignment, you'll turn to the Hospital Cost Report Information System data. These data are described in detail in the [HCRIS GitHub Repo](https://github.com/imccart/HCRIS). 
-
-Once you have the data downloaded and the code running, answer the following questions:
-
-The due date for initial submission is **4/7**, the revision due date is **4/9**, and the final due date is Friday, **4/11**.
+In this assignment, you'll turn to the Hospital Cost Report Information System data. These data are described in detail in the [HCRIS GitHub Repo](https://github.com/imccart/HCRIS). The due date for initial submission is **4/7**, the revision due date is **4/9**, and the final due date is Friday, **4/11**.
 
 
 ## Summarize the data
@@ -29,18 +25,17 @@ price_denom = tot_discharges - mcare_discharges
 price = price_num/price_denom
 ```
 
+5. What share of hospitals are penalized? Provide a graph showing the share of penalized hospitals over time, from 2012-2019.
 
 ## Estimate ATEs
-For the rest of the assignment, we'll use a regression discontinuity design to estimate the average treatment effect from receiving a marginally higher rating. We'll focus only on 2010.
+Now let's work on implementing an instrumental variables estimator. Specifically, we're going to estimate the effects of HRRP/VBP penalties on hospital prices, using prior Medicare discharges (e.g., exposure to the program) as an instrument. When explaining your findings, try to limit your discussion just to a couple of sentences. 
 
-5. Calculate the running variable underlying the star rating. Provide a table showing the number of plans that are rounded up into a 3-star, 3.5-star, 4-star, 4.5-star, and 5-star rating.
-   
-6. Using the RD estimator with a bandwidth of 0.125, provide an estimate of the effect of receiving a 3-star versus a 2.5 star rating on enrollments. Repeat the exercise to estimate the effects at 3.5 stars, and summarize your results in a table.
+6. TBD
 
-7. Repeat your results for bandwidhts of 0.1, 0.12, 0.13, 0.14, and 0.15 (again for 3 and 3.5 stars). Show all of the results in a graph. How sensitive are your findings to the choice of bandwidth?
+7. TBD
 
-8. Examine (graphically) whether contracts appear to manipulate the running variable. In other words, look at the distribution of the running variable before and after the relevent threshold values. What do you find?
+8. Show the first stage and reduced-form results from the instrument.
 
-9. Similar to question 4, examine whether plans just above the threshold values have different characteristics than contracts just below the threshold values. Use HMO and Part D status as your plan characteristics.
-
-10. Summarize your findings from 5-9. What is the effect of increasing a star rating on enrollments? Briefly explain your results.
+9. TBD
+    
+10. TBD

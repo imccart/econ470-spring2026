@@ -313,7 +313,7 @@
     "href": "assignments/index.html#code-review",
     "title": "Assignments",
     "section": "Code Review",
-    "text": "Code Review\nOne of the best ways to improve your own coding is to see other people’s code and learn from them. For each of the homework assignments, we’ll do this through a peer code review and replication. Please see the Peer Review for more details.",
+    "text": "Code Review\nOne of the best ways to improve your own coding is to see other people’s code and learn from them. We’ll do this through a peer code review and replication. Please see the Peer Review for more details.",
     "crumbs": [
       "Assignments"
     ]
@@ -323,7 +323,7 @@
     "href": "assignments/homework4.html",
     "title": "Homework 4",
     "section": "",
-    "text": "In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the HCRIS GitHub Repo.\nOnce you have the data downloaded and the code running, answer the following questions:\nThe due date for initial submission is 4/7, the revision due date is 4/9, and the final due date is Friday, 4/11.",
+    "text": "In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the HCRIS GitHub Repo. The due date for initial submission is 4/7, the revision due date is 4/9, and the final due date is Friday, 4/11.",
     "crumbs": [
       "Assignments",
       "Homework 4"
@@ -334,7 +334,7 @@
     "href": "assignments/homework4.html#instructions",
     "title": "Homework 4",
     "section": "",
-    "text": "In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the HCRIS GitHub Repo.\nOnce you have the data downloaded and the code running, answer the following questions:\nThe due date for initial submission is 4/7, the revision due date is 4/9, and the final due date is Friday, 4/11.",
+    "text": "In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the HCRIS GitHub Repo. The due date for initial submission is 4/7, the revision due date is 4/9, and the final due date is Friday, 4/11.",
     "crumbs": [
       "Assignments",
       "Homework 4"
@@ -345,7 +345,7 @@
     "href": "assignments/homework4.html#summarize-the-data",
     "title": "Homework 4",
     "section": "Summarize the data",
-    "text": "Summarize the data\n\nHow many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.\nAfter removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?\nWhat is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at Violin Plots with ggplot2.\nWhat is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.\n\n\ndiscount_factor = 1-tot_discounts/tot_charges\nprice_num = (ip_charges + icu_charges + ancillary_charges)*discount_factor - tot_mcare_payment\nprice_denom = tot_discharges - mcare_discharges\nprice = price_num/price_denom",
+    "text": "Summarize the data\n\nHow many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.\nAfter removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?\nWhat is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at Violin Plots with ggplot2.\nWhat is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.\n\n\ndiscount_factor = 1-tot_discounts/tot_charges\nprice_num = (ip_charges + icu_charges + ancillary_charges)*discount_factor - tot_mcare_payment\nprice_denom = tot_discharges - mcare_discharges\nprice = price_num/price_denom\n\n\nWhat share of hospitals are penalized? Provide a graph showing the share of penalized hospitals over time, from 2012-2019.",
     "crumbs": [
       "Assignments",
       "Homework 4"
@@ -356,7 +356,7 @@
     "href": "assignments/homework4.html#estimate-ates",
     "title": "Homework 4",
     "section": "Estimate ATEs",
-    "text": "Estimate ATEs\nFor the rest of the assignment, we’ll use a regression discontinuity design to estimate the average treatment effect from receiving a marginally higher rating. We’ll focus only on 2010.\n\nCalculate the running variable underlying the star rating. Provide a table showing the number of plans that are rounded up into a 3-star, 3.5-star, 4-star, 4.5-star, and 5-star rating.\nUsing the RD estimator with a bandwidth of 0.125, provide an estimate of the effect of receiving a 3-star versus a 2.5 star rating on enrollments. Repeat the exercise to estimate the effects at 3.5 stars, and summarize your results in a table.\nRepeat your results for bandwidhts of 0.1, 0.12, 0.13, 0.14, and 0.15 (again for 3 and 3.5 stars). Show all of the results in a graph. How sensitive are your findings to the choice of bandwidth?\nExamine (graphically) whether contracts appear to manipulate the running variable. In other words, look at the distribution of the running variable before and after the relevent threshold values. What do you find?\nSimilar to question 4, examine whether plans just above the threshold values have different characteristics than contracts just below the threshold values. Use HMO and Part D status as your plan characteristics.\nSummarize your findings from 5-9. What is the effect of increasing a star rating on enrollments? Briefly explain your results.",
+    "text": "Estimate ATEs\nNow let’s work on implementing an instrumental variables estimator. Specifically, we’re going to estimate the effects of HRRP/VBP penalties on hospital prices, using prior Medicare discharges (e.g., exposure to the program) as an instrument. When explaining your findings, try to limit your discussion just to a couple of sentences.\n\nTBD\nTBD\nShow the first stage and reduced-form results from the instrument.\nTBD\nTBD",
     "crumbs": [
       "Assignments",
       "Homework 4"
@@ -367,7 +367,7 @@
     "href": "assignments/code-review.html",
     "title": "Peer Code Review and Replication",
     "section": "",
-    "text": "One of the best ways to improve your own coding and workflow is to study someone else’s. That’s the goal of the peer code review. For each of the homework assignments, you will be assigned a partner to review. The partner will be someone that you have not worked with as part of that assignment. You will be responsible for reviewing their code, attempting to replicate their analysis, and providing feedback. You will also receive feedback from your partner on your code. Each peer code review is worth 5% toward your final grade (10 points total, 2 points per question) and consists of the following questions. You will submit your answers to these questions as an online form in GradeScope (via Canvas).\n\nCode Review and Efficiency: Are there any parts of the code that seem inefficient or redundant? How could these sections be optimized for better performance or clarity?\nComparison of Results: How well do their results compare with your own? Are there any areas where the two analyses are particularly different?\nReplicability and Documentation: Are you able to clone your peer’s repository and replicate their results?\nDiagnosing Replication: If you were unable to replicate their results using their code, what do you think is the central problem? If you were able to replicate, are there things that could have been changed (e.g., code structure, documentation, commenting, etc) that would have made it easier?\nFinal Thoughts: How might you update your own code based on your review of your peer’s work?",
+    "text": "One of the best ways to improve your own coding and workflow is to study someone else’s. That’s the goal of the peer code review. For one of our homework assignments, you will be assigned a partner to review. The partner will be someone that you have not worked with as part of that assignment. You will be responsible for reviewing their code, attempting to replicate their analysis, and providing feedback. You will also receive feedback from your partner on your code. Your peer code review is worth 25% toward your final grade (50 points) and consists of the following questions. You will submit your answers to these questions as part of a GitHub repository, just as with your homework assignments.\n\nCode Review and Efficiency (10 points): Are there any parts of the code that seem inefficient or redundant? How could these sections be optimized for better performance or clarity?\nComparison of Results (10 points): How well do their results compare with your own? Are there any areas where the two analyses are particularly different?\nReplicability and Documentation (10 points): Are you able to clone your peer’s repository and replicate their results?\nDiagnosing Replication (10 points): If you were unable to replicate their results using their code, what do you think is the central problem? If you were able to replicate, are there things that could have been changed (e.g., code structure, documentation, commenting, etc) that would have made it easier?\nFinal Thoughts (10 points): How might you update your own code based on your review of your peer’s work?",
     "crumbs": [
       "Assignments",
       "Peer Code Review and Replication"
@@ -378,7 +378,7 @@
     "href": "assignments/homework3.html",
     "title": "Homework 3",
     "section": "",
-    "text": "In this assignment, you’ll recreate the CDC Tax Burden on Tobacco data and answer a few questions along the way. As with the last assignment, the first step is to make sure you’ve got the CDC Tax Burden on Tobacco repository and downloaded all of the raw data sources. Be sure to get the CPI data from the BLS as well, since we’ll be working with real dollar values. Once you have the data downloaded and the code running, answer the following questions.\nThe due date for initial submission is 3/17, the revision due date is 3/19, and the final due date is Friday, 3/21.",
+    "text": "In this assignment, you’ll again work with the Medicare Advantage GitHub repository. This time you’ll also need to incorporate the star ratings information, and we’ll focus on data from 2010 through 2015.\nThe due date for initial submission is 3/3, the revision due date is 3/5, and the final due date is Friday, 3/6.",
     "crumbs": [
       "Assignments",
       "Homework 3"
@@ -389,7 +389,7 @@
     "href": "assignments/homework3.html#instructions",
     "title": "Homework 3",
     "section": "",
-    "text": "In this assignment, you’ll recreate the CDC Tax Burden on Tobacco data and answer a few questions along the way. As with the last assignment, the first step is to make sure you’ve got the CDC Tax Burden on Tobacco repository and downloaded all of the raw data sources. Be sure to get the CPI data from the BLS as well, since we’ll be working with real dollar values. Once you have the data downloaded and the code running, answer the following questions.\nThe due date for initial submission is 3/17, the revision due date is 3/19, and the final due date is Friday, 3/21.",
+    "text": "In this assignment, you’ll again work with the Medicare Advantage GitHub repository. This time you’ll also need to incorporate the star ratings information, and we’ll focus on data from 2010 through 2015.\nThe due date for initial submission is 3/3, the revision due date is 3/5, and the final due date is Friday, 3/6.",
     "crumbs": [
       "Assignments",
       "Homework 3"
@@ -400,7 +400,7 @@
     "href": "assignments/homework3.html#summarize-the-data",
     "title": "Homework 3",
     "section": "Summarize the data",
-    "text": "Summarize the data\n\nPresent a bar graph showing the proportion of states with a change in their cigarette tax in each year from 1970 to 1985.\nPlot on a single graph the average tax (in 2012 dollars) on cigarettes and the average price of a pack of cigarettes from 1970 to 2018.\nIdentify the 5 states with the highest increases in cigarette prices (in dollars) over the time period. Plot the average number of packs sold per capita for those states from 1970 to 2018.\nIdentify the 5 states with the lowest increases in cigarette prices over the time period. Plot the average number of packs sold per capita for those states from 1970 to 2018.\nCompare the trends in sales from the 5 states with the highest price increases to those with the lowest price increases.",
+    "text": "Summarize the data\n\nProvide a table of summary statistics showing the mean star rating, mean number of enrollments, and mean market share for plans by year. The variables (star rating, enrollments, market share) should be listed as columns and years (2010-2015) as rows. Provide an additional column reflecting the total number of plans underlying your summary statistics in each year.\nRepeat part 1 but focusing only on plans without a star rating. Naturally, in this case, you need only present the mean enrollments and market share, not the mean star rating, along with a column showing the count of all such plans in each year.\nProvide bar graphs showing the distribution of star ratings in 2010, 2012, and 2015. How has this distribution changed over time?\nProvide a table showing the regression resuls from an ordinary least squares regression of market share on star ratings, again for each year from 2010 through 2015. In this table, the rows should reflect your coefficient estimates and the columns should reflect different estimates for each year. In your regression specifications, please treat star ratings of 2.5 or below as your excluded category, and include indicator variables for star ratings of 3, 3.5, 4, and 4.5 or above.",
     "crumbs": [
       "Assignments",
       "Homework 3"
@@ -411,7 +411,7 @@
     "href": "assignments/homework3.html#estimate-ates",
     "title": "Homework 3",
     "section": "Estimate ATEs",
-    "text": "Estimate ATEs\nNow let’s work on estimating a demand curve for cigarettes. Specifically, we’re going to estimate the price elasticity of demand for cigarettes. When explaining your findings, try to limit your discussion just to a couple of sentences.\n\nFocusing only on the time period from 1970 to 1990, regress log sales on log prices to estimate the price elasticity of demand over that period. Interpret your results.\nAgain limiting to 1970 to 1990, regress log sales on log prices using the total (federal and state) cigarette tax (in dollars) as an instrument for log prices. Interpret your results and compare your estimates to those without an instrument. Are they different? If so, why?\nShow the first stage and reduced-form results from the instrument.\nRepeat questions 1-3 focusing on the period from 1991 to 2015.\nCompare your elasticity estimates from 1970-1990 versus those from 1991-2015. Are they different? If so, why?",
+    "text": "Estimate ATEs\nFor the rest of the assignment, we’ll use a regression discontinuity design to estimate the average treatment effect from receiving a marginally higher rating. We’ll focus only on 2010.\n\nCalculate the running variable underlying the star rating. Provide a table showing the number of plans that are rounded up into a 3-star, 3.5-star, 4-star, 4.5-star, and 5-star rating.\nUsing the RD estimator with a bandwidth of 0.125, provide an estimate of the effect of receiving a 3-star versus a 2.5 star rating on enrollments. Repeat the exercise to estimate the effects at 3.5 stars, and summarize your results in a table.\nRepeat your results for bandwidhts of 0.1, 0.12, 0.13, 0.14, and 0.15 (again for 3 and 3.5 stars). Show all of the results in a graph. How sensitive are your findings to the choice of bandwidth?\nExamine (graphically) whether contracts appear to manipulate the running variable. In other words, look at the distribution of the running variable before and after the relevent threshold values. What do you find?\nSimilar to question 4, examine whether plans just above the threshold values have different characteristics than contracts just below the threshold values. Use HMO and Part D status as your plan characteristics.\nSummarize your findings from 5-9. What is the effect of increasing a star rating on enrollments? Briefly explain your results.",
     "crumbs": [
       "Assignments",
       "Homework 3"
@@ -734,7 +734,7 @@
     "href": "syllabus.html#assignments-and-grades",
     "title": "Syllabus",
     "section": "Assignments and grades",
-    "text": "Assignments and grades\nDetailed descriptions of all assignments are on the assignments page. Each assignment will contribute to your final grade as described below.\n\n\n\n\n\n\n\n\n\nAssignment\nPoints\nPercent\n\n\n\n\nHomework (30 x 5)\n150\n75%\n\n\nCode Review (10 x 5)\n50\n25%\n\n\n\n\nYour final percentage grade comes from your total points as a percent of all possible points available in the class (200). That percent then translates to a letter grade as follows:\n\n\n\n\n\n\n\n\n\n\nGrade\nRange\nGrade\nRange\n\n\n\n\nA\n93-100%\nC\n73-76%\n\n\nA-\n90-92%\nC-\n70-72%\n\n\nB+\n87-89%\nD+\n67-69%\n\n\nB\n83-86%\nD\n63-66%\n\n\nB-\n80-82%\nD-\n60-62%\n\n\nC+\n77-79%\nF\n&lt; 60%"
+    "text": "Assignments and grades\nDetailed descriptions of all assignments are on the assignments page. Each assignment will contribute to your final grade as described below.\n\n\n\n\n\n\n\n\n\nAssignment\nPoints\nPercent\n\n\n\n\nHomework (30 x 5)\n150\n75%\n\n\nCode Review (50)\n50\n25%\n\n\n\n\nYour final percentage grade comes from your total points as a percent of all possible points available in the class (200). That percent then translates to a letter grade as follows:\n\n\n\n\n\n\n\n\n\n\nGrade\nRange\nGrade\nRange\n\n\n\n\nA\n93-100%\nC\n73-76%\n\n\nA-\n90-92%\nC-\n70-72%\n\n\nB+\n87-89%\nD+\n67-69%\n\n\nB\n83-86%\nD\n63-66%\n\n\nB-\n80-82%\nD-\n60-62%\n\n\nC+\n77-79%\nF\n&lt; 60%"
   },
   {
     "objectID": "schedule/class-05.html#relevant-links-and-other-materials",

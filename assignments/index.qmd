@@ -58,4 +58,4 @@ homework2
 Homework 1 is more of a foundational assignment, designed to get us all up and running with VS Code, Git, GitHub, and some initial data summaries. Homework 1 is also worth 30 points but only involves 2 submissions. Details are on the respective Homework 1 page.
 
 ## Code Review
-One of the best ways to improve your own coding is to see other people's code and learn from them. For each of the homework assignments, we'll do this through a peer code review and replication. Please see the [Peer Review](/assignments/code-review) for more details.
+One of the best ways to improve your own coding is to see other people's code and learn from them. We'll do this through a peer code review and replication. Please see the [Peer Review](/assignments/code-review) for more details.

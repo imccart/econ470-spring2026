@@ -261,9 +261,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="instructions" class="level2">
 <h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
-<p>In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the <a href="https://github.com/imccart/HCRIS">HCRIS GitHub Repo</a>.</p>
-<p>Once you have the data downloaded and the code running, answer the following questions:</p>
-<p>The due date for initial submission is <strong>4/7</strong>, the revision due date is <strong>4/9</strong>, and the final due date is Friday, <strong>4/11</strong>.</p>
+<p>In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the <a href="https://github.com/imccart/HCRIS">HCRIS GitHub Repo</a>. The due date for initial submission is <strong>4/7</strong>, the revision due date is <strong>4/9</strong>, and the final due date is Friday, <strong>4/11</strong>.</p>
 </section>
 <section id="summarize-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="summarize-the-data">Summarize the data</h2>
@@ -279,17 +277,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>price_denom <span class="ot">=</span> tot_discharges <span class="sc">-</span> mcare_discharges</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>price <span class="ot">=</span> price_num<span class="sc">/</span>price_denom</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<ol start="5" type="1">
+<li>What share of hospitals are penalized? Provide a graph showing the share of penalized hospitals over time, from 2012-2019.</li>
+</ol>
 </section>
 <section id="estimate-ates" class="level2">
 <h2 class="anchored" data-anchor-id="estimate-ates">Estimate ATEs</h2>
-<p>For the rest of the assignment, we’ll use a regression discontinuity design to estimate the average treatment effect from receiving a marginally higher rating. We’ll focus only on 2010.</p>
-<ol start="5" type="1">
-<li><p>Calculate the running variable underlying the star rating. Provide a table showing the number of plans that are rounded up into a 3-star, 3.5-star, 4-star, 4.5-star, and 5-star rating.</p></li>
-<li><p>Using the RD estimator with a bandwidth of 0.125, provide an estimate of the effect of receiving a 3-star versus a 2.5 star rating on enrollments. Repeat the exercise to estimate the effects at 3.5 stars, and summarize your results in a table.</p></li>
-<li><p>Repeat your results for bandwidhts of 0.1, 0.12, 0.13, 0.14, and 0.15 (again for 3 and 3.5 stars). Show all of the results in a graph. How sensitive are your findings to the choice of bandwidth?</p></li>
-<li><p>Examine (graphically) whether contracts appear to manipulate the running variable. In other words, look at the distribution of the running variable before and after the relevent threshold values. What do you find?</p></li>
-<li><p>Similar to question 4, examine whether plans just above the threshold values have different characteristics than contracts just below the threshold values. Use HMO and Part D status as your plan characteristics.</p></li>
-<li><p>Summarize your findings from 5-9. What is the effect of increasing a star rating on enrollments? Briefly explain your results.</p></li>
+<p>Now let’s work on implementing an instrumental variables estimator. Specifically, we’re going to estimate the effects of HRRP/VBP penalties on hospital prices, using prior Medicare discharges (e.g., exposure to the program) as an instrument. When explaining your findings, try to limit your discussion just to a couple of sentences.</p>
+<ol start="6" type="1">
+<li><p>TBD</p></li>
+<li><p>TBD</p></li>
+<li><p>Show the first stage and reduced-form results from the instrument.</p></li>
+<li><p>TBD</p></li>
+<li><p>TBD</p></li>
 </ol>
 
 

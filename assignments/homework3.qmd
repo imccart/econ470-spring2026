@@ -5,32 +5,33 @@ title: "Homework 3"
 ---
 
 ## Instructions
-In this assignment, you'll recreate the CDC Tax Burden on Tobacco data and answer a few questions along the way. As with the last assignment, the first step is to make sure you've got the [CDC Tax Burden on Tobacco repository](https://github.com/imccart/CDC-tobacco) and downloaded all of the raw data sources. Be sure to get the CPI data from the BLS as well, since we'll be working with *real* dollar values. Once you have the data downloaded and the code running, answer the following questions.
+In this assignment, you'll again work with the [Medicare Advantage GitHub repository](https://github.com/imccart/Medicare-Advantage). This time you'll also need to incorporate the star ratings information, and we'll focus on data from 2010 through 2015.
 
-The due date for initial submission is **3/17**, the revision due date is **3/19**, and the final due date is Friday, **3/21**.
+The due date for initial submission is **3/3**, the revision due date is **3/5**, and the final due date is Friday, **3/6**.
 
 ## Summarize the data
 
-1. Present a bar graph showing the proportion of states with a change in their cigarette tax in each year from 1970 to 1985.
+1. Provide a table of summary statistics showing the mean star rating, mean number of enrollments, and mean market share for plans by year. The variables (star rating, enrollments, market share) should be listed as columns and years (2010-2015) as rows. Provide an additional column reflecting the total number of plans underlying your summary statistics in each year.
 
-2. Plot on a single graph the average tax (in 2012 dollars) on cigarettes and the average price of a pack of cigarettes from 1970 to 2018.
+2. Repeat part 1 but focusing only on plans without a star rating. Naturally, in this case, you need only present the mean enrollments and market share, not the mean star rating, along with a column showing the count of all such plans in each year.
 
-3. Identify the 5 states with the highest increases in cigarette prices (in dollars) over the time period. Plot the average number of packs sold per capita for those states from 1970 to 2018.
+3. Provide bar graphs showing the distribution of star ratings in 2010, 2012, and 2015. How has this distribution changed over time?
 
-4. Identify the 5 states with the lowest increases in cigarette prices over the time period. Plot the average number of packs sold per capita for those states from 1970 to 2018. 
-
-5. Compare the trends in sales from the 5 states with the highest price increases to those with the lowest price increases.
+4. Provide a table showing the regression resuls from an ordinary least squares regression of market share on star ratings, again for each year from 2010 through 2015. In this table, the rows should reflect your coefficient estimates and the columns should reflect different estimates for each year. In your regression specifications, please treat star ratings of 2.5 or below as your excluded category, and include indicator variables for star ratings of 3, 3.5, 4, and 4.5 or above.
 
 
 ## Estimate ATEs
-Now let's work on estimating a demand curve for cigarettes. Specifically, we're going to estimate the price elasticity of demand for cigarettes. When explaining your findings, try to limit your discussion just to a couple of sentences. 
+For the rest of the assignment, we'll use a regression discontinuity design to estimate the average treatment effect from receiving a marginally higher rating. We'll focus only on 2010.
 
-6. Focusing only on the time period from 1970 to 1990, regress log sales on log prices to estimate the price elasticity of demand over that period. Interpret your results.
+5. Calculate the running variable underlying the star rating. Provide a table showing the number of plans that are rounded up into a 3-star, 3.5-star, 4-star, 4.5-star, and 5-star rating.
+   
+6. Using the RD estimator with a bandwidth of 0.125, provide an estimate of the effect of receiving a 3-star versus a 2.5 star rating on enrollments. Repeat the exercise to estimate the effects at 3.5 stars, and summarize your results in a table.
 
-7. Again limiting to 1970 to 1990, regress log sales on log prices using the total (federal and state) cigarette tax (in dollars) as an instrument for log prices. Interpret your results and compare your estimates to those without an instrument. Are they different? If so, why?
+7. Repeat your results for bandwidhts of 0.1, 0.12, 0.13, 0.14, and 0.15 (again for 3 and 3.5 stars). Show all of the results in a graph. How sensitive are your findings to the choice of bandwidth?
 
-8. Show the first stage and reduced-form results from the instrument.
+8. Examine (graphically) whether contracts appear to manipulate the running variable. In other words, look at the distribution of the running variable before and after the relevent threshold values. What do you find?
 
-9. Repeat questions 1-3 focusing on the period from 1991 to 2015. 
+9. Similar to question 4, examine whether plans just above the threshold values have different characteristics than contracts just below the threshold values. Use HMO and Part D status as your plan characteristics.
 
-10. Compare your elasticity estimates from 1970-1990 versus those from 1991-2015. Are they different? If so, why?
+10. Summarize your findings from 5-9. What is the effect of increasing a star rating on enrollments? Briefly explain your results.
+

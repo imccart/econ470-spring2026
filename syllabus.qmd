@@ -112,8 +112,8 @@ Detailed descriptions of all assignments are on the [assignments](/assignments/)
 library(dplyr)
 library(tibble)
 assignments <- tibble(
-  Assignment = c("Homework (30 x 5)", "Code Review (10 x 5)"),  
-  Points = c(30*5, 10*5)
+  Assignment = c("Homework (30 x 5)", "Code Review (50)"),  
+  Points = c(30*5, 50)
 )
 
 assignments <- assignments %>%
