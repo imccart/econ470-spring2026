@@ -154,6 +154,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="git-and-github-with-open-ondemand" class="level2">
+<h2 class="anchored" data-anchor-id="git-and-github-with-open-ondemand">Git and GitHub with Open OnDemand</h2>
+<p>To successfully push/pull from GitHub in Open OnDemand (or any local computer really), you’ll need to first get an ssh key and add it to your GitHub settings. To do this, open a new terminal in Open OnDemand, and do the following</p>
+<ol type="1">
+<li><code>ls -al ~/.ssh</code>. This will view a list of files in the .ssh directory, and from there you can confirm that an <code>id_rsa.pub</code> file exists (this is a pulic key already created for you).</li>
+<li><code>cat ~/.ssh/id_rsa.pub</code>. This will show you the key, from which you can copy it (in its entirety) and paste it as a new .ssh key in GitHub.</li>
+</ol>
+<p>Once you have you’re .ssh key, you’re ready to initiate and sync a git repo. I’ve found the easiest way to do this is to first create a blank repository in GitHub (no ReadMe, no .gitignore…just completely empty). Then, in Open OnDemand, again navigate to the terminal, navigate to the correct directory that you want to place under version control, and follow these steps:</p>
+<ol type="1">
+<li><code>git init</code></li>
+<li><code>git config --global user.email "your email"</code>. You must use the same email that you used to register GitHub (which should also be your Emory email address in order to get all the right features).</li>
+<li><code>git config --global user.name "your name"</code>. This can be anything…it’s what will show up as the user name as you view the version history.</li>
+<li>Create a ReadMe.txt file in your directory.</li>
+<li><code>git commit -m "first commit"</code>. Your first commit</li>
+<li><code>git branch -M main</code>. This puts you on the main branch of your repository.</li>
+<li><code>git remote add origin "git url"</code>. This will sync your local git with GitHub online.</li>
+<li><code>git push -u origin main</code>. This pushes your changes to GitHub.</li>
+</ol>
+</section>
+<section id="general-resources" class="level2">
+<h2 class="anchored" data-anchor-id="general-resources">General Resources</h2>
 <p>Here are a few additional resources that you may find helpful throughout the semester. I’ll add to these as we go.</p>
 <ul>
 <li>Some resources for honing your data analysis skills in <code>R</code>:
@@ -173,6 +194,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
