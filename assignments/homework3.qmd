@@ -31,7 +31,7 @@ For the rest of the assignment, we'll use a regression discontinuity design to e
 
 8. Examine (graphically) whether contracts appear to manipulate the running variable. In other words, look at the distribution of the running variable before and after the relevent threshold values. What do you find?
 
-9. Similar to question 4, examine whether plans just above the threshold values have different characteristics than contracts just below the threshold values. Use HMO and Part D status as your plan characteristics.
+9. Examine whether plans just above the threshold values have different characteristics than contracts just below the threshold values. Use HMO and Part D status as your plan characteristics.
 
 10. Summarize your findings from 5-9. What is the effect of increasing a star rating on enrollments? Briefly explain your results.
 
