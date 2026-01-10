@@ -71,11 +71,8 @@ While we call these "office hours" they really should be "student hours". These 
 
 For any questions that you don't think need a meeting, you can always reach out to me through email. I do my best to respond within 24 hours to all emails.
 
-### Co-Teacher
+We also have an excellent Post Doctoral Student working with us this year, [https://stephbuon.github.io/][Steph Buongiorno] as well as a graduate student teaching assistant (TA). Dr. Buongiorno is available to help primarily with issues related to Python or our computer cluster. Our TA is also available for anything related to the course material, coding assistance, or homework questions. Information regarding Dr. Buongiorno's office hours and our TA's office hours is available on Canvas.
 
-We have an excellent Post Doctoral Student working with us this year, [https://stephbuon.github.io/][Steph Buongiorno]. Steph is also available to help with any questions you have about the material, assignments, or anything else.
-
-  - **Steph Buongiorno:** Office hours TBD
 
 
 ### Turning things in
