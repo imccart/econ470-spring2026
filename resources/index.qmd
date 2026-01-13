@@ -6,6 +6,12 @@ format:
     page-layout: full
 ---
 
+## Accessing Open OnDemand
+
+To access Open OnDemand, all you need to do is follow this link, https://scion.college.emory.edu/auth/login.html. You will need to access this from campus or with an Emory VPN. You can find instructions for VPN access here, https://it.emory.edu/security/vpn.html. From the link, you can enter your NetID and password.
+
+You are also free to work from your own device. This is a problem for some students just due to memory and computing power, but this all depends on your machine. If you want to give this a shot, you can download all of the necessary data for the course on our shared OneDrive folder, the link to which is available on Canvas. For this route, you will need to set up your own ssh key in order to sync your local git and GitHub. Instructions for working with ssh keys are available [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh).
+
 ## Git and GitHub with Open OnDemand
 
 To successfully push/pull from GitHub in Open OnDemand (or any local computer really), you'll need to first get an ssh key and add it to your GitHub settings. To do this, open a new terminal in Open OnDemand, and do the following

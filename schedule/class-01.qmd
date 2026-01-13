@@ -20,4 +20,4 @@ Today we'll motivate the study of causal inference and go over the details of th
 
 ## For next class
 
-This semester we are fortunate to have access to high-powered computing services within Emory. This will greatly simplify our software setups and avoid many idiosyncracies associated with installaion errors across different computers. Instructions for accessing these resources is on Canvas. Before next class, please be sure that you can access your online Jupyter Notebook and that you've properly synced/authenticated your GitHub account.
+This semester we are fortunate to have access to high-powered computing services within Emory. This will greatly simplify our software setups and avoid many idiosyncracies associated with installaion errors across different computers. Instructions for accessing these resources and syncing Git and GitHub is available [here](/resources/). Before next class, please be sure that you can access your online Jupyter Notebook and that you've properly synced/authenticated your GitHub account.
