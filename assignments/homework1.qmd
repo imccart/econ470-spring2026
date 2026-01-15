@@ -33,11 +33,11 @@ row.names(test.data) <- c("Type 1", "Type 2", "Type 3")
 #| echo: false
 #| label: tbl-extable
 #| tbl-cap: Plan Count by Year
-knitr::kable(test.data, col.names=c("2015"),
+knitr::kable(test.data, col.names=c("2018"),
              type="html", booktabs = TRUE)
 ```
 
 2. Remove all special needs plans (SNP), employer group plans (eghp), and all "800-series" plans. Provide an updated version of @tbl-extable after making these exclusions. (2 points)
 
-3. Provide a table of the average enrollments for each plan type. (2 points)
+3. Now repeat the same filters from part 2 but also focus only on counties in which plans are approved as per the service area files. With these data, provide a table of the average enrollments for each plan type. (2 points)
  
