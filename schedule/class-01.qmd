@@ -16,7 +16,7 @@ Today we'll motivate the study of causal inference and go over the details of th
     - Chapter 14 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
 - <i class="fa fa-database"></i> Data for this module:
     - Data from [Gapminder](https://www.gapminder.org/)
-    - [Medicare Advantage](https://github.com/imccart/ma-class) repository
+    - [Medicare Advantage](https://github.com/imccart/Medicare-Advantage) repository
 
 ## For next class
 

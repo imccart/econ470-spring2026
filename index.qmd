@@ -84,7 +84,7 @@ Emory University<br>
 {{< fa calendar-alt >}} 1-13-2026 to 4-27-2026<br>
 {{< fa calendar >}} Tuesday & Thursday<br>
 {{< fa clock >}} 8:30am to 9:45am<br>
-{{< fa university >}} White Hall 200
+{{< fa university >}} Rich Memorial 108
 
 :::
 
