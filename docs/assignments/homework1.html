@@ -237,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="building-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="building-the-data">Building the data</h2>
 <p>With your setup in place, let’s do some very minor data management (import, cleaning, and merging). You should first review this <a href="https://github.com/imccart/Medicare-Advantage">Medicare Advantage GitHub Repo</a>. This repo has a lot more than we need for this first homework assignment, but it provides a general overview of the data. If you’re working from the code files in this repo, you’ll need to make some simplifications to address the specific questions below.</p>
-<p>All we need to do for this first homework assignment is organize the <a href="https://github.com/imccart/Medicare-Advantage/blob/main/data-code/1_Plan_Data.R">Monthly Plan Enrollment Data</a>, which includes data on plan and contract types, and the <a href="https://github.com/imccart/Medicare-Advantage/blob/main/data-code/3_Service_Areas.R">Service Area</a> files, focusing specifically on <strong>2018</strong>. Note that the raw enrollment data are monthly, so you’ll need to combine all of the months and collapse to a single plan-county-year. You’ll need to merge the service area data into the monthly enrollment data using an “inner merge” (i.e., take only those rows that match between the datasets).</p>
+<p>All we need to do for this first homework assignment is organize the <a href="https://github.com/imccart/Medicare-Advantage/blob/main/R_code/1_Plan_Data.R">Monthly Plan Enrollment Data</a>, which includes data on plan and contract types, and the <a href="https://github.com/imccart/Medicare-Advantage/blob/main/R_code/3_Service_Areas.R">Service Area</a> files, focusing specifically on <strong>2018</strong>. Note that the raw enrollment data are monthly, so you’ll need to combine all of the months and collapse to a single plan-county-year. You’ll need to merge the service area data into the monthly enrollment data using an “inner merge” (i.e., take only those rows that match between the datasets).</p>
 <p>Once you’ve created this dataset, answer the following:</p>
 <ol type="1">
 <li>Provide a table of the count of plans under each plan type. Your table should look something like <a href="#tbl-extable" class="quarto-xref">Table&nbsp;1</a>. (2 points)</li>
@@ -260,15 +260,15 @@ Table&nbsp;1: Plan Count by Year
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Type 1</td>
-<td style="text-align: right;">27</td>
+<td style="text-align: right;">12</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Type 2</td>
-<td style="text-align: right;">43</td>
+<td style="text-align: right;">33</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Type 3</td>
-<td style="text-align: right;">38</td>
+<td style="text-align: right;">47</td>
 </tr>
 </tbody>
 </table>
