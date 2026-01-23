@@ -227,16 +227,16 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="instructions" class="level2">
 <h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
-<p>In this assignment, you’ll recreate a more complete version of the Medicare Advantage data. The first step is to familiarize yourself with the <a href="https://github.com/imccart/Medicare-Advantage">Medicare Advantage GitHub repository</a> and the associated data files.</p>
+<p>In this assignment, you’ll recreate a more complete version of the Medicare Advantage data. The first step is to familiarize yourself with the <a href="https://github.com/imccart/Medicare-Advantage">Medicare Advantage GitHub repository</a> and the associated data files. Note that this assignment uses more datasets and builds on that of homework 1. I list the datasets you’ll need to incorporate in each question. Please note that, as I list these data, they are intended to be cumulative. In other words, when I say to incorporate the landscape files and the risk/rebate files, those should be merged to the plan and service area files, and so on.</p>
 <p>The due date for initial submission is <strong>2/10</strong>, the revision due date is <strong>2/12</strong>, and the final due date is Friday, <strong>2/13</strong>.</p>
 </section>
 <section id="summarize-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="summarize-the-data">Summarize the data</h2>
 <p>For our initial summary, we will work with data from 2014 to 2019. Based on these years of data, please address the following:</p>
 <ol type="1">
-<li><p>Remove all SNPs, 800-series plans, and prescription drug only plans (i.e., plans that do not offer Part C benefits). Provide a box and whisker plot showing the distribution of plan counts by county over time. Do you think that the number of plans is sufficient, too few, or too many?</p></li>
-<li><p>Provide frequency histograms showing the distribution of plan bids in 2014 and 2018. How has this distribution changed over time?</p></li>
-<li><p>Plot the average HHI over time from 2014 through 2019. How has the HHI changed over time?</p></li>
+<li><p>Remove all SNPs, 800-series plans, and prescription drug only plans (i.e., plans that do not offer Part C benefits). Provide a box and whisker plot showing the distribution of plan counts by county over time. Do you think that the number of plans is sufficient, too few, or too many? To answer this question, you need only work with the “plan data” and the “service area” data just as we did in homework 1, but for more years in this case.</p></li>
+<li><p>Provide frequency histograms showing the distribution of plan bids in 2014 and 2018. How has this distribution changed over time? To properly measure plan bids, you need to incorporate the landscape files (in the plan characteristics code files) and the risk/rebate data. The build data code file in the <a href="https://github.com/imccart/Medicare-Advantage">Medicare Advantage GitHub repository</a> shows how to back out plan bids from the observed premium and rebate data.</p></li>
+<li><p>Plot the average HHI over time from 2014 through 2019. How has the HHI changed over time? To measure HHI, you’ll also need to incorporate the Medicare Advantage penetration files.</p></li>
 <li><p>Plot the average share of Medicare Advantage (relative to all Medicare eligibles) over time from 2014 through 2019. Has Medicare Advantage increased or decreased in popularity?</p></li>
 </ol>
 </section>
@@ -245,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
 <p>For the rest of the assignment, you should include <strong>only observations in 2018</strong>. As we did in class, please define “competitive” markets as those with HHIs in the lower 33rd percentile of the national distribution of HHI, and define “concentrated” or “uncompetitive” markets as with with HHIs in the upper 66th percentile. This is somewhat arbitrary but it allows us to define a binary treatment variable in a way that we can more easily implement the methods in this module.</p>
 <ol start="5" type="1">
 <li><p>Calculate the average bid among competitive versus uncompetitive markets.</p></li>
-<li><p>Split markets into quartiles based on Medicare fee-for-service (FFS) costs. To do this, create 4 new indicator variables, where each variable is set to 1 if the FFS costs falls into the relevant quartile. Provide a table of the average bid among treated/control groups for each quartile.</p></li>
+<li><p>Split markets into quartiles based on Medicare fee-for-service (FFS) costs. To do this, create 4 new indicator variables, where each variable is set to 1 if the FFS costs falls into the relevant quartile. Provide a table of the average bid among treated/control groups for each quartile. For this, you’ll need to incorporate the FFS costs data as well.</p></li>
 <li><p>Find the average treatment effect using each of the following estimators, and present your results in a single table:</p>
 <ul>
 <li>Nearest neighbor matching (1-to-1) with inverse variance distance based on quartiles of FFS costs</li>
