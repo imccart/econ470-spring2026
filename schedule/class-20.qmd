@@ -1,20 +1,20 @@
 ---
-title: "Class 14: Instrumental Variables Part II"
-date: 2025-02-28
+title: "Class 20: Instrumental Variables, Part II"
+date: 2026-03-26
 ---
 
 
-Today, we employ the IV estimator in the context of demand estimation for cigarettes. We also introduce the idea of a "fixed effect" in a regression specification.
+Today we employ the IV estimator in the context of hospital pricing. We'll examine whether hospitals that received HRRP penalties subsequently raised their prices, using baseline Medicare discharge volume as an instrument.
+
 
 ## Objectives
 
 - Understand and use an IV estimator in R
-- Define and explain a fixed effect in a regression context
+- Understand first-stage and reduced-form diagnostics
 - Understand and describe the problem of weak instruments and how to test for weak instruments empirically
 
 
-## Activities 
+## Activities
 
-- Continue work with the [CDC Tax Burden on Tobacco](https://github.com/imccart/CDC-Tobacco) data
-- Estimate the price elasticity of demand for cigarettes using taxes as an instrument for price
-
+- Continue work with the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/HCRIS) data
+- Estimate the effect of HRRP penalties on hospital pricing using IV

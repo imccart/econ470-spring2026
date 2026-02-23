@@ -1,6 +1,6 @@
 ---
-title: "Class 19: Regression Discontinuity Part I"
-date: 2025-03-23
+title: "Class 13: Regression Discontinuity, Part I"
+date: 2026-02-24
 ---
 
 We'll begin implementing an RD with simulated data. We'll discuss the basics of the RD identification strategy, its implementation, and some details including bin and bandwidth selection.
@@ -14,5 +14,5 @@ We'll begin implementing an RD with simulated data. We'll discuss the basics of 
 
 ## Activities 
 
-- Clone the [Medicare Advantage](https://github.com/imccart/ma-class) repository (if you haven't already) and begin working with data
+- Review the [Medicare Advantage](https://github.com/imccart/Medicare-Advantage) repository and begin working with data
 - Implement RD design with simulated data in R

@@ -1,19 +1,21 @@
 ---
-title: "Class 20: Regression Discontinuity Part II"
-date: 2025-03-23
+title: "Class 14: Regression Discontinuity, Part II"
+date: 2026-02-26
 ---
 
-Today we'll work with a real-life example of RD using Medicare Advantage star ratings.
+Today we'll apply RD to real data using Medicare Advantage star ratings, and learn to validate the design.
 
 ## Objectives
 
-- Explain optimal bin width and bandwidth calculations
-- Define "manipulation" of the running variable
-- Define what we mean by "covariate balance" and why it matters for RDD
+- Implement an RD strategy with real data (MA star ratings)
+- Define "manipulation" of the running variable and test for it
+- Define what we mean by "covariate balance" and why it matters for RD
+- Estimate RD effects across multiple thresholds
 
 
-## Activities 
+## Activities
 
 - Implement an RD strategy with Medicare Advantage star ratings
 - Test for manipulation of the running variable
 - Test for covariate balance
+- Estimate and compare effects across star rating cutoffs

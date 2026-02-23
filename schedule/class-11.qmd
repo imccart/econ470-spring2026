@@ -1,6 +1,6 @@
 ---
-title: "Class 17: Medicare Advantage and Quality Reporting"
-date: 2025-03-23
+title: "Class 11: Medicare Advantage and Quality Reporting"
+date: 2026-02-17
 ---
 
 The goal of this module is to understand regression discontinuity as a causal identification strategy. We'll do this in the context of Medicare Advantage quality ratings, where we'll estimate the effect of higher quality ratings on enrollments. Similar to the prior module, we'll use RD as a way to avoid problems of endogeneity of ratings.
@@ -18,7 +18,7 @@ Links to papers are listed alongside the full reference. PDFs of each paper are 
     - [@darden2015]
     - [@gruber2017]    
 - <i class="fa fa-database"></i> Data for this module:
-    - [Medicare Advantage](https://github.com/imccart/ma-class) repository
+    - [Medicare Advantage](https://github.com/imccart/Medicare-Advantage) repository
 
 ## Objectives
 

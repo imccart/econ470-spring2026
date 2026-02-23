@@ -1,16 +1,19 @@
 ---
-title: "Class 25: Difference-in-Differences in Practice"
+title: "Class 25: Difference-in-Differences, Part II"
+date: 2026-04-14
 ---
 
-The goal for today is to examine how to use a DD strategy with real-life data and discuss some current issues with the implementation of DD designs in practice
+The goal for today is to apply DD to real data on hospital uncompensated care and Medicaid expansion, and to discuss current issues with DD designs in practice.
 
 
 ## Objectives
 
-- Understand and explain some of the difficulties when interpreting the results of regression-based DD estimates
+- Understand and explain some of the difficulties when interpreting the results of regression-based DD estimates (TWFE with staggered adoption)
 - Be aware of alternative estimators that may be applicable in some settings
 
-## Activities 
+
+## Activities
 
 - Estimate an event study with constant treatment timing
 - Estimate an event study with differential treatment timing
+- Discuss the TWFE decomposition and modern DD estimators

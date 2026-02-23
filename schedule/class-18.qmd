@@ -1,6 +1,6 @@
 ---
-title: "Class 6: HCRIS Data"
-date: 2025-01-30
+title: "Class 18: HCRIS Data"
+date: 2026-03-19
 ---
 
 In this class, we'll discuss the Hospital Cost Report Information System (HCRIS) data and how to use these data to estimate hospital prices.
@@ -12,6 +12,6 @@ In this class, we'll discuss the Hospital Cost Report Information System (HCRIS)
 
 ## Activities 
 
-- Clone the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/hcris-class) repository for this class and begin working with data. See also a similar repository [here](https://github.com/asacarny/hospital-cost-reports) from [Adam Sacarny](http://sacarny.com/)
+- Review the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/HCRIS) repository and begin working with data. See also a similar repository [here](https://github.com/asacarny/hospital-cost-reports) from [Adam Sacarny](http://sacarny.com/)
 
 

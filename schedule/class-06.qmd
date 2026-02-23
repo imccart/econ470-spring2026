@@ -13,4 +13,4 @@ Today we'll look into the MA data and repository in much more detail.
 
 ## Activities 
 
-- Clone the [Medicare Advantage](https://github.com/imccart/Medicare-Advantage) repository (if you haven't already) and begin working with data.
+- Review the [Medicare Advantage](https://github.com/imccart/Medicare-Advantage) repository and begin working with data.

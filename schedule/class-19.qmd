@@ -1,6 +1,6 @@
 ---
-title: "Class 13: Instrumental Variables Part I"
-date: 2025-02-28
+title: "Class 19: Instrumental Variables, Part I"
+date: 2026-03-24
 ---
 
 Today we'll formally introduce instrumental variables and discuss some of the thorny issues associated with IV in practice (namely, testing for instrument validity and interpreting the results).
@@ -13,7 +13,7 @@ Today we'll formally introduce instrumental variables and discuss some of the th
 - Define and explain a local average treatment effect
 
 
-## Activities 
+## Activities
 
-- Continue work with the [CDC Tax Burden on Tobacco](https://github.com/imccart/CDC-Tobacco) data
-- Data simulation and practical issues with IV
+- Work with simulated data to understand IV mechanics
+- Discuss practical issues with IV (weak instruments, exclusion restriction)

@@ -83,7 +83,7 @@
     "href": "schedule/index.html#module-3-insurance-quality-and-regression-discontinuity",
     "title": "Schedule",
     "section": "Module 3: Insurance Quality and Regression Discontinuity",
-    "text": "Module 3: Insurance Quality and Regression Discontinuity\n\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nColab Notebook\nOutline\nSlides\nAssignment\n\n\n\n\n11\n2/17\nMotivation and Policy Background\n\n\n\n\n\n\n12\n2/19\nMore Medicare Advantage Data\n\n\n\n\n\n\n13\n2/23\nRegression Discontinuity, Part I\n\n\n\n\n\n\n14\n2/26\nRegression Discontinuity, Part II\n\n\n\n\n\n\n15\n3/3\nHomework 3, Initial Submission\n\n\n\n\n\n\n16\n3/5\nHomework 3, Second Submission\n\n\n\n\n\n\n\n3/6\nHomework 3, Final Due Date"
+    "text": "Module 3: Insurance Quality and Regression Discontinuity\n\n\n\n\n\n\n\n\n\n\n\n\nClass\nDates\nTopic\nColab Notebook\nOutline\nSlides\nAssignment\n\n\n\n\n11\n2/17\nMotivation and Policy Background\n\n\n\n\n\n\n12\n2/19\nMore Medicare Advantage Data\n\n\n\n\n\n\n13\n2/24\nRegression Discontinuity, Part I\n\n\n\n\n\n\n14\n2/26\nRegression Discontinuity, Part II\n\n\n\n\n\n\n15\n3/3\nHomework 3, Initial Submission\n\n\n\n\n\n\n16\n3/5\nHomework 3, Second Submission\n\n\n\n\n\n\n\n3/6\nHomework 3, Final Due Date"
   },
   {
     "objectID": "schedule/index.html#module-4-hospital-pricing-pay-for-performance-and-instrumental-variables",
@@ -111,98 +111,98 @@
     "href": "schedule/class-24.html#objectives",
     "title": "Class 24: Introduction to Difference-in-Differences",
     "section": "Objectives",
-    "text": "Objectives\n\nDescribe the basics of panel data and fixed effects\nDescribe the DD research design"
+    "text": "Objectives\n\nDescribe the basics of panel data and fixed effects\nDescribe the DD research design\nUnderstand and implement DD using simple averages and regression"
   },
   {
     "objectID": "schedule/class-24.html#activities",
     "href": "schedule/class-24.html#activities",
     "title": "Class 24: Introduction to Difference-in-Differences",
     "section": "Activities",
-    "text": "Activities\n\nImplement DD using simple averages and in a regression context"
+    "text": "Activities\n\nImplement DD using simple averages and in a regression context\nWork with simulated data to understand the mechanics of DD estimation"
   },
   {
     "objectID": "schedule/class-20.html",
     "href": "schedule/class-20.html",
-    "title": "Class 14: Instrumental Variables Part II",
+    "title": "Class 20: Instrumental Variables, Part II",
     "section": "",
-    "text": "Today, we employ the IV estimator in the context of demand estimation for cigarettes. We also introduce the idea of a “fixed effect” in a regression specification."
+    "text": "Today we employ the IV estimator in the context of hospital pricing. We’ll examine whether hospitals that received HRRP penalties subsequently raised their prices, using baseline Medicare discharge volume as an instrument."
   },
   {
     "objectID": "schedule/class-20.html#objectives",
     "href": "schedule/class-20.html#objectives",
-    "title": "Class 14: Instrumental Variables Part II",
+    "title": "Class 20: Instrumental Variables, Part II",
     "section": "Objectives",
-    "text": "Objectives\n\nUnderstand and use an IV estimator in R\nDefine and explain a fixed effect in a regression context\nUnderstand and describe the problem of weak instruments and how to test for weak instruments empirically"
+    "text": "Objectives\n\nUnderstand and use an IV estimator in R\nUnderstand first-stage and reduced-form diagnostics\nUnderstand and describe the problem of weak instruments and how to test for weak instruments empirically"
   },
   {
     "objectID": "schedule/class-20.html#activities",
     "href": "schedule/class-20.html#activities",
-    "title": "Class 14: Instrumental Variables Part II",
+    "title": "Class 20: Instrumental Variables, Part II",
     "section": "Activities",
-    "text": "Activities\n\nContinue work with the CDC Tax Burden on Tobacco data\nEstimate the price elasticity of demand for cigarettes using taxes as an instrument for price"
+    "text": "Activities\n\nContinue work with the Hospital Cost Report Information System (HCRIS) data\nEstimate the effect of HRRP penalties on hospital pricing using IV"
   },
   {
     "objectID": "schedule/class-18.html",
     "href": "schedule/class-18.html",
-    "title": "Class 6: HCRIS Data",
+    "title": "Class 18: HCRIS Data",
     "section": "",
     "text": "In this class, we’ll discuss the Hospital Cost Report Information System (HCRIS) data and how to use these data to estimate hospital prices."
   },
   {
     "objectID": "schedule/class-18.html#objectives",
     "href": "schedule/class-18.html#objectives",
-    "title": "Class 6: HCRIS Data",
+    "title": "Class 18: HCRIS Data",
     "section": "Objectives",
     "text": "Objectives\n\nUnderstand the nature of hospital pricing\nExplain HCRIS data, how the data are generated, and how the data can be used to estimate a hospital’s “price”"
   },
   {
     "objectID": "schedule/class-18.html#activities",
     "href": "schedule/class-18.html#activities",
-    "title": "Class 6: HCRIS Data",
+    "title": "Class 18: HCRIS Data",
     "section": "Activities",
-    "text": "Activities\n\nClone the Hospital Cost Report Information System (HCRIS) repository for this class and begin working with data. See also a similar repository here from Adam Sacarny"
+    "text": "Activities\n\nReview the Hospital Cost Report Information System (HCRIS) repository and begin working with data. See also a similar repository here from Adam Sacarny"
   },
   {
     "objectID": "schedule/class-14.html",
     "href": "schedule/class-14.html",
-    "title": "Class 20: Regression Discontinuity Part II",
+    "title": "Class 14: Regression Discontinuity, Part II",
     "section": "",
-    "text": "Today we’ll work with a real-life example of RD using Medicare Advantage star ratings."
+    "text": "Today we’ll apply RD to real data using Medicare Advantage star ratings, and learn to validate the design."
   },
   {
     "objectID": "schedule/class-14.html#objectives",
     "href": "schedule/class-14.html#objectives",
-    "title": "Class 20: Regression Discontinuity Part II",
+    "title": "Class 14: Regression Discontinuity, Part II",
     "section": "Objectives",
-    "text": "Objectives\n\nExplain optimal bin width and bandwidth calculations\nDefine “manipulation” of the running variable\nDefine what we mean by “covariate balance” and why it matters for RDD"
+    "text": "Objectives\n\nImplement an RD strategy with real data (MA star ratings)\nDefine “manipulation” of the running variable and test for it\nDefine what we mean by “covariate balance” and why it matters for RD\nEstimate RD effects across multiple thresholds"
   },
   {
     "objectID": "schedule/class-14.html#activities",
     "href": "schedule/class-14.html#activities",
-    "title": "Class 20: Regression Discontinuity Part II",
+    "title": "Class 14: Regression Discontinuity, Part II",
     "section": "Activities",
-    "text": "Activities\n\nImplement an RD strategy with Medicare Advantage star ratings\nTest for manipulation of the running variable\nTest for covariate balance"
+    "text": "Activities\n\nImplement an RD strategy with Medicare Advantage star ratings\nTest for manipulation of the running variable\nTest for covariate balance\nEstimate and compare effects across star rating cutoffs"
   },
   {
     "objectID": "schedule/class-12.html",
     "href": "schedule/class-12.html",
-    "title": "Class 18: More Medicare Advantage Data",
+    "title": "Class 12: More Medicare Advantage Data",
     "section": "",
     "text": "Today we’ll revisit the MA data from Module 0. We’ll also introduce data on the MA quality rating program and how it plays out in real life."
   },
   {
     "objectID": "schedule/class-12.html#objectives",
     "href": "schedule/class-12.html#objectives",
-    "title": "Class 18: More Medicare Advantage Data",
+    "title": "Class 12: More Medicare Advantage Data",
     "section": "Objectives",
     "text": "Objectives\n\nUnderstand the MA data and datasets required for this Module\nExplain the MA star rating program and how the star ratings are calculated\nExplain the MA quality improvement program"
   },
   {
     "objectID": "schedule/class-12.html#activities",
     "href": "schedule/class-12.html#activities",
-    "title": "Class 18: More Medicare Advantage Data",
+    "title": "Class 12: More Medicare Advantage Data",
     "section": "Activities",
-    "text": "Activities\n\nClone the Medicare Advantage repository (if you haven’t already) and begin working with data."
+    "text": "Activities\n\nReview the Medicare Advantage repository and begin working with data."
   },
   {
     "objectID": "schedule/class-08.html",
@@ -244,7 +244,7 @@
     "href": "schedule/class-06.html#activities",
     "title": "Class 6: Medicare Advantage Data",
     "section": "Activities",
-    "text": "Activities\n\nClone the Medicare Advantage repository (if you haven’t already) and begin working with data."
+    "text": "Activities\n\nReview the Medicare Advantage repository and begin working with data."
   },
   {
     "objectID": "schedule/class-03.html",
@@ -319,61 +319,6 @@
     ]
   },
   {
-    "objectID": "assignments/homework4.html",
-    "href": "assignments/homework4.html",
-    "title": "Homework 4",
-    "section": "",
-    "text": "In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the HCRIS GitHub Repo. The due date for initial submission is 3/31, the revision due date is 4/2, and the final due date is Friday, 4/3.",
-    "crumbs": [
-      "Assignments",
-      "Homework 4"
-    ]
-  },
-  {
-    "objectID": "assignments/homework4.html#instructions",
-    "href": "assignments/homework4.html#instructions",
-    "title": "Homework 4",
-    "section": "",
-    "text": "In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the HCRIS GitHub Repo. The due date for initial submission is 3/31, the revision due date is 4/2, and the final due date is Friday, 4/3.",
-    "crumbs": [
-      "Assignments",
-      "Homework 4"
-    ]
-  },
-  {
-    "objectID": "assignments/homework4.html#summarize-the-data",
-    "href": "assignments/homework4.html#summarize-the-data",
-    "title": "Homework 4",
-    "section": "Summarize the data",
-    "text": "Summarize the data\n\nHow many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.\nAfter removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?\nWhat is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at Violin Plots with ggplot2.\nWhat is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.\n\n\ndiscount_factor = 1-tot_discounts/tot_charges\nprice_num = (ip_charges + icu_charges + ancillary_charges)*discount_factor - tot_mcare_payment\nprice_denom = tot_discharges - mcare_discharges\nprice = price_num/price_denom\n\n\nWhat share of hospitals are penalized under the HRRP/VBP? Provide a graph showing the share of penalized hospitals over time, from 2012-2019.",
-    "crumbs": [
-      "Assignments",
-      "Homework 4"
-    ]
-  },
-  {
-    "objectID": "assignments/homework4.html#estimate-ates",
-    "href": "assignments/homework4.html#estimate-ates",
-    "title": "Homework 4",
-    "section": "Estimate ATEs",
-    "text": "Estimate ATEs\nNow let’s work on implementing an instrumental variables estimator. Specifically, we’re going to estimate the effects of HRRP/VBP penalties on hospital prices, using prior Medicare discharges (e.g., exposure to the program) as an instrument. When explaining your findings, try to limit your discussion just to a couple of sentences. As we did in class, for this we’re going to focus only on a cross-sectional analysis of price changes from 2011 to 2014 as a function of 2012 penalties and average pre-2012 Medicare discharges (2009-2011). Define penalty as the net penalty under both HRRP and VBP.\n\nProvide a summary of OLS estimates of the effect of net penalties on price changes. Present your results in a table with three different specifications: 1) a “baseline” specification using only net penalty as a covariate; 2) “baseline” specification plus the pre-penalty (2009-2011) mean bed size; 3) “baseline” specification plus bed size plus pre-penalty (2009-2011) average Medicaid discharges.\nProvide a scatterplot of net penalty against pre-2012 Medicare discharges.\nProvide a summary of the first stage and reduced-form results using pre-penalty Medicare discharges as an instrument for net penalties. Present your results in a table with three different specifications as in Question 6.\nProvide a summary of IV estimates of the effect of net penalties on price changes. Again present your results in a table with the three different specifications as in Questions 6 and 8.\nBriefly explain the “Local” ATE in the context of your estimates. How might a local effect differ from an overall ATE in this setting?",
-    "crumbs": [
-      "Assignments",
-      "Homework 4"
-    ]
-  },
-  {
-    "objectID": "assignments/code-review.html",
-    "href": "assignments/code-review.html",
-    "title": "Peer Code Review and Replication",
-    "section": "",
-    "text": "One of the best ways to improve your own coding and workflow is to study someone else’s. That’s the goal of the peer code review. For one of our homework assignments, you will be assigned a partner to review. The partner will be someone that you have not worked with as part of that assignment. You will be responsible for reviewing their code, attempting to replicate their analysis, and providing feedback. You will also receive feedback from your partner on your code. Your peer code review is worth 25% toward your final grade (50 points) and consists of the following questions. Your peer review is due the day of our final exam (10:30am on Tuesday, May 5). Just as with the homework assignments, you will submit your answers to these questions as part as a GitHub repository link on our shared spreadhseet and as a final PDF in Canvas.\n\nCode Review and Efficiency (10 points): Are there any parts of the code that seem inefficient or redundant? How could these sections be optimized for better performance or clarity?\nComparison of Results (10 points): How well do their results compare with your own? Are there any areas where the two analyses are particularly different?\nReplicability and Documentation (10 points): Are you able to clone your peer’s repository and replicate their results?\nDiagnosing Replication (10 points): If you were unable to replicate their results using their code, what do you think is the central problem? If you were able to replicate, are there things that could have been changed (e.g., code structure, documentation, commenting, etc) that would have made it easier?\nFinal Thoughts (10 points): How might you update your own code based on your review of your peer’s work?",
-    "crumbs": [
-      "Assignments",
-      "Peer Code Review and Replication"
-    ]
-  },
-  {
     "objectID": "assignments/homework3.html",
     "href": "assignments/homework3.html",
     "title": "Homework 3",
@@ -415,6 +360,61 @@
     "crumbs": [
       "Assignments",
       "Homework 3"
+    ]
+  },
+  {
+    "objectID": "assignments/code-review.html",
+    "href": "assignments/code-review.html",
+    "title": "Peer Code Review and Replication",
+    "section": "",
+    "text": "One of the best ways to improve your own coding and workflow is to study someone else’s. That’s the goal of the peer code review. For one of our homework assignments, you will be assigned a partner to review. The partner will be someone that you have not worked with as part of that assignment. You will be responsible for reviewing their code, attempting to replicate their analysis, and providing feedback. You will also receive feedback from your partner on your code. Your peer code review is worth 25% toward your final grade (50 points) and consists of the following questions. Your peer review is due the day of our final exam (10:30am on Tuesday, May 5). Just as with the homework assignments, you will submit your answers to these questions as part as a GitHub repository link on our shared spreadhseet and as a final PDF in Canvas.\n\nCode Review and Efficiency (10 points): Are there any parts of the code that seem inefficient or redundant? How could these sections be optimized for better performance or clarity?\nComparison of Results (10 points): How well do their results compare with your own? Are there any areas where the two analyses are particularly different?\nReplicability and Documentation (10 points): Are you able to clone your peer’s repository and replicate their results?\nDiagnosing Replication (10 points): If you were unable to replicate their results using their code, what do you think is the central problem? If you were able to replicate, are there things that could have been changed (e.g., code structure, documentation, commenting, etc) that would have made it easier?\nFinal Thoughts (10 points): How might you update your own code based on your review of your peer’s work?",
+    "crumbs": [
+      "Assignments",
+      "Peer Code Review and Replication"
+    ]
+  },
+  {
+    "objectID": "assignments/homework2.html",
+    "href": "assignments/homework2.html",
+    "title": "Homework 2",
+    "section": "",
+    "text": "In this assignment, you’ll recreate a more complete version of the Medicare Advantage data. The first step is to familiarize yourself with the Medicare Advantage GitHub repository and the associated data files. Note that this assignment uses more datasets and builds on that of homework 1. I list the datasets you’ll need to incorporate in each question. Please note that, as I list these data, they are intended to be cumulative. In other words, when I say to incorporate the landscape files and the risk/rebate files, those should be merged to the plan and service area files, and so on.\nThe due date for initial submission is 2/10, the revision due date is 2/12, and the final due date is Friday, 2/13.",
+    "crumbs": [
+      "Assignments",
+      "Homework 2"
+    ]
+  },
+  {
+    "objectID": "assignments/homework2.html#instructions",
+    "href": "assignments/homework2.html#instructions",
+    "title": "Homework 2",
+    "section": "",
+    "text": "In this assignment, you’ll recreate a more complete version of the Medicare Advantage data. The first step is to familiarize yourself with the Medicare Advantage GitHub repository and the associated data files. Note that this assignment uses more datasets and builds on that of homework 1. I list the datasets you’ll need to incorporate in each question. Please note that, as I list these data, they are intended to be cumulative. In other words, when I say to incorporate the landscape files and the risk/rebate files, those should be merged to the plan and service area files, and so on.\nThe due date for initial submission is 2/10, the revision due date is 2/12, and the final due date is Friday, 2/13.",
+    "crumbs": [
+      "Assignments",
+      "Homework 2"
+    ]
+  },
+  {
+    "objectID": "assignments/homework2.html#summarize-the-data",
+    "href": "assignments/homework2.html#summarize-the-data",
+    "title": "Homework 2",
+    "section": "Summarize the data",
+    "text": "Summarize the data\nFor our initial summary, we will work with data from 2014 to 2019. Based on these years of data, please address the following:\n\nRemove all SNPs, 800-series plans, and prescription drug only plans (i.e., plans that do not offer Part C benefits). Provide a box and whisker plot showing the distribution of plan counts by county over time. Do you think that the number of plans is sufficient, too few, or too many? To answer this question, you need only work with the “plan data” and the “service area” data just as we did in homework 1, but for more years in this case.\nProvide frequency histograms showing the distribution of plan bids in 2014 and 2018. How has this distribution changed over time? To properly measure plan bids, you need to incorporate the landscape files (in the plan characteristics code files) and the risk/rebate data. The build data code file in the Medicare Advantage GitHub repository shows how to back out plan bids from the observed premium and rebate data.\nPlot the average HHI over time from 2014 through 2019. How has the HHI changed over time? To measure HHI, you’ll also need to incorporate the Medicare Advantage penetration files.\nPlot the average share of Medicare Advantage (relative to all Medicare eligibles) over time from 2014 through 2019. Has Medicare Advantage increased or decreased in popularity?",
+    "crumbs": [
+      "Assignments",
+      "Homework 2"
+    ]
+  },
+  {
+    "objectID": "assignments/homework2.html#estimate-ates",
+    "href": "assignments/homework2.html#estimate-ates",
+    "title": "Homework 2",
+    "section": "Estimate ATEs",
+    "text": "Estimate ATEs\nFor the rest of the assignment, you should include only observations in 2018. As we did in class, please define “competitive” markets as those with HHIs in the lower 33rd percentile of the national distribution of HHI, and define “concentrated” or “uncompetitive” markets as with with HHIs in the upper 66th percentile. This is somewhat arbitrary but it allows us to define a binary treatment variable in a way that we can more easily implement the methods in this module.\n\nCalculate the average bid among competitive versus uncompetitive markets.\nSplit markets into quartiles based on Medicare fee-for-service (FFS) costs. To do this, create 4 new indicator variables, where each variable is set to 1 if the FFS costs falls into the relevant quartile. Provide a table of the average bid among treated/control groups for each quartile. For this, you’ll need to incorporate the FFS costs data as well.\nFind the average treatment effect using each of the following estimators, and present your results in a single table:\n\nNearest neighbor matching (1-to-1) with inverse variance distance based on quartiles of FFS costs\nNearest neighbor matching (1-to-1) with Mahalanobis distance based on quartiles of FFS costs\nInverse propensity weighting, where the propensity scores are based on quartiles of FFS costs\nSimple linear regression, adjusting for quartiles of FFS costs using dummy variables and appropriate interactions as discussed in class\n\nWith these different treatment effect estimators, are the results similar, identical, very different?\nPick your favorite flavor of estimators in this section (matching, weighting, regression, etc) and re-estimate treatment effects using the continuous FFS costs variable as well as total Medicare beneficiaries as your covariates. How does this result compare to the analogous estimate when matching/weighting only on FFS quartile?\nBriefly describe your experience working with these data (just a few sentences). Tell me one thing you learned and one thing that really aggravated or surprised you.",
+    "crumbs": [
+      "Assignments",
+      "Homework 2"
     ]
   },
   {
@@ -469,6 +469,27 @@
     "text": "To access Open OnDemand, all you need to do is follow this link, https://scion.college.emory.edu/auth/login.html. You will need to access this from campus or with an Emory VPN. You can find instructions for VPN access here, https://it.emory.edu/security/vpn.html. From the link, you can enter your NetID and password.\nYou are also free to work from your own device. This is a problem for some students just due to memory and computing power, but this all depends on your machine. If you want to give this a shot, you can download all of the necessary data for the course on our shared OneDrive folder, the link to which is available on Canvas. For this route, you will need to set up your own ssh key in order to sync your local git and GitHub. Instructions for working with ssh keys are available here."
   },
   {
+    "objectID": "resources/index.html#accessing-open-ondemand",
+    "href": "resources/index.html#accessing-open-ondemand",
+    "title": "Resources",
+    "section": "",
+    "text": "To access Open OnDemand, all you need to do is follow this link, https://scion.college.emory.edu/auth/login.html. You will need to access this from campus or with an Emory VPN. You can find instructions for VPN access here, https://it.emory.edu/security/vpn.html. From the link, you can enter your NetID and password.\nYou are also free to work from your own device. This is a problem for some students just due to memory and computing power, but this all depends on your machine. If you want to give this a shot, you can download all of the necessary data for the course on our shared OneDrive folder, the link to which is available on Canvas. For this route, you will need to set up your own ssh key in order to sync your local git and GitHub. Instructions for working with ssh keys are available here."
+  },
+  {
+    "objectID": "resources/index.html#git-and-github-with-open-ondemand",
+    "href": "resources/index.html#git-and-github-with-open-ondemand",
+    "title": "Resources",
+    "section": "Git and GitHub with Open OnDemand",
+    "text": "Git and GitHub with Open OnDemand\nTo successfully push/pull from GitHub in Open OnDemand (or any local computer really), you’ll need to first get an ssh key and add it to your GitHub settings. To do this, open a new terminal in Open OnDemand, and do the following\n\nls -al ~/.ssh. This will view a list of files in the .ssh directory, and from there you can confirm that an id_rsa.pub file exists (this is a pulic key already created for you).\ncat ~/.ssh/id_rsa.pub. This will show you the key, from which you can copy it (in its entirety) and paste it as a new .ssh key in GitHub.\n\nOnce you have you’re .ssh key, you’re ready to initiate and sync a git repo. I’ve found the easiest way to do this is to first create a blank repository in GitHub (no ReadMe, no .gitignore…just completely empty). Then, in Open OnDemand, again navigate to the terminal, navigate to the correct directory that you want to place under version control, and follow these steps:\n\ngit init\ngit config --global user.email \"your email\". You must use the same email that you used to register GitHub (which should also be your Emory email address in order to get all the right features).\ngit config --global user.name \"your name\". This can be anything…it’s what will show up as the user name as you view the version history.\nCreate a ReadMe.txt file in your directory.\ngit commit -m \"first commit\". Your first commit\ngit branch -M main. This puts you on the main branch of your repository.\ngit remote add origin \"git url\". This will sync your local git with GitHub online.\ngit push -u origin main. This pushes your changes to GitHub."
+  },
+  {
+    "objectID": "resources/index.html#general-resources",
+    "href": "resources/index.html#general-resources",
+    "title": "Resources",
+    "section": "General Resources",
+    "text": "General Resources\nHere are a few additional resources that you may find helpful throughout the semester. I’ll add to these as we go.\n\nSome resources for honing your data analysis skills in R:\n\nR for Data Science by Hadley Wickham and Garrett Grolemund. This is the go-to resource for starting to work with R. Highly recommended, free, and informative.\nR Language Basics by Grant McDermott\nData cleaning and wrangling in R by Grant McDermott\n\nSome free econometric resources\n\nCausal Inference Book by Jamie Robin and Miguel Hernan\nEconometrics by Bruce Hansen\nIntroductory Econometrics class notes from Nick Huntington-Klein\nEconometrics Notes from Carolina Caetano at UGA\nEver wish you had a central resource for lots of little commands and how to do things in different stats packages? Nick Huntington-Klein thought the same thing in his Library of Statistical Techniques (LOST)."
+  },
+  {
     "objectID": "schedule/class-02.html",
     "href": "schedule/class-02.html",
     "title": "Class 2: Workflow and Version Control",
@@ -490,11 +511,11 @@
     "text": "Links to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 5 of Causal Inference: The Mixtape\nChapter 14 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapters 1-2, and 4 of Causal Inference: The Mixtape\nChapters 1-5, 10, and 13 of The Effect: An Introduction to Research Design and Causality\nChapters 2-3 of (Angrist and Pischke 2009)\n\n Data for this module:\n\nMedicare Advantage repository"
   },
   {
-    "objectID": "schedule/class-05.html#readings-and-other-links",
-    "href": "schedule/class-05.html#readings-and-other-links",
-    "title": "Class 5: Medicare Advantage",
+    "objectID": "schedule/class-05.html#relevant-links-and-other-materials",
+    "href": "schedule/class-05.html#relevant-links-and-other-materials",
+    "title": "Class 5: Motivation and Policy Background",
     "section": "",
-    "text": "Links to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 6 of Causal Inference: The Mixtape\nChapter 20 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapter 6 of (Angrist and Pischke 2009)\n(Darden and McCarthy 2015)\n(Gruber 2017)\n\n\n Data for this module:\n\nMedicare Advantage repository"
+    "text": "Links to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 5 of Causal Inference: The Mixtape\nChapter 14 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapters 1-2, and 4 of Causal Inference: The Mixtape\nChapters 1-5, 10, and 13 of The Effect: An Introduction to Research Design and Causality\nChapters 2-3 of (Angrist and Pischke 2009)\n\n Data for this module:\n\nMedicare Advantage repository"
   },
   {
     "objectID": "schedule/class-05.html#objectives",
@@ -527,171 +548,171 @@
   {
     "objectID": "schedule/class-11.html",
     "href": "schedule/class-11.html",
-    "title": "Class 17: Medicare Advantage and Quality Reporting",
+    "title": "Class 11: Medicare Advantage and Quality Reporting",
     "section": "",
     "text": "The goal of this module is to understand regression discontinuity as a causal identification strategy. We’ll do this in the context of Medicare Advantage quality ratings, where we’ll estimate the effect of higher quality ratings on enrollments. Similar to the prior module, we’ll use RD as a way to avoid problems of endogeneity of ratings."
   },
   {
     "objectID": "schedule/class-11.html#readings-and-other-links",
     "href": "schedule/class-11.html#readings-and-other-links",
-    "title": "Class 17: Medicare Advantage and Quality Reporting",
+    "title": "Class 11: Medicare Advantage and Quality Reporting",
     "section": "Readings and other links",
     "text": "Readings and other links\nLinks to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 6 of Causal Inference: The Mixtape\nChapter 20 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapter 6 of (Angrist and Pischke 2009)\n(Darden and McCarthy 2015)\n(Gruber 2017)\n\n\n Data for this module:\n\nMedicare Advantage repository"
   },
   {
     "objectID": "schedule/class-11.html#objectives",
     "href": "schedule/class-11.html#objectives",
-    "title": "Class 17: Medicare Advantage and Quality Reporting",
+    "title": "Class 11: Medicare Advantage and Quality Reporting",
     "section": "Objectives",
     "text": "Objectives\n\nExplain some of the history and institutional details of Medicare Advantage\nUnderstand the role of quality ratings on insurance plan choice"
   },
   {
     "objectID": "schedule/class-13.html",
     "href": "schedule/class-13.html",
-    "title": "Class 19: Regression Discontinuity Part I",
+    "title": "Class 13: Regression Discontinuity, Part I",
     "section": "",
     "text": "We’ll begin implementing an RD with simulated data. We’ll discuss the basics of the RD identification strategy, its implementation, and some details including bin and bandwidth selection."
   },
   {
     "objectID": "schedule/class-13.html#objectives",
     "href": "schedule/class-13.html#objectives",
-    "title": "Class 19: Regression Discontinuity Part I",
+    "title": "Class 13: Regression Discontinuity, Part I",
     "section": "Objectives",
     "text": "Objectives\n\nDescribe the intuition underlying the RD identification strategy\nImplement an RD strategy with simulated data\nExplain optimal bandwidth and bin width selection"
   },
   {
     "objectID": "schedule/class-13.html#activities",
     "href": "schedule/class-13.html#activities",
-    "title": "Class 19: Regression Discontinuity Part I",
+    "title": "Class 13: Regression Discontinuity, Part I",
     "section": "Activities",
-    "text": "Activities\n\nClone the Medicare Advantage repository (if you haven’t already) and begin working with data\nImplement RD design with simulated data in R"
+    "text": "Activities\n\nReview the Medicare Advantage repository and begin working with data\nImplement RD design with simulated data in R"
   },
   {
     "objectID": "schedule/class-17.html",
     "href": "schedule/class-17.html",
-    "title": "Class 5: Basics of Hospital Pricing",
+    "title": "Class 17: Basics of Hospital Pricing",
     "section": "",
     "text": "In this module, we’ll introduce the idea of “selection on observables” and the different ways to exploit that idea to make casual statements. We’ll do this in the context of hospital pricing, the research question being whether and to what extent hospitals receiving a financial penalty also raise their prices."
   },
   {
     "objectID": "schedule/class-17.html#readings-and-other-links",
     "href": "schedule/class-17.html#readings-and-other-links",
-    "title": "Class 5: Basics of Hospital Pricing",
+    "title": "Class 17: Basics of Hospital Pricing",
     "section": "Readings and other links",
     "text": "Readings and other links\nLinks to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Data for this module:\n\nHospital Cost Report Information System (HCRIS) repository\nSee also a similar repository here from Adam Sacarny"
   },
   {
     "objectID": "schedule/class-19.html",
     "href": "schedule/class-19.html",
-    "title": "Class 13: Instrumental Variables Part I",
+    "title": "Class 19: Instrumental Variables, Part I",
     "section": "",
     "text": "Today we’ll formally introduce instrumental variables and discuss some of the thorny issues associated with IV in practice (namely, testing for instrument validity and interpreting the results)."
   },
   {
     "objectID": "schedule/class-19.html#objectives",
     "href": "schedule/class-19.html#objectives",
-    "title": "Class 13: Instrumental Variables Part I",
+    "title": "Class 19: Instrumental Variables, Part I",
     "section": "Objectives",
     "text": "Objectives\n\nUnderstand the concept of instrumental variables and how they can be used to estimate causal effects\nList and explain the key assumptions for a “good” instrument\nDefine and explain a local average treatment effect"
   },
   {
     "objectID": "schedule/class-19.html#activities",
     "href": "schedule/class-19.html#activities",
-    "title": "Class 13: Instrumental Variables Part I",
+    "title": "Class 19: Instrumental Variables, Part I",
     "section": "Activities",
-    "text": "Activities\n\nContinue work with the CDC Tax Burden on Tobacco data\nData simulation and practical issues with IV"
+    "text": "Activities\n\nWork with simulated data to understand IV mechanics\nDiscuss practical issues with IV (weak instruments, exclusion restriction)"
   },
   {
     "objectID": "schedule/class-23.html",
     "href": "schedule/class-23.html",
-    "title": "Class 23: Medicaid Expansion and Uninsurance",
+    "title": "Class 23: Medicaid Expansion and Hospital Uncompensated Care",
     "section": "",
-    "text": "The goal of this module is to understand difference-in-differences as a causal identification strategy. We’ll do this in the context of Medicaid expansion and its effect on uninsurance."
+    "text": "The goal of this module is to understand difference-in-differences as a causal identification strategy. We’ll do this in the context of Medicaid expansion and its effect on hospital uncompensated care."
   },
   {
     "objectID": "schedule/class-23.html#readings-and-other-links",
     "href": "schedule/class-23.html#readings-and-other-links",
-    "title": "Class 23: Medicaid Expansion and Uninsurance",
+    "title": "Class 23: Medicaid Expansion and Hospital Uncompensated Care",
     "section": "Readings and other links",
-    "text": "Readings and other links\nLinks to papers are listed alongside the full reference\n\n Required readings for this module:\n\nChapters 8-9 of Causal Inference: The Mixtape\nChapters 16-18 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapter 5 of (Angrist and Pischke 2009)\n(Courtemanche et al. 2017)\n(Obama 2016)\n\n\n Data for this module:\n\nInsurance Access and Medicaid Expansion repository"
+    "text": "Readings and other links\nLinks to papers are listed alongside the full reference\n\n Required readings for this module:\n\nChapters 8-9 of Causal Inference: The Mixtape\nChapters 16-18 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapter 5 of (Angrist and Pischke 2009)\n(Courtemanche et al. 2017)\n(Obama 2016)\n\n Data for this module:\n\nHospital Cost Report Information System (HCRIS) repository"
   },
   {
     "objectID": "schedule/class-23.html#objectives",
     "href": "schedule/class-23.html#objectives",
-    "title": "Class 23: Medicaid Expansion and Uninsurance",
+    "title": "Class 23: Medicaid Expansion and Hospital Uncompensated Care",
     "section": "Objectives",
-    "text": "Objectives\n\nUnderstand some of the large changes introduced by the Affordable Care Act\nExplain what we mean by “Medicaid expansion”\nUnderstand the ACS data and how to access the data in R"
+    "text": "Objectives\n\nUnderstand some of the large changes introduced by the Affordable Care Act\nExplain what we mean by “Medicaid expansion”\nUnderstand HCRIS data on hospital uncompensated care"
   },
   {
     "objectID": "schedule/class-23.html#activities",
     "href": "schedule/class-23.html#activities",
-    "title": "Class 23: Medicaid Expansion and Uninsurance",
+    "title": "Class 23: Medicaid Expansion and Hospital Uncompensated Care",
     "section": "Activities",
-    "text": "Activities\n\nImport ACS data via API in R\nSummarize insurance status over time"
+    "text": "Activities\n\nSummarize trends in uncompensated care over time\nCompare uncompensated care in Medicaid expansion vs. non-expansion states"
   },
   {
     "objectID": "schedule/class-25.html",
     "href": "schedule/class-25.html",
-    "title": "Class 25: Difference-in-Differences in Practice",
+    "title": "Class 25: Difference-in-Differences, Part II",
     "section": "",
-    "text": "The goal for today is to examine how to use a DD strategy with real-life data and discuss some current issues with the implementation of DD designs in practice"
+    "text": "The goal for today is to apply DD to real data on hospital uncompensated care and Medicaid expansion, and to discuss current issues with DD designs in practice."
   },
   {
     "objectID": "schedule/class-25.html#objectives",
     "href": "schedule/class-25.html#objectives",
-    "title": "Class 25: Difference-in-Differences in Practice",
+    "title": "Class 25: Difference-in-Differences, Part II",
     "section": "Objectives",
-    "text": "Objectives\n\nUnderstand and explain some of the difficulties when interpreting the results of regression-based DD estimates\nBe aware of alternative estimators that may be applicable in some settings"
+    "text": "Objectives\n\nUnderstand and explain some of the difficulties when interpreting the results of regression-based DD estimates (TWFE with staggered adoption)\nBe aware of alternative estimators that may be applicable in some settings"
   },
   {
     "objectID": "schedule/class-25.html#activities",
     "href": "schedule/class-25.html#activities",
-    "title": "Class 25: Difference-in-Differences in Practice",
+    "title": "Class 25: Difference-in-Differences, Part II",
     "section": "Activities",
-    "text": "Activities\n\nEstimate an event study with constant treatment timing\nEstimate an event study with differential treatment timing"
+    "text": "Activities\n\nEstimate an event study with constant treatment timing\nEstimate an event study with differential treatment timing\nDiscuss the TWFE decomposition and modern DD estimators"
   },
   {
-    "objectID": "assignments/homework2.html",
-    "href": "assignments/homework2.html",
-    "title": "Homework 2",
+    "objectID": "assignments/homework4.html",
+    "href": "assignments/homework4.html",
+    "title": "Homework 4",
     "section": "",
-    "text": "In this assignment, you’ll recreate a more complete version of the Medicare Advantage data. The first step is to familiarize yourself with the Medicare Advantage GitHub repository and the associated data files. Note that this assignment uses more datasets and builds on that of homework 1. I list the datasets you’ll need to incorporate in each question. Please note that, as I list these data, they are intended to be cumulative. In other words, when I say to incorporate the landscape files and the risk/rebate files, those should be merged to the plan and service area files, and so on.\nThe due date for initial submission is 2/10, the revision due date is 2/12, and the final due date is Friday, 2/13.",
+    "text": "In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the HCRIS GitHub Repo. The due date for initial submission is 3/31, the revision due date is 4/2, and the final due date is Friday, 4/3.",
     "crumbs": [
       "Assignments",
-      "Homework 2"
+      "Homework 4"
     ]
   },
   {
-    "objectID": "assignments/homework2.html#instructions",
-    "href": "assignments/homework2.html#instructions",
-    "title": "Homework 2",
+    "objectID": "assignments/homework4.html#instructions",
+    "href": "assignments/homework4.html#instructions",
+    "title": "Homework 4",
     "section": "",
-    "text": "In this assignment, you’ll recreate a more complete version of the Medicare Advantage data. The first step is to familiarize yourself with the Medicare Advantage GitHub repository and the associated data files. Note that this assignment uses more datasets and builds on that of homework 1. I list the datasets you’ll need to incorporate in each question. Please note that, as I list these data, they are intended to be cumulative. In other words, when I say to incorporate the landscape files and the risk/rebate files, those should be merged to the plan and service area files, and so on.\nThe due date for initial submission is 2/10, the revision due date is 2/12, and the final due date is Friday, 2/13.",
+    "text": "In this assignment, you’ll turn to the Hospital Cost Report Information System data. These data are described in detail in the HCRIS GitHub Repo. The due date for initial submission is 3/31, the revision due date is 4/2, and the final due date is Friday, 4/3.",
     "crumbs": [
       "Assignments",
-      "Homework 2"
+      "Homework 4"
     ]
   },
   {
-    "objectID": "assignments/homework2.html#summarize-the-data",
-    "href": "assignments/homework2.html#summarize-the-data",
-    "title": "Homework 2",
+    "objectID": "assignments/homework4.html#summarize-the-data",
+    "href": "assignments/homework4.html#summarize-the-data",
+    "title": "Homework 4",
     "section": "Summarize the data",
-    "text": "Summarize the data\nFor our initial summary, we will work with data from 2014 to 2019. Based on these years of data, please address the following:\n\nRemove all SNPs, 800-series plans, and prescription drug only plans (i.e., plans that do not offer Part C benefits). Provide a box and whisker plot showing the distribution of plan counts by county over time. Do you think that the number of plans is sufficient, too few, or too many? To answer this question, you need only work with the “plan data” and the “service area” data just as we did in homework 1, but for more years in this case.\nProvide frequency histograms showing the distribution of plan bids in 2014 and 2018. How has this distribution changed over time? To properly measure plan bids, you need to incorporate the landscape files (in the plan characteristics code files) and the risk/rebate data. The build data code file in the Medicare Advantage GitHub repository shows how to back out plan bids from the observed premium and rebate data.\nPlot the average HHI over time from 2014 through 2019. How has the HHI changed over time? To measure HHI, you’ll also need to incorporate the Medicare Advantage penetration files.\nPlot the average share of Medicare Advantage (relative to all Medicare eligibles) over time from 2014 through 2019. Has Medicare Advantage increased or decreased in popularity?",
+    "text": "Summarize the data\n\nHow many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.\nAfter removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?\nWhat is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at Violin Plots with ggplot2.\nWhat is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.\n\n\ndiscount_factor = 1-tot_discounts/tot_charges\nprice_num = (ip_charges + icu_charges + ancillary_charges)*discount_factor - tot_mcare_payment\nprice_denom = tot_discharges - mcare_discharges\nprice = price_num/price_denom\n\n\nWhat share of hospitals are penalized under the HRRP/VBP? Provide a graph showing the share of penalized hospitals over time, from 2012-2019.",
     "crumbs": [
       "Assignments",
-      "Homework 2"
+      "Homework 4"
     ]
   },
   {
-    "objectID": "assignments/homework2.html#estimate-ates",
-    "href": "assignments/homework2.html#estimate-ates",
-    "title": "Homework 2",
+    "objectID": "assignments/homework4.html#estimate-ates",
+    "href": "assignments/homework4.html#estimate-ates",
+    "title": "Homework 4",
     "section": "Estimate ATEs",
-    "text": "Estimate ATEs\nFor the rest of the assignment, you should include only observations in 2018. As we did in class, please define “competitive” markets as those with HHIs in the lower 33rd percentile of the national distribution of HHI, and define “concentrated” or “uncompetitive” markets as with with HHIs in the upper 66th percentile. This is somewhat arbitrary but it allows us to define a binary treatment variable in a way that we can more easily implement the methods in this module.\n\nCalculate the average bid among competitive versus uncompetitive markets.\nSplit markets into quartiles based on Medicare fee-for-service (FFS) costs. To do this, create 4 new indicator variables, where each variable is set to 1 if the FFS costs falls into the relevant quartile. Provide a table of the average bid among treated/control groups for each quartile. For this, you’ll need to incorporate the FFS costs data as well.\nFind the average treatment effect using each of the following estimators, and present your results in a single table:\n\nNearest neighbor matching (1-to-1) with inverse variance distance based on quartiles of FFS costs\nNearest neighbor matching (1-to-1) with Mahalanobis distance based on quartiles of FFS costs\nInverse propensity weighting, where the propensity scores are based on quartiles of FFS costs\nSimple linear regression, adjusting for quartiles of FFS costs using dummy variables and appropriate interactions as discussed in class\n\nWith these different treatment effect estimators, are the results similar, identical, very different?\nPick your favorite flavor of estimators in this section (matching, weighting, regression, etc) and re-estimate treatment effects using the continuous FFS costs variable as well as total Medicare beneficiaries as your covariates. How does this result compare to the analogous estimate when matching/weighting only on FFS quartile?\nBriefly describe your experience working with these data (just a few sentences). Tell me one thing you learned and one thing that really aggravated or surprised you.",
+    "text": "Estimate ATEs\nNow let’s work on implementing an instrumental variables estimator. Specifically, we’re going to estimate the effects of HRRP/VBP penalties on hospital prices, using prior Medicare discharges (e.g., exposure to the program) as an instrument. When explaining your findings, try to limit your discussion just to a couple of sentences. As we did in class, for this we’re going to focus only on a cross-sectional analysis of price changes from 2011 to 2014 as a function of 2012 penalties and average pre-2012 Medicare discharges (2009-2011). Define penalty as the net penalty under both HRRP and VBP.\n\nProvide a summary of OLS estimates of the effect of net penalties on price changes. Present your results in a table with three different specifications: 1) a “baseline” specification using only net penalty as a covariate; 2) “baseline” specification plus the pre-penalty (2009-2011) mean bed size; 3) “baseline” specification plus bed size plus pre-penalty (2009-2011) average Medicaid discharges.\nProvide a scatterplot of net penalty against pre-2012 Medicare discharges.\nProvide a summary of the first stage and reduced-form results using pre-penalty Medicare discharges as an instrument for net penalties. Present your results in a table with three different specifications as in Question 6.\nProvide a summary of IV estimates of the effect of net penalties on price changes. Again present your results in a table with the three different specifications as in Questions 6 and 8.\nBriefly explain the “Local” ATE in the context of your estimates. How might a local effect differ from an overall ATE in this setting?",
     "crumbs": [
       "Assignments",
-      "Homework 2"
+      "Homework 4"
     ]
   },
   {
@@ -735,33 +756,5 @@
     "title": "Syllabus",
     "section": "Assignments and grades",
     "text": "Assignments and grades\nDetailed descriptions of all assignments are on the assignments page. Each assignment will contribute to your final grade as described below.\n\n\n\n\n\n\n\n\n\nAssignment\nPoints\nPercent\n\n\n\n\nHomework (30 x 5)\n150\n75%\n\n\nCode Review (50)\n50\n25%\n\n\n\n\nYour final percentage grade comes from your total points as a percent of all possible points available in the class (200). That percent then translates to a letter grade as follows:\n\n\n\n\n\n\n\n\n\n\nGrade\nRange\nGrade\nRange\n\n\n\n\nA\n93-100%\nC\n73-76%\n\n\nA-\n90-92%\nC-\n70-72%\n\n\nB+\n87-89%\nD+\n67-69%\n\n\nB\n83-86%\nD\n63-66%\n\n\nB-\n80-82%\nD-\n60-62%\n\n\nC+\n77-79%\nF\n&lt; 60%"
-  },
-  {
-    "objectID": "schedule/class-05.html#relevant-links-and-other-materials",
-    "href": "schedule/class-05.html#relevant-links-and-other-materials",
-    "title": "Class 5: Motivation and Policy Background",
-    "section": "",
-    "text": "Links to papers are listed alongside the full reference. PDFs of each paper are also available on Canvas.\n\n Required readings for this module:\n\nChapter 5 of Causal Inference: The Mixtape\nChapter 14 of The Effect: An Introduction to Research Design and Causality\n\n Supplemental information and readings:\n\nChapters 1-2, and 4 of Causal Inference: The Mixtape\nChapters 1-5, 10, and 13 of The Effect: An Introduction to Research Design and Causality\nChapters 2-3 of (Angrist and Pischke 2009)\n\n Data for this module:\n\nMedicare Advantage repository"
-  },
-  {
-    "objectID": "resources/index.html#git-and-github-with-open-ondemand",
-    "href": "resources/index.html#git-and-github-with-open-ondemand",
-    "title": "Resources",
-    "section": "Git and GitHub with Open OnDemand",
-    "text": "Git and GitHub with Open OnDemand\nTo successfully push/pull from GitHub in Open OnDemand (or any local computer really), you’ll need to first get an ssh key and add it to your GitHub settings. To do this, open a new terminal in Open OnDemand, and do the following\n\nls -al ~/.ssh. This will view a list of files in the .ssh directory, and from there you can confirm that an id_rsa.pub file exists (this is a pulic key already created for you).\ncat ~/.ssh/id_rsa.pub. This will show you the key, from which you can copy it (in its entirety) and paste it as a new .ssh key in GitHub.\n\nOnce you have you’re .ssh key, you’re ready to initiate and sync a git repo. I’ve found the easiest way to do this is to first create a blank repository in GitHub (no ReadMe, no .gitignore…just completely empty). Then, in Open OnDemand, again navigate to the terminal, navigate to the correct directory that you want to place under version control, and follow these steps:\n\ngit init\ngit config --global user.email \"your email\". You must use the same email that you used to register GitHub (which should also be your Emory email address in order to get all the right features).\ngit config --global user.name \"your name\". This can be anything…it’s what will show up as the user name as you view the version history.\nCreate a ReadMe.txt file in your directory.\ngit commit -m \"first commit\". Your first commit\ngit branch -M main. This puts you on the main branch of your repository.\ngit remote add origin \"git url\". This will sync your local git with GitHub online.\ngit push -u origin main. This pushes your changes to GitHub."
-  },
-  {
-    "objectID": "resources/index.html#general-resources",
-    "href": "resources/index.html#general-resources",
-    "title": "Resources",
-    "section": "General Resources",
-    "text": "General Resources\nHere are a few additional resources that you may find helpful throughout the semester. I’ll add to these as we go.\n\nSome resources for honing your data analysis skills in R:\n\nR for Data Science by Hadley Wickham and Garrett Grolemund. This is the go-to resource for starting to work with R. Highly recommended, free, and informative.\nR Language Basics by Grant McDermott\nData cleaning and wrangling in R by Grant McDermott\n\nSome free econometric resources\n\nCausal Inference Book by Jamie Robin and Miguel Hernan\nEconometrics by Bruce Hansen\nIntroductory Econometrics class notes from Nick Huntington-Klein\nEconometrics Notes from Carolina Caetano at UGA\nEver wish you had a central resource for lots of little commands and how to do things in different stats packages? Nick Huntington-Klein thought the same thing in his Library of Statistical Techniques (LOST)."
-  },
-  {
-    "objectID": "resources/index.html#accessing-open-ondemand",
-    "href": "resources/index.html#accessing-open-ondemand",
-    "title": "Resources",
-    "section": "",
-    "text": "To access Open OnDemand, all you need to do is follow this link, https://scion.college.emory.edu/auth/login.html. You will need to access this from campus or with an Emory VPN. You can find instructions for VPN access here, https://it.emory.edu/security/vpn.html. From the link, you can enter your NetID and password.\nYou are also free to work from your own device. This is a problem for some students just due to memory and computing power, but this all depends on your machine. If you want to give this a shot, you can download all of the necessary data for the course on our shared OneDrive folder, the link to which is available on Canvas. For this route, you will need to set up your own ssh key in order to sync your local git and GitHub. Instructions for working with ssh keys are available here."
   }
 ]
