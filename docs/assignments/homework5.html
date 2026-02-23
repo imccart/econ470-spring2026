@@ -201,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#summarize-the-data" id="toc-summarize-the-data" class="nav-link" data-scroll-target="#summarize-the-data">Summarize the data</a></li>
   <li><a href="#estimate-ates" id="toc-estimate-ates" class="nav-link" data-scroll-target="#estimate-ates">Estimate ATEs</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="homework5.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -227,28 +227,28 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="instructions" class="level2">
 <h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
-<p>In this assignment, you’ll recreate the Insurance and Medicaid Expansion data and answer a few questions along the way. As with the prior assignments, the first step is to make sure you have the <a href="https://github.com/imccart/Insurance-Access">Insurance Access repository</a> and downloaded all of the raw data sources. Once you have the data downloaded and the code running, answer the following questions.</p>
+<p>In this assignment, you’ll work with hospital cost report data and Medicaid expansion information to study the effect of Medicaid expansion on hospital uncompensated care. You’ll need the <a href="https://github.com/imccart/HCRIS">HCRIS GitHub Repo</a> for the hospital data (which you’ve already used in homework 4), along with Medicaid expansion dates by state from the <a href="https://www.kff.org/">Kaiser Family Foundation</a>. Some background code for working with the KFF expansion data is available in the <a href="https://github.com/imccart-test/insurance-access">Insurance Access repository</a>, but all you really need is the single KFF CSV file. As we discussed in class, you’ll need to merge the HCRIS and KFF data using a state crosswalk.</p>
 <p>The due date for initial submission is <strong>4/23</strong>, the revision due date is <strong>4/28</strong>, and the final due date is the date of our final exam, <strong>5/5</strong>.</p>
 </section>
 <section id="summarize-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="summarize-the-data">Summarize the data</h2>
 <ol type="1">
-<li><p>Plot the share of the adult population with direct purchase health insurance over time.</p></li>
-<li><p>Discuss the reduction in direct purchase health insurance in later years. Can you list a couple of policies that might have affected the success of the direct purchase insurance market?</p></li>
-<li><p>Plot the share of the adult population with Medicaid over time.</p></li>
-<li><p>Plot the share of uninsured over time, separately by states that expanded Medicaid in 2014 versus those that did not. Drop all states that expanded after 2014.</p></li>
+<li><p>Provide a table of mean hospital uncompensated care (in millions of dollars) by year, from 2010 through 2018. How has uncompensated care changed over time?</p></li>
+<li><p>Plot mean uncompensated care over time separately for states that expanded Medicaid in 2014 versus states that never expanded. Drop all states that expanded after 2014. Does the graph suggest a potential treatment effect?</p></li>
+<li><p>Using 2012 and 2015 as your pre and post periods, present a 2x2 DD table of mean uncompensated care for expansion versus non-expansion states (again focusing only on 2014 expanders and never-expanders).</p></li>
+<li><p>Briefly discuss what policies or events might explain the trends you observe. Why might we expect Medicaid expansion to affect uncompensated care?</p></li>
 </ol>
 </section>
 <section id="estimate-ates" class="level2">
 <h2 class="anchored" data-anchor-id="estimate-ates">Estimate ATEs</h2>
-<p>For the rest of the assignment, we’re going to apply the difference-in-differences estimator to the question of Medicaid expansion and uninsurance.</p>
+<p>For the rest of the assignment, we’re going to apply the difference-in-differences estimator to the question of Medicaid expansion and hospital uncompensated care.</p>
 <ol start="5" type="1">
-<li><p>Calculate the average percent of uninsured individuals in 2012 and 2015, separately for expansion and non-expansion states. Present your results in a basic 2x2 DD table.</p></li>
-<li><p>Estimate the effect of Medicaid expansion on the uninsurance rate using a standard DD regression estimator, again focusing only on states that expanded in 2014 versus those that never expanded.</p></li>
-<li><p>Include state and year <em>fixed effects</em> in your estimates. Try using the <code>lfe</code> or <code>fixest</code> package to estimate this instead of directly including the fixed effects.</p></li>
-<li><p>Repeat the analysis in question 7 but include all states (even those that expanded after 2014). Are your results different? If so, why?</p></li>
-<li><p>Provide an “event study” graph showing the effects of Medicaid expansion in each year. Use the specification that includes state and year fixed effects, limited to states that expanded in 2014 or never expanded.</p></li>
-<li><p>Repeat part 9 but again include states that expanded after 2014. Note: this is tricky…you need to put all states onto “event time” to create this graph.</p></li>
+<li><p>Estimate the effect of Medicaid expansion on hospital uncompensated care using a standard DD regression estimator, focusing only on states that expanded in 2014 versus those that never expanded.</p></li>
+<li><p>Include hospital and year fixed effects in your estimates using the <code>fixest</code> package. Cluster your standard errors at the state level. How do your results compare to those in question 5?</p></li>
+<li><p>Repeat the analysis in question 6 but include all states (even those that expanded after 2014). Are your results different? If so, why?</p></li>
+<li><p>Provide an “event study” graph showing the effects of Medicaid expansion in each year. Use the specification that includes hospital and year fixed effects, limited to states that expanded in 2014 or never expanded (with 2013 as the reference year).</p></li>
+<li><p>Repeat part 8 but include all states that expanded after 2014. You will need to construct an “event time” variable and bin end points as discussed in class.</p></li>
+<li><p>Summarize your findings from questions 5-9. What is the effect of Medicaid expansion on hospital uncompensated care? Do the event study graphs suggest any concerns about the parallel trends assumption? Briefly discuss one limitation of the standard TWFE estimator in the context of staggered Medicaid expansion.</p></li>
 </ol>
 
 

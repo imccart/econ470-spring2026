@@ -4,3 +4,5 @@ _extensions/*
 .quarto/*
 
 /.quarto/
+CLAUDE.md
+.claude/

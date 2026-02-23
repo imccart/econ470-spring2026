@@ -1,7 +1,8 @@
 ---
 title: "Homework 2"
-#format:
-# pdf: default
+format:
+  html: default
+  pdf: default
 ---
 
 ## Instructions

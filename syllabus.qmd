@@ -1,8 +1,12 @@
 ---
 title: "Syllabus"
 page-layout: full
-# format:
-#   pdf: default
+format:
+  html: default
+  pdf:
+    title: "Econ 470: Research in Health Economics — Spring 2026 Syllabus"
+    author: "Ian McCarthy"
+    output-file: "syllabus-econ470"
 ---
   
 ## Course description

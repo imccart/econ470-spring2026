@@ -7,8 +7,10 @@ project:
     - "*.md"
     - "!README.md"
     - "!LICENSE.md"
+    - "!CLAUDE.md"
   resources:
     - "files/"
+    - "CNAME"
 
 execute:
   # Re-render only when source changes
