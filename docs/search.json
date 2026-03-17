@@ -592,7 +592,7 @@
     "href": "schedule/class-17.html",
     "title": "Class 17: Basics of Hospital Pricing",
     "section": "",
-    "text": "In this module, we’ll introduce the idea of “selection on observables” and the different ways to exploit that idea to make casual statements. We’ll do this in the context of hospital pricing, the research question being whether and to what extent hospitals receiving a financial penalty also raise their prices."
+    "text": "In this module, we’ll introduce instrumental variables as an identification strategy. We’ll motivate the approach in the context of hospital pricing, where the research question is whether and to what extent hospitals receiving a financial penalty under the Hospital Readmissions Reduction Program (HRRP) also raise their prices."
   },
   {
     "objectID": "schedule/class-17.html#readings-and-other-links",
