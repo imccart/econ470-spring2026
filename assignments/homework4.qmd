@@ -11,13 +11,13 @@ In this assignment, you'll turn to the Hospital Cost Report Information System d
 
 ## Summarize the data
 
-1. How many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.
+1. From 2009-2019, how many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.
 
 2. After removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?
 
-3. What is the distribution of total charges (tot_charges in the data) in each year? Show your results with a "violin" plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at [Violin Plots with ggplot2](https://ggplot2tutor.com/powerlifting/squats/).
+3. From 2009-2019, what is the distribution of total charges (tot_charges in the data) in each year? Show your results with a "violin" plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at [Violin Plots with ggplot2](https://ggplot2tutor.com/powerlifting/squats/).
 
-4. What is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.
+4. From 2009-2019, what is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.
 ```{r}
 #| eval: false
 discount_factor = 1-tot_discounts/tot_charges

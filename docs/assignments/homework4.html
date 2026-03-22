@@ -266,10 +266,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="summarize-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="summarize-the-data">Summarize the data</h2>
 <ol type="1">
-<li><p>How many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.</p></li>
+<li><p>From 2009-2019, how many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.</p></li>
 <li><p>After removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?</p></li>
-<li><p>What is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at <a href="https://ggplot2tutor.com/powerlifting/squats/">Violin Plots with ggplot2</a>.</p></li>
-<li><p>What is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.</p></li>
+<li><p>From 2009-2019, what is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at <a href="https://ggplot2tutor.com/powerlifting/squats/">Violin Plots with ggplot2</a>.</p></li>
+<li><p>From 2009-2019, what is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class. Be sure to do something about outliers and/or negative prices in the data.</p></li>
 </ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>discount_factor <span class="ot">=</span> <span class="dv">1</span><span class="sc">-</span>tot_discounts<span class="sc">/</span>tot_charges</span>
